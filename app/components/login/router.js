@@ -63,7 +63,6 @@ var eventActions = (function eventActions(){
                     if (typeof usr === 'undefined' || typeof passwd === 'undefined'){
                         return wf_next(new Error('usrOrPwNotFound').stack, false);
                     }
-
                     req.redisDb.hget('users', 'username:'+usr, function(err, dbPw) {
                         if ('password:'+passwd !== dbPw) {
                             return wf_next(new Error('incorrectPw'), true);
@@ -86,6 +85,8 @@ var eventActions = (function eventActions(){
                     sessionId = uuid.unparse(uuidBuff);
                     l.log(sessionId);
                     //_________________________
+
+                    req.session.return_to = '/login';
 
                     //Store session in redis
                     req.redisDb.setex('session:username:' + username, 300, username, function(err, res){

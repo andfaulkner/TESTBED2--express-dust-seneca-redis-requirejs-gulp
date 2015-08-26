@@ -7,27 +7,39 @@ var uuid = require('node-uuid');
 
 var redis   = require("redis");
 var RedisStore = require('connect-redis')(session);
+var passport = require('passport');
 
 module.exports = function setupSessionHandling(app){
 
-    var hasSession;
-    var sessionId;
-
-    //Cookie parsing. Must come before redis middleware.
-    // app.use(cookieParser());
+    var hasSession, sessionId;
 
     //Registers the db as a middleware - accessible everywhere via req.redisDb
     var redisClient = require('app/db/redis');
 
-    //create a session
-    app.use(session({
-        secret: '123698774',
-        saveUninitialized: false,
-        resave: false
-    }));
+    app
+        // Cookie parsing. Must come before redis middleware.
+        .use(cookieParser())
 
-    //launch redis database
-    app.use(require('app/db/redis'));
+        //create a session
+        .use(session({
+            secret: '123698774',
+            saveUninitialized: false,
+            resave: false,
+            // cookie: {
+            //     expires: new Date(Date.now() + 5 * 1000 * 60 )
+            // },
+            store: new RedisStore({
+                host:'127.0.0.1',
+                port:9999,
+                ttl: 300,
+                prefix:'testbed-sess'
+            })
+        }))
+        .use(passport.initialize())
+        .use(passport.session())
+
+        //launch redis database
+        .use(require('app/db/redis'));
 
     //TEST THAT REQUEST OCCURRED WITH SESSION INFO
     app.use(/^((?!public)[\s\S])*$/, function(req, res, next){ //for all but /public route

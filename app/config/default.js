@@ -10,6 +10,15 @@ module.exports = {
 
     "logging": {
 
+    },
+
+    "redis": {
+        port: 9999,
+        host: '127.0.0.1',
+        pwd: '123698774',
+        dbOpts: {
+            no_ready_check: false
+        }
     }
 
 }
