@@ -22,6 +22,9 @@ var dust = require('express-dustjs');
 app = require('app/db/session')(app);
 //********************************************************************//
 
+//Serve client-side scripts under "scripts" route
+app.use('/scripts', express.static(__dirname + '/components/clientscripts'));
+
 //****************************** VIEWS *******************************//
 // Use Dustjs as Express view engine
 app.engine('dust', dust.engine({

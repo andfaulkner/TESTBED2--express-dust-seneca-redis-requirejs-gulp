@@ -1,4 +1,4 @@
-var l = require('app/helpers/basicLog')(3, "dashboard router.js:");
+var l = require('app/helpers/basicLog')(1, "dashboard router.js:");
 
 //Build a new router object
 var dashboardRouter = require('express').Router();

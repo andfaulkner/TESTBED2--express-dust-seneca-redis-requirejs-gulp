@@ -1,4 +1,4 @@
-var l = require('app/helpers/basicLog')(3, "login router.js:");
+var l = require('app/helpers/basicLog')(1, "login router.js:");
 // var showLogs = { lvl: 3 };
 
 // var ce = function ce(str) { if (showLogs.lvl && showLogs.lvl >= 1) console.error("login router.js:::: " + str); };

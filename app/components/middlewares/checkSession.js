@@ -1,4 +1,4 @@
-var l = require('app/helpers/basicLog')(3, "checkSession");
+var l = require('app/helpers/basicLog')(1, "checkSession");
 
 var checkSession = function checkSession(req, res, next){
 
