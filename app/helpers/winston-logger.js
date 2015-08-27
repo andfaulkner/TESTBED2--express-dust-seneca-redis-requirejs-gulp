@@ -2,6 +2,7 @@
 
 //node modules
 var fs = require('fs');
+var path = require('path');
 var winston = require('winston');
 
 var config = require('../config/default').winstonLogs;
@@ -9,11 +10,11 @@ var config = require('../config/default').winstonLogs;
 //Asynchronously check if a file exists
 //TODO Make part of a utilities module
 var fileExists = function fileExists(filePath, callback){
-    fs.stat(filePath, (err, stats) => {
+    return fs.stat(filePath, (err, stats) => {
         if (err) return callback(false);
         return callback(stats.isFile());
     });
-}
+};
 
 //Get all log file paths, create each log file that doesn't exist
 Object.keys(config.transport).forEach(function(key){
@@ -36,11 +37,51 @@ Object.keys(config.transport).forEach(function(key){
     }
 });
 
+// var fileTransportFactory = function(logLvl, logFilePath){
+//     return new winston.transports.File({
+//         level:logLvl,
+//         filename: path.join(__dirname, '../../logs', logFilePath),
+//         handleExceptions: true,
+//         json: true,
+//         maxsize: 5242880, //5MB
+//         maxFiles: 5,
+//         colorize: false
+//     });
+// }
+
 //Creates logging object
 var logger = new winston.Logger({
     transports: [   //specify appenders here
-        new winston.transports.File(config.transport.file),
-        new winston.transports.Console(config.transport.console)
+
+        // //EXCESSIVE DATA LOG
+        // fileTransportFactory('silly', 'excessive-data-log.log'),
+        // fileTransportFactory('info', 'all-logs.log'),
+
+
+        new winston.transports.File({
+                level: 'silly',
+                filename: path.join(__dirname, '../../logs/excessive-data-log.log'),
+                handleExceptions: true,
+                json: true,
+                maxsize: 5242880, //5MB
+                maxFiles: 5,
+                colorize: false
+            }),
+        new winston.transports.File({
+                level: 'info',
+                filename: path.join(__dirname, '../../logs/all-logs.log'),
+                handleExceptions: true,
+                json: true,
+                maxsize: 5242880, //5MB
+                maxFiles: 5,
+                colorize: false
+            }),
+        new winston.transports.Console({
+                level: 'debug',
+                handleExceptions: true,
+                json: false,
+                colorize: true
+            })
     ],
     exitOnError: config.exitOnError
 });
