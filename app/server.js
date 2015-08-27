@@ -4,13 +4,10 @@ var log = require('app/helpers/winston-logger'); //Logging
 var config = require("app/config/default");
 
 //Launch Seneca microservices
-var seneca = require('./microservices/seneca');
-seneca = require('./microservices/serviceRunnerTest')(seneca);
+var seneca = require('./microservices/serviceRunnerTest')
+                    (require('./microservices/seneca'));
 
-//Build Express app itself (loads & runs a constructor module)
-var app = require('./index');
+var app = require('./index'); //Build Express app itself (loads & runs a constructor module)
 
-var server = app.listen(config.server.port, function(){
-    var serveraddress = server.address();
-    log.info("example app listening! Bootup complete!");
-});
+var server = app.listen(config.server.port, (() =>
+    (log.info("example app listening! Bootup done!"))));

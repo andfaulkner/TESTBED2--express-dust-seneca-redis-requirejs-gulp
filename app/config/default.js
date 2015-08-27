@@ -12,7 +12,8 @@ module.exports = {
 
     "winstonLogs": {
         exitOnError: false,
-        consoleLogLevel: 'debug'
+        consoleLogLevel: 'warn',
+        senecaLogLevel: 'debug',
     },
 
     "redis": {

@@ -1,8 +1,38 @@
-var log = require('app/helpers/winston-logger'); //Logging
+var log = require('app/helpers/winston-logger').seneca; //Logging
+var _ = require('lodash');
 
 //******************************* @EXPORT - MODULE *******************************//
 var math = function math(options) {
-    if (options.debug === true) log.info("enters math");
+    if (options.debug === true) log.info('enters math');
+
+    //Subtract msg.right from msg.left
+    var subtract = ((msg, respond) =>
+        (respond(null, { answer: msg.left - msg.right })));
+
+    //Multiply 2 numbers in message sent: msg.left & msg.right
+    var multiply = ((msg, respond) =>
+        (respond(null, { answer: msg.left * msg.right })));
+
+    /**
+     * Checks that numbers to sum are finite, runs & gets sum from parent (actual
+     * summing) service, attaches initial params to sum, displays sum & info.
+     */
+    var sum = ((msg, respond) =>
+        (respond(null, { answer: msg.left + msg.right })));
+
+    /**
+     * Checks that numbers to sum are finite, runs & gets sum from parent (actual
+     * summing) service, attaches initial params to sum, displays sum & info
+     */
+    var sum2 = ((msg, respond) =>
+        (!Number.isFinite(msg.left) || !Number.isFinite(msg.right)) ?
+            (respond(new Error('Expected left & right to be numbers'))) :
+            (this.prior({
+                role:'math',cmd:'sum',left:msg.left,right:msg.right
+            }, ((err, result) => ((err) ?
+                    respond(err) :
+                    (respond(null, _.merge({ info: msg.left + '+' + msg.right},
+                                           result))))))));
 
     this.add('init:math', init); //the special initialization pattern
     this.add('role:math,cmd:sum', sum)
@@ -15,64 +45,11 @@ var math = function math(options) {
      * INITIALIZATION FUNCTION
      */
     function init(msg, respond){
-        if (options.debug === true) log.info("** math_test_1.js HAS DEBUG MODE ON **");
-        log.info("math initializing!");
-        respond();
+        if (options.debug === true) log.info('** math_test_1.js HAS DEBUG MODE ON **');
+        log.info('math initializing!');
+        return respond();
     }
 
-
-    /**
-     * Checks that numbers to sum are finite, runs & gets sum from parent (actual
-     * summing) service, attaches initial params to sum, displays sum & info.
-     */
-    function sum(msg, respond) {
-        respond(null, { answer: msg.left + msg.right });
-    }
-
-
-    /**
-     * Checks that numbers to sum are finite, runs & gets sum from parent (actual
-     * summing) service, attaches initial params to sum, displays sum & info
-     */
-    function sum2(msg, respond) {
-
-        //Before parent service run
-        if (!Number.isFinite(msg.left) || !Number.isFinite(msg.right)) {
-            return respond(new Error("Expected left & right to be numbers"));
-        }
-
-        /*______ Runs parent role:math,cmd:sum service ______*/
-        this.prior({
-                role: 'math',
-                cmd: 'sum',
-                left: msg.left,
-                right: msg.right,
-            },
-            /*___________________________________________________*/
-
-            //After parent service run
-            function(err, result) {
-                if (err) return respond(err);
-                result.info = msg.left + "+" + msg.right;
-                respond(null, result); // output
-            });
-    }
-
-
-    /**
-     * Multiply 2 numberss in message sent: msg.left & msg.right
-     */
-    function multiply(msg, respond) {
-        respond(null, { answer: msg.left * msg.right });
-    }
-
-
-    /**
-     * Subtract msg.right from msg.left
-     */
-    function subtract(msg, respond) {
-        respond(null, { answer: msg.left - msg.right });
-    }
 
     /**
      * Initialization fn run before any other role:math action fn
@@ -88,15 +65,9 @@ var math = function math(options) {
 
 
 // FOR DEBUGGING - ONLY RUN IF PLUGIN FROM CLI & 'launch' PARAM PASSED IN
-(function debug(math){
-    var hasLaunch = process.argv.some(function(arg){
-        if (arg === 'launch') return true;
-    });
-    if (hasLaunch === true) {
-        require('seneca')()
-            .use(math, { debug: true })
-            .act('role:math,cmd:multiply,left:10,right:22', log.info);
-    }
-}(math));
+(((math) =>
+    (process.argv.some((arg) => (arg === 'launch') ? true : false) === true) ?
+        require('seneca')().use(math, { debug: true })
+            .act('role:math,cmd:multiply,left:10,right:22', log.info) : null)(math));
 
 module.exports = math;

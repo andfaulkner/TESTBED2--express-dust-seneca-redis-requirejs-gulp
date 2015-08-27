@@ -10,10 +10,9 @@ var client = redis.createClient(config.redis.port,
 client.on('connect', function handleConnectInit() {
     log.info('Connected to Redis!');
     client.set('defaultUser', 'andrew', redis.print);
-    client.get('defaultUser', function handleRetDefaultUser(err, reply) {
-        if (err) return log.error(err);
-        return log.log('verbose', reply.toString());
-    });
+    client.get('defaultUser', ((err, reply) =>
+        ((err) ? log.error(err) :
+                 log.log('verbose', reply.toString()))));
 });
 
 module.exports = function(req, res, next){

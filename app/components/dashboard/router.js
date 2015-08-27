@@ -20,9 +20,7 @@ dashboardRouter.route('/dashboard')
         }, function(req, res, next){
             log.log('verbose', 'in 2nd route handler!');
             return next();
-        }, function(req, res){
-            return log.log('verbose', 'reaches 3rd route handler?');
-    });
+        }, ((req, res) => (log.log('verbose', 'reaches 3rd route handler?'))));
 
 
 module.exports = dashboardRouter;

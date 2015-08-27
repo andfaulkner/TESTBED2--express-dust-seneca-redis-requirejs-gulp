@@ -1,0 +1,1505 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'cute-stack',
+1 verbose cli   '--savenpm',
+1 verbose cli   'install',
+1 verbose cli   'cute-stack' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /home/andfaulkner/Projects/testbed/express-testbed-2/package.json
+5 warn package.json express-testbed-2@1.0.0 No repository field.
+6 warn package.json express-testbed-2@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/app/package.json
+8 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/async/package.json
+9 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/babel/package.json
+10 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/babel-core/package.json
+11 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/babel-loader/package.json
+12 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/bluebird/package.json
+13 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/body-parser/package.json
+14 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/bootstrap/package.json
+15 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/colors/package.json
+16 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/config/package.json
+17 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/connect-livereload/package.json
+18 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/connect-redis/package.json
+19 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cookie-parser/package.json
+20 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/css-loader/package.json
+21 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/del/package.json
+22 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/dustjs-helpers/package.json
+23 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/dustjs-linkedin/package.json
+24 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/event-stream/package.json
+25 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/express/package.json
+26 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/express-dustjs/package.json
+27 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/express-session/package.json
+28 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/file-loader/package.json
+29 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/fs-extra/package.json
+30 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp/package.json
+31 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-autoprefixer/package.json
+32 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-babel/package.json
+33 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-debug/package.json
+34 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-dev/package.json
+35 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-display-help/package.json
+36 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-exit/package.json
+37 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-express/package.json
+38 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-filter/package.json
+39 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-if-else/package.json
+40 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-jshint/package.json
+41 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-livereload/package.json
+42 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-newer/package.json
+43 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-nodemon/package.json
+44 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-notify/package.json
+45 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-packages/package.json
+46 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-plumber/package.json
+47 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-print/package.json
+48 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-rename/package.json
+49 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-replace/package.json
+50 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-requirejs-optimize/package.json
+51 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-rimraf/package.json
+52 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-sass/package.json
+53 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-shell/package.json
+54 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-size/package.json
+55 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-stats/package.json
+56 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-tap/package.json
+57 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-util/package.json
+58 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-wait/package.json
+59 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/gulp-webpack/package.json
+60 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/hiredis/package.json
+61 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/image-webpack-loader/package.json
+62 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/imagemin/package.json
+63 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/jquery/package.json
+64 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/js-yaml/package.json
+65 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/lazypipe/package.json
+66 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/lodash/package.json
+67 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/loglevel/package.json
+68 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/merge2/package.json
+69 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/morgan/package.json
+70 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/node-require-directory/package.json
+71 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/node-sass-middleware/package.json
+72 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/node-uuid/package.json
+73 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/passport/package.json
+74 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/passport-local/package.json
+75 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/pg/package.json
+76 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/pretty-error/package.json
+77 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/raw-loader/package.json
+78 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/redis/package.json
+79 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/redis-sessions/package.json
+80 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/require-css/package.json
+81 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/requirejs/package.json
+82 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/rootpath/package.json
+83 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/run-sequence/package.json
+84 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/seneca/package.json
+85 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/seneca-web/package.json
+86 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/serve-favicon/package.json
+87 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/through2/package.json
+88 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/tiny-lr/package.json
+89 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/webpack/package.json
+90 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/winston/package.json
+91 verbose installManyTop reading scoped package data from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/yargs/package.json
+92 info package.json async@1.4.2 No README data
+93 info package.json connect-livereload@0.5.3 No license field.
+94 info package.json event-stream@3.3.1 No license field.
+95 info package.json gulp-display-help@1.3.0 license should be a valid SPDX license expression
+96 info package.json gulp-if-else@1.0.3 No license field.
+97 info package.json gulp-notify@2.2.0 No license field.
+98 info package.json gulp-rename@1.2.2 No license field.
+99 info package.json gulp-rimraf@0.1.1 No license field.
+100 info package.json image-webpack-loader@1.6.1 No license field.
+101 info package.json jquery@2.1.4 No license field.
+102 info package.json merge2@0.3.6 No license field.
+103 info package.json node-require-directory@1.0.2 No license field.
+104 info package.json node-uuid@1.4.3 No license field.
+105 info package.json raw-loader@0.5.1 No license field.
+106 info package.json redis@0.12.1 No license field.
+107 info package.json requirejs@2.1.20 No license field.
+108 info package.json loglevel@1.3.1 No license field.
+109 info package.json node-sass-middleware@0.9.0 No license field.
+110 info package.json passport-local@1.0.0 No license field.
+111 info package.json redis-sessions@0.4.1 No license field.
+112 info package.json require-css@0.1.8 No repository field.
+113 info package.json require-css@0.1.8 No license field.
+114 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/package.json
+115 silly cache add args [ 'cute-stack', null ]
+116 verbose cache add spec cute-stack
+117 silly cache add args [ 'install', null ]
+118 verbose cache add spec install
+119 silly cache add args [ 'cute-stack', null ]
+120 verbose cache add spec cute-stack
+121 silly cache add parsed spec { raw: 'cute-stack',
+121 silly cache add   scope: null,
+121 silly cache add   name: 'cute-stack',
+121 silly cache add   rawSpec: '',
+121 silly cache add   spec: '*',
+121 silly cache add   type: 'range' }
+122 silly addNamed cute-stack@*
+123 verbose addNamed "*" is a valid semver range for cute-stack
+124 silly addNameRange { name: 'cute-stack', range: '*', hasData: false }
+125 silly mapToRegistry name cute-stack
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/cute-stack
+129 verbose addNameRange registry:https://registry.npmjs.org/cute-stack not in flight; fetching
+130 silly cache add parsed spec { raw: 'install',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'install',
+130 silly cache add   rawSpec: '',
+130 silly cache add   spec: '*',
+130 silly cache add   type: 'range' }
+131 silly addNamed install@*
+132 verbose addNamed "*" is a valid semver range for install
+133 silly addNameRange { name: 'install', range: '*', hasData: false }
+134 silly mapToRegistry name install
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/install
+138 verbose addNameRange registry:https://registry.npmjs.org/install not in flight; fetching
+139 silly cache add parsed spec { raw: 'cute-stack',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'cute-stack',
+139 silly cache add   rawSpec: '',
+139 silly cache add   spec: '*',
+139 silly cache add   type: 'range' }
+140 silly addNamed cute-stack@*
+141 verbose addNamed "*" is a valid semver range for cute-stack
+142 silly addNameRange { name: 'cute-stack', range: '*', hasData: false }
+143 silly mapToRegistry name cute-stack
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry uri https://registry.npmjs.org/cute-stack
+147 verbose addNameRange registry:https://registry.npmjs.org/cute-stack already in flight; waiting
+148 verbose request uri https://registry.npmjs.org/cute-stack
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 2:36:53 AM
+151 verbose request id 8f974d4c30d13bf2
+152 verbose etag "3Q4Q4SD9MT4TO6ICCDHLSXU4S"
+153 http request GET https://registry.npmjs.org/cute-stack
+154 verbose request uri https://registry.npmjs.org/install
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 2:36:53 AM
+157 verbose etag "E366EZ1PP0PRHGRS019U820V3"
+158 http request GET https://registry.npmjs.org/install
+159 http 304 https://registry.npmjs.org/cute-stack
+160 silly get cb [ 304,
+160 silly get   { date: 'Thu, 27 Aug 2015 06:36:51 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     etag: '"3Q4Q4SD9MT4TO6ICCDHLSXU4S"',
+160 silly get     age: '0',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-iad2124-IAD',
+160 silly get     'x-cache': 'MISS',
+160 silly get     'x-cache-hits': '0',
+160 silly get     'x-timer': 'S1440657411.387746,VS0,VE61',
+160 silly get     vary: 'Accept' } ]
+161 verbose etag https://registry.npmjs.org/cute-stack from cache
+162 verbose get saving cute-stack to /home/andfaulkner/.npm/registry.npmjs.org/cute-stack/.cache.json
+163 silly addNameRange number 2 { name: 'cute-stack', range: '*', hasData: true }
+164 silly addNameRange versions [ 'cute-stack',
+164 silly addNameRange   [ '1.0.0',
+164 silly addNameRange     '1.0.1',
+164 silly addNameRange     '1.0.2',
+164 silly addNameRange     '1.1.0',
+164 silly addNameRange     '1.2.0',
+164 silly addNameRange     '1.2.1',
+164 silly addNameRange     '1.3.0',
+164 silly addNameRange     '1.3.1' ] ]
+165 silly addNamed cute-stack@1.3.1
+166 verbose addNamed "1.3.1" is a plain semver version for cute-stack
+167 silly addNameRange number 2 { name: 'cute-stack', range: '*', hasData: true }
+168 silly addNameRange versions [ 'cute-stack',
+168 silly addNameRange   [ '1.0.0',
+168 silly addNameRange     '1.0.1',
+168 silly addNameRange     '1.0.2',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '1.2.0',
+168 silly addNameRange     '1.2.1',
+168 silly addNameRange     '1.3.0',
+168 silly addNameRange     '1.3.1' ] ]
+169 silly addNamed cute-stack@1.3.1
+170 verbose addNamed "1.3.1" is a plain semver version for cute-stack
+171 silly cache afterAdd cute-stack@1.3.1
+172 verbose afterAdd /home/andfaulkner/.npm/cute-stack/1.3.1/package/package.json not in flight; writing
+173 silly cache afterAdd cute-stack@1.3.1
+174 verbose afterAdd /home/andfaulkner/.npm/cute-stack/1.3.1/package/package.json already in flight; not writing
+175 verbose afterAdd /home/andfaulkner/.npm/cute-stack/1.3.1/package/package.json written
+176 http 304 https://registry.npmjs.org/install
+177 silly get cb [ 304,
+177 silly get   { date: 'Thu, 27 Aug 2015 06:36:51 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     'cache-control': 'max-age=60',
+177 silly get     etag: '"E366EZ1PP0PRHGRS019U820V3"',
+177 silly get     age: '58',
+177 silly get     connection: 'keep-alive',
+177 silly get     'x-served-by': 'cache-dfw1831-DFW',
+177 silly get     'x-cache': 'HIT',
+177 silly get     'x-cache-hits': '1',
+177 silly get     'x-timer': 'S1440657411.565867,VS0,VE0',
+177 silly get     vary: 'Accept' } ]
+178 verbose etag https://registry.npmjs.org/install from cache
+179 verbose get saving install to /home/andfaulkner/.npm/registry.npmjs.org/install/.cache.json
+180 silly addNameRange number 2 { name: 'install', range: '*', hasData: true }
+181 silly addNameRange versions [ 'install',
+181 silly addNameRange   [ '0.1.1',
+181 silly addNameRange     '0.1.2',
+181 silly addNameRange     '0.1.3',
+181 silly addNameRange     '0.1.4',
+181 silly addNameRange     '0.1.5',
+181 silly addNameRange     '0.1.6',
+181 silly addNameRange     '0.1.7',
+181 silly addNameRange     '0.1.8' ] ]
+182 silly addNamed install@0.1.8
+183 verbose addNamed "0.1.8" is a plain semver version for install
+184 silly cache afterAdd install@0.1.8
+185 verbose afterAdd /home/andfaulkner/.npm/install/0.1.8/package/package.json not in flight; writing
+186 verbose afterAdd /home/andfaulkner/.npm/install/0.1.8/package/package.json written
+187 silly install resolved [ { name: 'cute-stack',
+187 silly install resolved     version: '1.3.1',
+187 silly install resolved     bin: { cute: './cmd.js' },
+187 silly install resolved     description: '## Cute up your Node stack traces',
+187 silly install resolved     main: 'index.js',
+187 silly install resolved     scripts: {},
+187 silly install resolved     author: { name: 'David Mark Clements' },
+187 silly install resolved     license: 'MIT',
+187 silly install resolved     dependencies:
+187 silly install resolved      { 'cli-table': '^0.3.1',
+187 silly install resolved        colors: '^1.0.3',
+187 silly install resolved        'extend-object': '^1.0.0',
+187 silly install resolved        minimist: '^1.1.0',
+187 silly install resolved        treeify: '1.0.1',
+187 silly install resolved        'v8-flags-object-proxy': '^1.0.0' },
+187 silly install resolved     repository:
+187 silly install resolved      { type: 'git',
+187 silly install resolved        url: 'git://github.com/davidmarkclements/cute-stack.git' },
+187 silly install resolved     devDependencies: { 'bad-line': '0.1.0', mkdirp: '^0.5.0' },
+187 silly install resolved     gitHead: '9b4b12f47bbbdb9853389c11a957b2f7961f6d89',
+187 silly install resolved     bugs: { url: 'https://github.com/davidmarkclements/cute-stack/issues' },
+187 silly install resolved     homepage: 'https://github.com/davidmarkclements/cute-stack',
+187 silly install resolved     _id: 'cute-stack@1.3.1',
+187 silly install resolved     _shasum: '36b12e9cfeae1d64b2fc46d9c2b19b7df546cf68',
+187 silly install resolved     _from: 'cute-stack@*',
+187 silly install resolved     _npmVersion: '2.5.0',
+187 silly install resolved     _nodeVersion: '0.10.36',
+187 silly install resolved     _npmUser:
+187 silly install resolved      { name: 'davidmarkclements',
+187 silly install resolved        email: 'huperekchuno@googlemail.com' },
+187 silly install resolved     maintainers: [ [Object] ],
+187 silly install resolved     dist:
+187 silly install resolved      { shasum: '36b12e9cfeae1d64b2fc46d9c2b19b7df546cf68',
+187 silly install resolved        tarball: 'http://registry.npmjs.org/cute-stack/-/cute-stack-1.3.1.tgz' },
+187 silly install resolved     directories: {},
+187 silly install resolved     _resolved: 'https://registry.npmjs.org/cute-stack/-/cute-stack-1.3.1.tgz',
+187 silly install resolved     readme: 'ERROR: No README data found!' },
+187 silly install resolved   { name: 'cute-stack',
+187 silly install resolved     version: '1.3.1',
+187 silly install resolved     bin: { cute: './cmd.js' },
+187 silly install resolved     description: '## Cute up your Node stack traces',
+187 silly install resolved     main: 'index.js',
+187 silly install resolved     scripts: {},
+187 silly install resolved     author: { name: 'David Mark Clements' },
+187 silly install resolved     license: 'MIT',
+187 silly install resolved     dependencies:
+187 silly install resolved      { 'cli-table': '^0.3.1',
+187 silly install resolved        colors: '^1.0.3',
+187 silly install resolved        'extend-object': '^1.0.0',
+187 silly install resolved        minimist: '^1.1.0',
+187 silly install resolved        treeify: '1.0.1',
+187 silly install resolved        'v8-flags-object-proxy': '^1.0.0' },
+187 silly install resolved     repository:
+187 silly install resolved      { type: 'git',
+187 silly install resolved        url: 'git://github.com/davidmarkclements/cute-stack.git' },
+187 silly install resolved     devDependencies: { 'bad-line': '0.1.0', mkdirp: '^0.5.0' },
+187 silly install resolved     gitHead: '9b4b12f47bbbdb9853389c11a957b2f7961f6d89',
+187 silly install resolved     bugs: { url: 'https://github.com/davidmarkclements/cute-stack/issues' },
+187 silly install resolved     homepage: 'https://github.com/davidmarkclements/cute-stack',
+187 silly install resolved     _id: 'cute-stack@1.3.1',
+187 silly install resolved     _shasum: '36b12e9cfeae1d64b2fc46d9c2b19b7df546cf68',
+187 silly install resolved     _from: 'cute-stack@*',
+187 silly install resolved     _npmVersion: '2.5.0',
+187 silly install resolved     _nodeVersion: '0.10.36',
+187 silly install resolved     _npmUser:
+187 silly install resolved      { name: 'davidmarkclements',
+187 silly install resolved        email: 'huperekchuno@googlemail.com' },
+187 silly install resolved     maintainers: [ [Object] ],
+187 silly install resolved     dist:
+187 silly install resolved      { shasum: '36b12e9cfeae1d64b2fc46d9c2b19b7df546cf68',
+187 silly install resolved        tarball: 'http://registry.npmjs.org/cute-stack/-/cute-stack-1.3.1.tgz' },
+187 silly install resolved     directories: {},
+187 silly install resolved     _resolved: 'https://registry.npmjs.org/cute-stack/-/cute-stack-1.3.1.tgz',
+187 silly install resolved     readme: 'ERROR: No README data found!' },
+187 silly install resolved   { author: { name: 'Ben Newman', email: 'bn@cs.stanford.edu' },
+187 silly install resolved     name: 'install',
+187 silly install resolved     description: 'Minimal JavaScript module loader',
+187 silly install resolved     keywords:
+187 silly install resolved      [ 'modules',
+187 silly install resolved        'require',
+187 silly install resolved        'commonjs',
+187 silly install resolved        'exports',
+187 silly install resolved        'browser',
+187 silly install resolved        'packaging',
+187 silly install resolved        'packager',
+187 silly install resolved        'install' ],
+187 silly install resolved     version: '0.1.8',
+187 silly install resolved     homepage: 'http://github.com/benjamn/install',
+187 silly install resolved     repository: { type: 'git', url: 'git://github.com/benjamn/install.git' },
+187 silly install resolved     main: 'main.js',
+187 silly install resolved     scripts: { test: 'mocha test/run.js' },
+187 silly install resolved     devDependencies: { mocha: '~2.0.1' },
+187 silly install resolved     engines: { node: '>= 0.6' },
+187 silly install resolved     gitHead: '7dc68c0d65461c197a018c2a7a9d3ec6ac771ff7',
+187 silly install resolved     bugs: { url: 'https://github.com/benjamn/install/issues' },
+187 silly install resolved     _id: 'install@0.1.8',
+187 silly install resolved     _shasum: '9980ef93e30dfb534778d163bc86ddd472ad5fe8',
+187 silly install resolved     _from: 'install@*',
+187 silly install resolved     _npmVersion: '1.4.28',
+187 silly install resolved     _npmUser: { name: 'benjamn', email: 'bn@cs.stanford.edu' },
+187 silly install resolved     maintainers: [ [Object] ],
+187 silly install resolved     dist:
+187 silly install resolved      { shasum: '9980ef93e30dfb534778d163bc86ddd472ad5fe8',
+187 silly install resolved        tarball: 'http://registry.npmjs.org/install/-/install-0.1.8.tgz' },
+187 silly install resolved     directories: {},
+187 silly install resolved     _resolved: 'https://registry.npmjs.org/install/-/install-0.1.8.tgz',
+187 silly install resolved     readme: 'ERROR: No README data found!' } ]
+188 info install cute-stack@1.3.1 into /home/andfaulkner/Projects/testbed/express-testbed-2
+189 info install cute-stack@1.3.1 into /home/andfaulkner/Projects/testbed/express-testbed-2
+190 info install install@0.1.8 into /home/andfaulkner/Projects/testbed/express-testbed-2
+191 info installOne cute-stack@1.3.1
+192 verbose installOne of cute-stack to /home/andfaulkner/Projects/testbed/express-testbed-2 not in flight; installing
+193 info installOne cute-stack@1.3.1
+194 verbose installOne of cute-stack to /home/andfaulkner/Projects/testbed/express-testbed-2 already in flight; waiting
+195 info installOne install@0.1.8
+196 verbose installOne of install to /home/andfaulkner/Projects/testbed/express-testbed-2 not in flight; installing
+197 verbose lock using /home/andfaulkner/.npm/_locks/cute-stack-0c3f93a2d47dd876.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+198 verbose lock using /home/andfaulkner/.npm/_locks/install-71d584562ae4967c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+199 silly install write writing cute-stack 1.3.1 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+200 silly install write writing install 0.1.8 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+201 verbose unbuild node_modules/install
+202 verbose unbuild node_modules/cute-stack
+203 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+204 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+205 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+206 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+207 verbose tar unpack /home/andfaulkner/.npm/install/0.1.8/package.tgz
+208 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+209 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install is being purged
+210 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+211 verbose tar unpack /home/andfaulkner/.npm/cute-stack/1.3.1/package.tgz
+212 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+213 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack is being purged
+214 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+215 silly gunzTarPerm modes [ '755', '644' ]
+216 silly gunzTarPerm modes [ '755', '644' ]
+217 silly gunzTarPerm extractEntry package.json
+218 silly gunzTarPerm extractEntry .npmignore
+219 silly gunzTarPerm extractEntry cmd.js
+220 silly gunzTarPerm extractEntry package.json
+221 silly gunzTarPerm extractEntry .npmignore
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm extractEntry index.js
+224 silly gunzTarPerm extractEntry examples/bad-line.js
+225 silly gunzTarPerm extractEntry LICENSE
+226 silly gunzTarPerm extractEntry install.js
+227 silly gunzTarPerm extractEntry examples/json.js
+228 silly gunzTarPerm extractEntry examples/modules-throw-table.js
+229 silly gunzTarPerm extractEntry install.min.js
+230 silly gunzTarPerm extractEntry examples/modules-throw.js
+231 silly gunzTarPerm extractEntry examples/default.js
+232 silly gunzTarPerm extractEntry main.js
+233 silly gunzTarPerm extractEntry docs/docco.css
+234 silly gunzTarPerm extractEntry examples/no-stack.js
+235 silly gunzTarPerm extractEntry examples/pretty-json.js
+236 silly gunzTarPerm extractEntry docs/install.html
+237 silly gunzTarPerm extractEntry examples/pretty.js
+238 silly gunzTarPerm extractEntry examples/table.js
+239 silly gunzTarPerm extractEntry examples/tree.js
+240 silly gunzTarPerm extractEntry examples/no-module.js
+241 silly gunzTarPerm extractEntry images/filter.png
+242 silly gunzTarPerm extractEntry images/pretty.png
+243 silly gunzTarPerm extractEntry images/table.png
+244 silly gunzTarPerm extractEntry images/tree.png
+245 silly gunzTarPerm extractEntry Readme.md
+246 silly gunzTarPerm extractEntry usage.txt
+247 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install/package.json
+248 info preinstall install@0.1.8
+249 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install/package.json
+250 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install/package.json
+251 silly install resolved []
+252 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+253 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+254 info linkStuff install@0.1.8
+255 silly linkStuff install@0.1.8 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules as its parent node_modules
+256 verbose linkBins install@0.1.8
+257 verbose linkMans install@0.1.8
+258 verbose rebuildBundles install@0.1.8
+259 info install install@0.1.8
+260 info postinstall install@0.1.8
+261 verbose unlock done using /home/andfaulkner/.npm/_locks/install-71d584562ae4967c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/install
+262 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/package.json
+263 info preinstall cute-stack@1.3.1
+264 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/package.json
+265 silly prepareForInstallMany adding cli-table@^0.3.1 from cute-stack dependencies
+266 silly prepareForInstallMany adding extend-object@^1.0.0 from cute-stack dependencies
+267 silly prepareForInstallMany adding minimist@^1.1.0 from cute-stack dependencies
+268 silly prepareForInstallMany adding treeify@1.0.1 from cute-stack dependencies
+269 silly prepareForInstallMany adding v8-flags-object-proxy@^1.0.0 from cute-stack dependencies
+270 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/package.json
+271 silly cache add args [ 'minimist@^1.1.0', null ]
+272 verbose cache add spec minimist@^1.1.0
+273 silly cache add parsed spec { raw: 'minimist@^1.1.0',
+273 silly cache add   scope: null,
+273 silly cache add   name: 'minimist',
+273 silly cache add   rawSpec: '^1.1.0',
+273 silly cache add   spec: '>=1.1.0 <2.0.0',
+273 silly cache add   type: 'range' }
+274 silly addNamed minimist@>=1.1.0 <2.0.0
+275 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for minimist
+276 silly addNameRange { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: false }
+277 silly mapToRegistry name minimist
+278 silly mapToRegistry using default registry
+279 silly mapToRegistry registry https://registry.npmjs.org/
+280 silly mapToRegistry uri https://registry.npmjs.org/minimist
+281 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+282 silly cache add args [ 'treeify@1.0.1', null ]
+283 verbose cache add spec treeify@1.0.1
+284 silly cache add parsed spec { raw: 'treeify@1.0.1',
+284 silly cache add   scope: null,
+284 silly cache add   name: 'treeify',
+284 silly cache add   rawSpec: '1.0.1',
+284 silly cache add   spec: '1.0.1',
+284 silly cache add   type: 'version' }
+285 silly addNamed treeify@1.0.1
+286 verbose addNamed "1.0.1" is a plain semver version for treeify
+287 silly mapToRegistry name treeify
+288 silly mapToRegistry using default registry
+289 silly mapToRegistry registry https://registry.npmjs.org/
+290 silly mapToRegistry uri https://registry.npmjs.org/treeify
+291 verbose addNameVersion registry:https://registry.npmjs.org/treeify not in flight; fetching
+292 silly cache add args [ 'v8-flags-object-proxy@^1.0.0', null ]
+293 verbose cache add spec v8-flags-object-proxy@^1.0.0
+294 silly cache add parsed spec { raw: 'v8-flags-object-proxy@^1.0.0',
+294 silly cache add   scope: null,
+294 silly cache add   name: 'v8-flags-object-proxy',
+294 silly cache add   rawSpec: '^1.0.0',
+294 silly cache add   spec: '>=1.0.0 <2.0.0',
+294 silly cache add   type: 'range' }
+295 silly addNamed v8-flags-object-proxy@>=1.0.0 <2.0.0
+296 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for v8-flags-object-proxy
+297 silly addNameRange { name: 'v8-flags-object-proxy',
+297 silly addNameRange   range: '>=1.0.0 <2.0.0',
+297 silly addNameRange   hasData: false }
+298 silly mapToRegistry name v8-flags-object-proxy
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry uri https://registry.npmjs.org/v8-flags-object-proxy
+302 verbose addNameRange registry:https://registry.npmjs.org/v8-flags-object-proxy not in flight; fetching
+303 silly cache add args [ 'cli-table@^0.3.1', null ]
+304 verbose cache add spec cli-table@^0.3.1
+305 silly cache add parsed spec { raw: 'cli-table@^0.3.1',
+305 silly cache add   scope: null,
+305 silly cache add   name: 'cli-table',
+305 silly cache add   rawSpec: '^0.3.1',
+305 silly cache add   spec: '>=0.3.1 <0.4.0',
+305 silly cache add   type: 'range' }
+306 silly addNamed cli-table@>=0.3.1 <0.4.0
+307 verbose addNamed ">=0.3.1 <0.4.0" is a valid semver range for cli-table
+308 silly addNameRange { name: 'cli-table', range: '>=0.3.1 <0.4.0', hasData: false }
+309 silly mapToRegistry name cli-table
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry uri https://registry.npmjs.org/cli-table
+313 verbose addNameRange registry:https://registry.npmjs.org/cli-table not in flight; fetching
+314 silly cache add args [ 'extend-object@^1.0.0', null ]
+315 verbose cache add spec extend-object@^1.0.0
+316 silly cache add parsed spec { raw: 'extend-object@^1.0.0',
+316 silly cache add   scope: null,
+316 silly cache add   name: 'extend-object',
+316 silly cache add   rawSpec: '^1.0.0',
+316 silly cache add   spec: '>=1.0.0 <2.0.0',
+316 silly cache add   type: 'range' }
+317 silly addNamed extend-object@>=1.0.0 <2.0.0
+318 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for extend-object
+319 silly addNameRange { name: 'extend-object',
+319 silly addNameRange   range: '>=1.0.0 <2.0.0',
+319 silly addNameRange   hasData: false }
+320 silly mapToRegistry name extend-object
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry uri https://registry.npmjs.org/extend-object
+324 verbose addNameRange registry:https://registry.npmjs.org/extend-object not in flight; fetching
+325 verbose request uri https://registry.npmjs.org/minimist
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 2:36:54 AM
+328 verbose etag "BZN2RBSCCV4DLW5CYU37VOZIJ"
+329 http request GET https://registry.npmjs.org/minimist
+330 verbose request uri https://registry.npmjs.org/treeify
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 2:36:54 AM
+333 verbose etag "4U5XAGBSIFKJSNHE4PHPIUCF4"
+334 http request GET https://registry.npmjs.org/treeify
+335 verbose request uri https://registry.npmjs.org/cli-table
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 2:36:54 AM
+338 verbose etag "M336GSYZQKYT37RDCAFB6IYJ"
+339 http request GET https://registry.npmjs.org/cli-table
+340 verbose request uri https://registry.npmjs.org/extend-object
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 2:36:54 AM
+343 verbose etag "3RDTSU7TNXE0AWNHVD1AN1F1H"
+344 http request GET https://registry.npmjs.org/extend-object
+345 verbose request uri https://registry.npmjs.org/v8-flags-object-proxy
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 2:36:54 AM
+348 verbose etag "D2JIFDGW5YDLQZNO7WFWTJPRJ"
+349 http request GET https://registry.npmjs.org/v8-flags-object-proxy
+350 http 304 https://registry.npmjs.org/cli-table
+351 silly get cb [ 304,
+351 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+351 silly get     via: '1.1 varnish',
+351 silly get     'cache-control': 'max-age=60',
+351 silly get     etag: '"M336GSYZQKYT37RDCAFB6IYJ"',
+351 silly get     age: '0',
+351 silly get     connection: 'keep-alive',
+351 silly get     'x-served-by': 'cache-iad2139-IAD',
+351 silly get     'x-cache': 'HIT',
+351 silly get     'x-cache-hits': '1',
+351 silly get     'x-timer': 'S1440657412.069365,VS0,VE58',
+351 silly get     vary: 'Accept' } ]
+352 verbose etag https://registry.npmjs.org/cli-table from cache
+353 verbose get saving cli-table to /home/andfaulkner/.npm/registry.npmjs.org/cli-table/.cache.json
+354 silly addNameRange number 2 { name: 'cli-table', range: '>=0.3.1 <0.4.0', hasData: true }
+355 silly addNameRange versions [ 'cli-table', [ '0.0.1', '0.0.2', '0.2.0', '0.3.0', '0.3.1' ] ]
+356 silly addNamed cli-table@0.3.1
+357 verbose addNamed "0.3.1" is a plain semver version for cli-table
+358 silly cache afterAdd cli-table@0.3.1
+359 verbose afterAdd /home/andfaulkner/.npm/cli-table/0.3.1/package/package.json not in flight; writing
+360 verbose afterAdd /home/andfaulkner/.npm/cli-table/0.3.1/package/package.json written
+361 http 304 https://registry.npmjs.org/treeify
+362 silly get cb [ 304,
+362 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+362 silly get     via: '1.1 varnish',
+362 silly get     'cache-control': 'max-age=60',
+362 silly get     etag: '"4U5XAGBSIFKJSNHE4PHPIUCF4"',
+362 silly get     age: '0',
+362 silly get     connection: 'keep-alive',
+362 silly get     'x-served-by': 'cache-iad2130-IAD',
+362 silly get     'x-cache': 'MISS',
+362 silly get     'x-cache-hits': '0',
+362 silly get     'x-timer': 'S1440657412.073947,VS0,VE69',
+362 silly get     vary: 'Accept' } ]
+363 verbose etag https://registry.npmjs.org/treeify from cache
+364 verbose get saving treeify to /home/andfaulkner/.npm/registry.npmjs.org/treeify/.cache.json
+365 silly cache afterAdd treeify@1.0.1
+366 verbose afterAdd /home/andfaulkner/.npm/treeify/1.0.1/package/package.json not in flight; writing
+367 http 304 https://registry.npmjs.org/extend-object
+368 silly get cb [ 304,
+368 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+368 silly get     via: '1.1 varnish',
+368 silly get     'cache-control': 'max-age=60',
+368 silly get     etag: '"3RDTSU7TNXE0AWNHVD1AN1F1H"',
+368 silly get     age: '0',
+368 silly get     connection: 'keep-alive',
+368 silly get     'x-served-by': 'cache-iad2142-IAD',
+368 silly get     'x-cache': 'MISS',
+368 silly get     'x-cache-hits': '0',
+368 silly get     'x-timer': 'S1440657412.072503,VS0,VE93',
+368 silly get     vary: 'Accept' } ]
+369 verbose etag https://registry.npmjs.org/extend-object from cache
+370 verbose get saving extend-object to /home/andfaulkner/.npm/registry.npmjs.org/extend-object/.cache.json
+371 verbose afterAdd /home/andfaulkner/.npm/treeify/1.0.1/package/package.json written
+372 silly addNameRange number 2 { name: 'extend-object', range: '>=1.0.0 <2.0.0', hasData: true }
+373 silly addNameRange versions [ 'extend-object', [ '0.1.0', '1.0.0' ] ]
+374 silly addNamed extend-object@1.0.0
+375 verbose addNamed "1.0.0" is a plain semver version for extend-object
+376 silly cache afterAdd extend-object@1.0.0
+377 verbose afterAdd /home/andfaulkner/.npm/extend-object/1.0.0/package/package.json not in flight; writing
+378 verbose afterAdd /home/andfaulkner/.npm/extend-object/1.0.0/package/package.json written
+379 http 304 https://registry.npmjs.org/v8-flags-object-proxy
+380 silly get cb [ 304,
+380 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+380 silly get     via: '1.1 varnish',
+380 silly get     'cache-control': 'max-age=60',
+380 silly get     etag: '"D2JIFDGW5YDLQZNO7WFWTJPRJ"',
+380 silly get     age: '42',
+380 silly get     connection: 'keep-alive',
+380 silly get     'x-served-by': 'cache-dfw1823-DFW',
+380 silly get     'x-cache': 'HIT',
+380 silly get     'x-cache-hits': '1',
+380 silly get     'x-timer': 'S1440657412.173519,VS0,VE0',
+380 silly get     vary: 'Accept' } ]
+381 verbose etag https://registry.npmjs.org/v8-flags-object-proxy from cache
+382 verbose get saving v8-flags-object-proxy to /home/andfaulkner/.npm/registry.npmjs.org/v8-flags-object-proxy/.cache.json
+383 silly addNameRange number 2 { name: 'v8-flags-object-proxy',
+383 silly addNameRange   range: '>=1.0.0 <2.0.0',
+383 silly addNameRange   hasData: true }
+384 silly addNameRange versions [ 'v8-flags-object-proxy', [ '1.0.0' ] ]
+385 silly addNamed v8-flags-object-proxy@1.0.0
+386 verbose addNamed "1.0.0" is a plain semver version for v8-flags-object-proxy
+387 silly cache afterAdd v8-flags-object-proxy@1.0.0
+388 verbose afterAdd /home/andfaulkner/.npm/v8-flags-object-proxy/1.0.0/package/package.json not in flight; writing
+389 verbose afterAdd /home/andfaulkner/.npm/v8-flags-object-proxy/1.0.0/package/package.json written
+390 http 304 https://registry.npmjs.org/minimist
+391 silly get cb [ 304,
+391 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+391 silly get     via: '1.1 varnish',
+391 silly get     'cache-control': 'max-age=60',
+391 silly get     etag: '"BZN2RBSCCV4DLW5CYU37VOZIJ"',
+391 silly get     age: '37',
+391 silly get     connection: 'keep-alive',
+391 silly get     'x-served-by': 'cache-dfw1831-DFW',
+391 silly get     'x-cache': 'HIT',
+391 silly get     'x-cache-hits': '2',
+391 silly get     'x-timer': 'S1440657412.187175,VS0,VE0',
+391 silly get     vary: 'Accept' } ]
+392 verbose etag https://registry.npmjs.org/minimist from cache
+393 verbose get saving minimist to /home/andfaulkner/.npm/registry.npmjs.org/minimist/.cache.json
+394 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: true }
+395 silly addNameRange versions [ 'minimist',
+395 silly addNameRange   [ '0.0.0',
+395 silly addNameRange     '0.0.1',
+395 silly addNameRange     '0.0.2',
+395 silly addNameRange     '0.0.3',
+395 silly addNameRange     '0.0.4',
+395 silly addNameRange     '0.0.5',
+395 silly addNameRange     '0.0.6',
+395 silly addNameRange     '0.0.7',
+395 silly addNameRange     '0.0.8',
+395 silly addNameRange     '0.0.9',
+395 silly addNameRange     '0.0.10',
+395 silly addNameRange     '0.1.0',
+395 silly addNameRange     '0.2.0',
+395 silly addNameRange     '1.0.0',
+395 silly addNameRange     '1.1.0',
+395 silly addNameRange     '1.1.1',
+395 silly addNameRange     '1.1.2',
+395 silly addNameRange     '1.1.3',
+395 silly addNameRange     '1.2.0' ] ]
+396 silly addNamed minimist@1.2.0
+397 verbose addNamed "1.2.0" is a plain semver version for minimist
+398 silly cache afterAdd minimist@1.2.0
+399 verbose afterAdd /home/andfaulkner/.npm/minimist/1.2.0/package/package.json not in flight; writing
+400 verbose afterAdd /home/andfaulkner/.npm/minimist/1.2.0/package/package.json written
+401 silly install resolved [ { name: 'cli-table',
+401 silly install resolved     description: 'Pretty unicode tables for the CLI',
+401 silly install resolved     version: '0.3.1',
+401 silly install resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+401 silly install resolved     contributors: [ [Object] ],
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'git+https://github.com/Automattic/cli-table.git' },
+401 silly install resolved     keywords: [ 'cli', 'colors', 'table' ],
+401 silly install resolved     dependencies: { colors: '1.0.3' },
+401 silly install resolved     devDependencies: { expresso: '~0.9', should: '~0.6' },
+401 silly install resolved     main: 'lib',
+401 silly install resolved     files: [ 'lib' ],
+401 silly install resolved     scripts: { test: 'make test' },
+401 silly install resolved     engines: { node: '>= 0.2.0' },
+401 silly install resolved     gitHead: 'e35ccee7341e8574839df751a8aa10acd5a82a5b',
+401 silly install resolved     bugs: { url: 'https://github.com/Automattic/cli-table/issues' },
+401 silly install resolved     homepage: 'https://github.com/Automattic/cli-table',
+401 silly install resolved     _id: 'cli-table@0.3.1',
+401 silly install resolved     _shasum: 'f53b05266a8b1a0b934b3d0821e6e2dc5914ae23',
+401 silly install resolved     _from: 'cli-table@>=0.3.1 <0.4.0',
+401 silly install resolved     _npmVersion: '1.4.21',
+401 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: 'f53b05266a8b1a0b934b3d0821e6e2dc5914ae23',
+401 silly install resolved        tarball: 'http://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz' },
+401 silly install resolved     directories: {},
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/cli-table/-/cli-table-0.3.1.tgz',
+401 silly install resolved     readme: 'ERROR: No README data found!' },
+401 silly install resolved   { name: 'treeify',
+401 silly install resolved     version: '1.0.1',
+401 silly install resolved     author: { name: 'Luke Plaster', email: 'notatestuser@gmail.com' },
+401 silly install resolved     description: 'converts a JS object into a nice and readable tree structure for the console',
+401 silly install resolved     scripts: { test: './node_modules/vows/bin/vows --spec' },
+401 silly install resolved     main: './treeify',
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'git+https://github.com/notatestuser/treeify.git' },
+401 silly install resolved     keywords: [ 'object', 'tree', 'print', 'console', 'pretty' ],
+401 silly install resolved     devDependencies: { vows: 'git://github.com/Filirom1/vows.git#expect' },
+401 silly install resolved     licenses: [ [Object] ],
+401 silly install resolved     engines: { node: '>=0.6' },
+401 silly install resolved     readme: 'treeify [![Build Status](https://travis-ci.org/notatestuser/node-treeify.png?branch=master)](https://travis-ci.org/notatestuser/node-treeify)\n=======\n\n_treeify_ converts a JS object into a nice, visible depth-indented tree for console printing. The structure\ngenerated is similar to what you get by running the ```tree``` command on Unixy platforms.\n\n```\n{\n    oranges: {\n        \'mandarin\': {                                          ├─ oranges\n            clementine: null,                                  │  └─ mandarin\n            tangerine: \'so cheap and juicy!\'        -=>        │     ├─ clementine\n        }                                                      │     └─ tangerine: so cheap and juicy!\n    },                                                         └─ apples\n    apples: {                                                     ├─ gala\n        \'gala\': null,                                             └─ pink lady\n        \'pink lady\': null\n    }\n}\n```\n\nIt also works well with larger nested hierarchies such as file system directory trees.\nIn fact, the ```fs_tree``` example does a pretty good job of imitating ```tree```. Try it out!\n\nSee the other included examples or the test suite for usage scenarios.\n\nGetting it\n----------\n\n### For use with node.js\n\nFirst you\'ll want to run this command in your project\'s root folder:\n```\n$ npm install treeify\n```\n\nThen proceed to use it in your project:\n```js\nvar treeify = require(\'treeify\');\nconsole.log(\n   treeify.asTree({\n      apples: \'gala\',      //  ├─ apples: gala\n      oranges: \'mandarin\'  //  └─ oranges: mandarin\n   }, true)\n);\n```\n\n### For use in a browser\n\nTreeify cooperates with Node, AMD or browser globals to create a module. This means it\'ll work\nin a browser regardless of whether you have an AMD-compliant module loader or not. If such\na loader isn\'t found when the script is executed, you may access Treeify at ```window.treeify```.\n\nUsage\n-----\n\nThe methods exposed to you are as follows, in a strange kind of signature notation:\n\n### asLines()\n```js\ntreeify.asLines(obj, showValues (boolean), [hideFunctions (boolean),] lineCallback (function))\n// NOTE: hideFunctions is optional and may be safely omitted - this was done to ensure we don\'t break uses of the previous form\n```\n### asTree()\n```js\ntreeify.asTree(obj, showValues (boolean), hideFunctions (boolean)): String\n```\n\nRunning the tests\n-----------------\n\nThere\'s a pretty extensive suite of Vows tests included.\n```\n$ npm test\n```\n',
+401 silly install resolved     readmeFilename: 'README.md',
+401 silly install resolved     _id: 'treeify@1.0.1',
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: '69b3cd022022a168424e7cfa1ced44c939d3eb2f',
+401 silly install resolved        tarball: 'http://registry.npmjs.org/treeify/-/treeify-1.0.1.tgz' },
+401 silly install resolved     _from: 'treeify@1.0.1',
+401 silly install resolved     _npmVersion: '1.2.15',
+401 silly install resolved     _npmUser: { name: 'notatestuser', email: 'notatestuser@gmail.com' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     directories: {},
+401 silly install resolved     _shasum: '69b3cd022022a168424e7cfa1ced44c939d3eb2f',
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/treeify/-/treeify-1.0.1.tgz',
+401 silly install resolved     bugs: { url: 'https://github.com/notatestuser/treeify/issues' },
+401 silly install resolved     homepage: 'https://github.com/notatestuser/treeify#readme' },
+401 silly install resolved   { name: 'extend-object',
+401 silly install resolved     description: 'Underscore\'s extend method as a standalone Common JS module.',
+401 silly install resolved     version: '1.0.0',
+401 silly install resolved     author: { name: 'Henrik Joreteg', email: 'henrik@andyet.net' },
+401 silly install resolved     bugs: { url: 'https://github.com/henrikjoreteg/extend-object/issues' },
+401 silly install resolved     homepage: 'https://github.com/henrikjoreteg/extend-object',
+401 silly install resolved     keywords: [ 'extend', 'object', 'underscore' ],
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     main: 'extend-object.js',
+401 silly install resolved     repository:
+401 silly install resolved      { type: 'git',
+401 silly install resolved        url: 'git://github.com/henrikjoreteg/extend-object.git' },
+401 silly install resolved     scripts: { test: 'node test.js' },
+401 silly install resolved     _id: 'extend-object@1.0.0',
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: '42514f84015d1356caf5187969dfb2bc1bda0823',
+401 silly install resolved        tarball: 'http://registry.npmjs.org/extend-object/-/extend-object-1.0.0.tgz' },
+401 silly install resolved     _from: 'extend-object@>=1.0.0 <2.0.0',
+401 silly install resolved     _npmVersion: '1.3.24',
+401 silly install resolved     _npmUser: { name: 'henrikjoreteg', email: 'henrik@andyet.net' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     directories: {},
+401 silly install resolved     _shasum: '42514f84015d1356caf5187969dfb2bc1bda0823',
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/extend-object/-/extend-object-1.0.0.tgz',
+401 silly install resolved     readme: 'ERROR: No README data found!' },
+401 silly install resolved   { name: 'v8-flags-object-proxy',
+401 silly install resolved     version: '1.0.0',
+401 silly install resolved     description: 'v8-flags with an object interface',
+401 silly install resolved     main: 'index.js',
+401 silly install resolved     scripts: { test: 'node test' },
+401 silly install resolved     author: { name: 'David Mark Clements' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     dependencies: { 'v8-flags': '^0.1.2' },
+401 silly install resolved     gitHead: 'e77b5fc65eb17fa78ac7e1daf1cc0e7a1cad5b27',
+401 silly install resolved     _id: 'v8-flags-object-proxy@1.0.0',
+401 silly install resolved     _shasum: 'be7f1fa9a327b1e0020b72ac4a36b446def171d7',
+401 silly install resolved     _from: 'v8-flags-object-proxy@>=1.0.0 <2.0.0',
+401 silly install resolved     _npmVersion: '2.5.0',
+401 silly install resolved     _nodeVersion: '0.10.36',
+401 silly install resolved     _npmUser:
+401 silly install resolved      { name: 'davidmarkclements',
+401 silly install resolved        email: 'huperekchuno@googlemail.com' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: 'be7f1fa9a327b1e0020b72ac4a36b446def171d7',
+401 silly install resolved        tarball: 'http://registry.npmjs.org/v8-flags-object-proxy/-/v8-flags-object-proxy-1.0.0.tgz' },
+401 silly install resolved     directories: {},
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/v8-flags-object-proxy/-/v8-flags-object-proxy-1.0.0.tgz',
+401 silly install resolved     readme: 'ERROR: No README data found!' },
+401 silly install resolved   { name: 'minimist',
+401 silly install resolved     version: '1.2.0',
+401 silly install resolved     description: 'parse argument options',
+401 silly install resolved     main: 'index.js',
+401 silly install resolved     devDependencies: { covert: '^1.0.0', tap: '~0.4.0', tape: '^3.5.0' },
+401 silly install resolved     scripts: { test: 'tap test/*.js', coverage: 'covert test/*.js' },
+401 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+401 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+401 silly install resolved     homepage: 'https://github.com/substack/minimist',
+401 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+401 silly install resolved     author:
+401 silly install resolved      { name: 'James Halliday',
+401 silly install resolved        email: 'mail@substack.net',
+401 silly install resolved        url: 'http://substack.net' },
+401 silly install resolved     license: 'MIT',
+401 silly install resolved     gitHead: 'dc624482fcfec5bc669c68cdb861f00573ed4e64',
+401 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+401 silly install resolved     _id: 'minimist@1.2.0',
+401 silly install resolved     _shasum: 'a35008b20f41383eec1fb914f4cd5df79a264284',
+401 silly install resolved     _from: 'minimist@>=1.1.0 <2.0.0',
+401 silly install resolved     _npmVersion: '3.2.2',
+401 silly install resolved     _nodeVersion: '2.4.0',
+401 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+401 silly install resolved     dist:
+401 silly install resolved      { shasum: 'a35008b20f41383eec1fb914f4cd5df79a264284',
+401 silly install resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz' },
+401 silly install resolved     maintainers: [ [Object] ],
+401 silly install resolved     directories: {},
+401 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz',
+401 silly install resolved     readme: 'ERROR: No README data found!' } ]
+402 info install cli-table@0.3.1 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+403 info install treeify@1.0.1 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+404 info install extend-object@1.0.0 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+405 info install v8-flags-object-proxy@1.0.0 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+406 info install minimist@1.2.0 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+407 info installOne cli-table@0.3.1
+408 verbose installOne of cli-table to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack not in flight; installing
+409 info installOne treeify@1.0.1
+410 verbose installOne of treeify to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack not in flight; installing
+411 info installOne extend-object@1.0.0
+412 verbose installOne of extend-object to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack not in flight; installing
+413 info installOne v8-flags-object-proxy@1.0.0
+414 verbose installOne of v8-flags-object-proxy to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack not in flight; installing
+415 info installOne minimist@1.2.0
+416 verbose installOne of minimist to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack not in flight; installing
+417 verbose lock using /home/andfaulkner/.npm/_locks/cli-table-908474f170541e1c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+418 verbose lock using /home/andfaulkner/.npm/_locks/treeify-ba558ce982d58fb5.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+419 verbose lock using /home/andfaulkner/.npm/_locks/extend-object-7265031b5cbe822e.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+420 verbose lock using /home/andfaulkner/.npm/_locks/v8-flags-object-proxy-b9875bd675212036.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+421 verbose lock using /home/andfaulkner/.npm/_locks/minimist-ea5c7e7ce3ea9779.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+422 silly install write writing cli-table 0.3.1 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+423 silly install write writing treeify 1.0.1 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+424 silly install write writing extend-object 1.0.0 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+425 silly install write writing v8-flags-object-proxy 1.0.0 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+426 silly install write writing minimist 1.2.0 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+427 verbose unbuild node_modules/cute-stack/node_modules/cli-table
+428 verbose unbuild node_modules/cute-stack/node_modules/treeify
+429 verbose unbuild node_modules/cute-stack/node_modules/extend-object
+430 verbose unbuild node_modules/cute-stack/node_modules/v8-flags-object-proxy
+431 verbose unbuild node_modules/cute-stack/node_modules/minimist
+432 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+433 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+434 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+435 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+436 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+437 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+438 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+439 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+440 verbose tar unpack /home/andfaulkner/.npm/cli-table/0.3.1/package.tgz
+441 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+442 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table is being purged
+443 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+444 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+445 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+446 verbose tar unpack /home/andfaulkner/.npm/treeify/1.0.1/package.tgz
+447 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+448 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify is being purged
+449 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+450 verbose tar unpack /home/andfaulkner/.npm/extend-object/1.0.0/package.tgz
+451 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+452 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object is being purged
+453 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+454 verbose tar unpack /home/andfaulkner/.npm/v8-flags-object-proxy/1.0.0/package.tgz
+455 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+456 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy is being purged
+457 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+458 silly gunzTarPerm modes [ '755', '644' ]
+459 verbose tar unpack /home/andfaulkner/.npm/minimist/1.2.0/package.tgz
+460 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+461 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist is being purged
+462 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+463 silly gunzTarPerm modes [ '755', '644' ]
+464 silly gunzTarPerm modes [ '755', '644' ]
+465 silly gunzTarPerm modes [ '755', '644' ]
+466 silly gunzTarPerm modes [ '755', '644' ]
+467 silly gunzTarPerm extractEntry package.json
+468 silly gunzTarPerm extractEntry package.json
+469 silly gunzTarPerm extractEntry package.json
+470 silly gunzTarPerm extractEntry package.json
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm extractEntry README.md
+473 silly gunzTarPerm extractEntry lib/index.js
+474 silly gunzTarPerm extractEntry .npmignore
+475 silly gunzTarPerm extractEntry README.md
+476 silly gunzTarPerm extractEntry .npmignore
+477 silly gunzTarPerm extractEntry README.md
+478 silly gunzTarPerm extractEntry index.js
+479 silly gunzTarPerm extractEntry Readme.md
+480 silly gunzTarPerm extractEntry LICENSE
+481 silly gunzTarPerm extractEntry index.js
+482 silly gunzTarPerm extractEntry lib/utils.js
+483 silly gunzTarPerm extractEntry test/index.js
+484 silly gunzTarPerm extractEntry test/read-flag.js
+485 silly gunzTarPerm extractEntry treeify.js
+486 silly gunzTarPerm extractEntry .travis.yml
+487 silly gunzTarPerm extractEntry extend-object.js
+488 silly gunzTarPerm extractEntry test.js
+489 silly gunzTarPerm extractEntry .travis.yml
+490 silly gunzTarPerm extractEntry example/parse.js
+491 silly gunzTarPerm extractEntry examples/eukaryotes.js
+492 silly gunzTarPerm extractEntry examples/fs_tree.js
+493 silly gunzTarPerm extractEntry test/write-flag.js
+494 silly gunzTarPerm extractEntry test/fixtures/not-strict.js
+495 silly gunzTarPerm extractEntry readme.markdown
+496 silly gunzTarPerm extractEntry test/all_bool.js
+497 silly gunzTarPerm extractEntry test/default_bool.js
+498 silly gunzTarPerm extractEntry test/dotted.js
+499 silly gunzTarPerm extractEntry test/kv_short.js
+500 silly gunzTarPerm extractEntry test/long.js
+501 silly gunzTarPerm extractEntry test/dash.js
+502 silly gunzTarPerm extractEntry test/parse.js
+503 silly gunzTarPerm extractEntry test/parse_modified.js
+504 silly gunzTarPerm extractEntry test/short.js
+505 silly gunzTarPerm extractEntry test/stop_early.js
+506 silly gunzTarPerm extractEntry test/unknown.js
+507 silly gunzTarPerm extractEntry test/bool.js
+508 silly gunzTarPerm extractEntry test/whitespace.js
+509 silly gunzTarPerm extractEntry test/num.js
+510 silly gunzTarPerm extractEntry examples/eukaryotes.html
+511 silly gunzTarPerm extractEntry test/tree-test.js
+512 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object/package.json
+513 info preinstall extend-object@1.0.0
+514 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object/package.json
+515 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object/package.json
+516 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/package.json
+517 silly install resolved []
+518 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+519 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+520 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/package.json
+521 info preinstall v8-flags-object-proxy@1.0.0
+522 info preinstall cli-table@0.3.1
+523 info linkStuff extend-object@1.0.0
+524 silly linkStuff extend-object@1.0.0 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules as its parent node_modules
+525 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/package.json
+526 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/package.json
+527 silly prepareForInstallMany adding v8-flags@^0.1.2 from v8-flags-object-proxy dependencies
+528 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/package.json
+529 silly prepareForInstallMany adding colors@1.0.3 from cli-table dependencies
+530 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/package.json
+531 verbose linkBins extend-object@1.0.0
+532 verbose linkMans extend-object@1.0.0
+533 verbose rebuildBundles extend-object@1.0.0
+534 info install extend-object@1.0.0
+535 silly cache add args [ 'v8-flags@^0.1.2', null ]
+536 verbose cache add spec v8-flags@^0.1.2
+537 silly cache add args [ 'colors@1.0.3', null ]
+538 verbose cache add spec colors@1.0.3
+539 silly cache add parsed spec { raw: 'v8-flags@^0.1.2',
+539 silly cache add   scope: null,
+539 silly cache add   name: 'v8-flags',
+539 silly cache add   rawSpec: '^0.1.2',
+539 silly cache add   spec: '>=0.1.2 <0.2.0',
+539 silly cache add   type: 'range' }
+540 silly addNamed v8-flags@>=0.1.2 <0.2.0
+541 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for v8-flags
+542 silly addNameRange { name: 'v8-flags', range: '>=0.1.2 <0.2.0', hasData: false }
+543 silly mapToRegistry name v8-flags
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npmjs.org/
+546 silly mapToRegistry uri https://registry.npmjs.org/v8-flags
+547 verbose addNameRange registry:https://registry.npmjs.org/v8-flags not in flight; fetching
+548 silly cache add parsed spec { raw: 'colors@1.0.3',
+548 silly cache add   scope: null,
+548 silly cache add   name: 'colors',
+548 silly cache add   rawSpec: '1.0.3',
+548 silly cache add   spec: '1.0.3',
+548 silly cache add   type: 'version' }
+549 silly addNamed colors@1.0.3
+550 verbose addNamed "1.0.3" is a plain semver version for colors
+551 silly mapToRegistry name colors
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npmjs.org/
+554 silly mapToRegistry uri https://registry.npmjs.org/colors
+555 verbose addNameVersion registry:https://registry.npmjs.org/colors not in flight; fetching
+556 info postinstall extend-object@1.0.0
+557 verbose unlock done using /home/andfaulkner/.npm/_locks/extend-object-7265031b5cbe822e.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/extend-object
+558 verbose request uri https://registry.npmjs.org/v8-flags
+559 verbose request no auth needed
+560 info attempt registry request try #1 at 2:36:54 AM
+561 verbose etag "DPGCKIV0QU9SBJ7BQ36ZAR5XS"
+562 http request GET https://registry.npmjs.org/v8-flags
+563 verbose request uri https://registry.npmjs.org/colors
+564 verbose request no auth needed
+565 info attempt registry request try #1 at 2:36:54 AM
+566 verbose etag "80VM2BXZU8ODDF1PAJF6DMQAJ"
+567 http request GET https://registry.npmjs.org/colors
+568 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify/package.json
+569 info preinstall treeify@1.0.1
+570 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify/package.json
+571 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify/package.json
+572 silly install resolved []
+573 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+574 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+575 info linkStuff treeify@1.0.1
+576 silly linkStuff treeify@1.0.1 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules as its parent node_modules
+577 verbose linkBins treeify@1.0.1
+578 verbose linkMans treeify@1.0.1
+579 verbose rebuildBundles treeify@1.0.1
+580 info install treeify@1.0.1
+581 info postinstall treeify@1.0.1
+582 verbose unlock done using /home/andfaulkner/.npm/_locks/treeify-ba558ce982d58fb5.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/treeify
+583 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist/package.json
+584 info preinstall minimist@1.2.0
+585 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist/package.json
+586 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist/package.json
+587 silly install resolved []
+588 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+589 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+590 info linkStuff minimist@1.2.0
+591 silly linkStuff minimist@1.2.0 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules as its parent node_modules
+592 verbose linkBins minimist@1.2.0
+593 verbose linkMans minimist@1.2.0
+594 verbose rebuildBundles minimist@1.2.0
+595 info install minimist@1.2.0
+596 info postinstall minimist@1.2.0
+597 verbose unlock done using /home/andfaulkner/.npm/_locks/minimist-ea5c7e7ce3ea9779.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/minimist
+598 http 304 https://registry.npmjs.org/colors
+599 silly get cb [ 304,
+599 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+599 silly get     via: '1.1 varnish',
+599 silly get     'cache-control': 'max-age=60',
+599 silly get     etag: '"80VM2BXZU8ODDF1PAJF6DMQAJ"',
+599 silly get     age: '31',
+599 silly get     connection: 'keep-alive',
+599 silly get     'x-served-by': 'cache-iad2134-IAD',
+599 silly get     'x-cache': 'HIT',
+599 silly get     'x-cache-hits': '1',
+599 silly get     'x-timer': 'S1440657412.525873,VS0,VE0',
+599 silly get     vary: 'Accept' } ]
+600 verbose etag https://registry.npmjs.org/colors from cache
+601 verbose get saving colors to /home/andfaulkner/.npm/registry.npmjs.org/colors/.cache.json
+602 silly cache afterAdd colors@1.0.3
+603 verbose afterAdd /home/andfaulkner/.npm/colors/1.0.3/package/package.json not in flight; writing
+604 verbose afterAdd /home/andfaulkner/.npm/colors/1.0.3/package/package.json written
+605 silly install resolved [ { name: 'colors',
+605 silly install resolved     description: 'get colors in your node.js console',
+605 silly install resolved     version: '1.0.3',
+605 silly install resolved     author: { name: 'Marak Squires' },
+605 silly install resolved     homepage: 'https://github.com/Marak/colors.js',
+605 silly install resolved     bugs: { url: 'https://github.com/Marak/colors.js/issues' },
+605 silly install resolved     keywords: [ 'ansi', 'terminal', 'colors' ],
+605 silly install resolved     repository:
+605 silly install resolved      { type: 'git',
+605 silly install resolved        url: 'git+ssh://git@github.com/Marak/colors.js.git' },
+605 silly install resolved     license: 'MIT',
+605 silly install resolved     scripts: { test: 'node tests/basic-test.js && node tests/safe-test.js' },
+605 silly install resolved     engines: { node: '>=0.1.90' },
+605 silly install resolved     main: './lib/index',
+605 silly install resolved     gitHead: 'e9e6557cc0fa26dba1a20b0d45e92de982f4047c',
+605 silly install resolved     _id: 'colors@1.0.3',
+605 silly install resolved     _shasum: '0433f44d809680fdeb60ed260f1b0c262e82a40b',
+605 silly install resolved     _from: 'colors@1.0.3',
+605 silly install resolved     _npmVersion: '2.0.2',
+605 silly install resolved     _nodeVersion: '0.11.13',
+605 silly install resolved     _npmUser: { name: 'marak', email: 'marak.squires@gmail.com' },
+605 silly install resolved     maintainers: [ [Object] ],
+605 silly install resolved     dist:
+605 silly install resolved      { shasum: '0433f44d809680fdeb60ed260f1b0c262e82a40b',
+605 silly install resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-1.0.3.tgz' },
+605 silly install resolved     directories: {},
+605 silly install resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-1.0.3.tgz',
+605 silly install resolved     readme: '# colors.js\n\n## get color and style in your node.js console\n\n<img src="https://github.com/Marak/colors.js/raw/master/screenshots/colors.png"/>\n\n## Installation\n\n    npm install colors\n\n## colors and styles!\n\n### text colors\n\n  - black\n  - red\n  - green\n  - yellow\n  - blue\n  - magenta\n  - cyan\n  - white\n  - gray\n  - grey\n\n### background colors\n\n\n\n  - bgBlack\n  - bgRed\n  - bgGreen\n  - bgYellow\n  - bgBlue\n  - bgMagenta\n  - bgCyan\n  - bgWhite\n\n### styles\n\n  - reset\n  - bold\n  - dim\n  - italic\n  - underline\n  - inverse\n  - hidden\n  - strikethrough\n\n### extras\n\n  - rainbow\n  - zebra\n  - america\n  - trap\n  - random\n\n\n## Usage\n\nBy popular demand, `colors` now ships with two types of usages!\n\nThe super nifty way\n\n```js\nvar colors = require(\'colors\');\n\nconsole.log(\'hello\'.green); // outputs green text\nconsole.log(\'i like cake and pies\'.underline.red) // outputs red underlined text\nconsole.log(\'inverse the color\'.inverse); // inverses the color\nconsole.log(\'OMG Rainbows!\'.rainbow); // rainbow\nconsole.log(\'Run the trap\'.trap); // Drops the bass\n\n```\n\nor a slightly less nifty way which doesn\'t extend `String.prototype`\n\n```js\nvar colors = require(\'colors/safe\');\n\nconsole.log(colors.green(\'hello\')); // outputs green text\nconsole.log(colors.red.underline(\'i like cake and pies\')) // outputs red underlined text\nconsole.log(colors.inverse(\'inverse the color\')); // inverses the color\nconsole.log(colors.rainbow(\'OMG Rainbows!\')); // rainbow\nconsole.log(colors.trap(\'Run the trap\')); // Drops the bass\n\n```\n\nI prefer the first way. Some people seem to be afraid of extending `String.prototype` and prefer the second way. \n\nIf you are writing good code you will never have an issue with the first approach. If you really don\'t want to touch `String.prototype`, the second usage will not touch `String` native object.\n\n## Disabling Colors\n\nTo disable colors you can pass the following arguments in the command line to your application:\n\n```bash\nnode myapp.js --no-color\n```\n\n## Console.log [string substitution](http://nodejs.org/docs/latest/api/console.html#console_console_log_data)\n\n```js\nvar name = \'Marak\';\nconsole.log(colors.green(\'Hello %s\'), name);\n// outputs -> \'Hello Marak\'\n```\n\n## Custom themes\n\n### Using standard API\n\n```js\n\nvar colors = require(\'colors\');\n\ncolors.setTheme({\n  silly: \'rainbow\',\n  input: \'grey\',\n  verbose: \'cyan\',\n  prompt: \'grey\',\n  info: \'green\',\n  data: \'grey\',\n  help: \'cyan\',\n  warn: \'yellow\',\n  debug: \'blue\',\n  error: \'red\'\n});\n\n// outputs red text\nconsole.log("this is an error".error);\n\n// outputs yellow text\nconsole.log("this is a warning".warn);\n```\n\n### Using string safe API\n\n```js\nvar colors = require(\'colors/safe\');\n\n// set single property\nvar error = colors.red;\nerror(\'this is red\');\n\n// set theme\ncolors.setTheme({\n  silly: \'rainbow\',\n  input: \'grey\',\n  verbose: \'cyan\',\n  prompt: \'grey\',\n  info: \'green\',\n  data: \'grey\',\n  help: \'cyan\',\n  warn: \'yellow\',\n  debug: \'blue\',\n  error: \'red\'\n});\n\n// outputs red text\nconsole.log(colors.error("this is an error"));\n\n// outputs yellow text\nconsole.log(colors.warn("this is a warning"));\n```\n\n*Protip: There is a secret undocumented style in `colors`. If you find the style you can summon him.*',
+605 silly install resolved     readmeFilename: 'ReadMe.md' } ]
+606 info install colors@1.0.3 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+607 info installOne colors@1.0.3
+608 verbose installOne of colors to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table not in flight; installing
+609 verbose lock using /home/andfaulkner/.npm/_locks/colors-b725bf24ad2789bb.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+610 silly install write writing colors 1.0.3 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+611 verbose unbuild node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+612 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+613 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+614 verbose tar unpack /home/andfaulkner/.npm/colors/1.0.3/package.tgz
+615 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+616 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors is being purged
+617 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+618 silly gunzTarPerm modes [ '755', '644' ]
+619 silly gunzTarPerm extractEntry package.json
+620 silly gunzTarPerm extractEntry safe.js
+621 silly gunzTarPerm extractEntry .travis.yml
+622 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+623 silly gunzTarPerm extractEntry ReadMe.md
+624 silly gunzTarPerm extractEntry examples/normal-usage.js
+625 silly gunzTarPerm extractEntry examples/safe-string.js
+626 silly gunzTarPerm extractEntry lib/colors.js
+627 silly gunzTarPerm extractEntry lib/extendStringPrototype.js
+628 silly gunzTarPerm extractEntry lib/index.js
+629 silly gunzTarPerm extractEntry lib/styles.js
+630 silly gunzTarPerm extractEntry lib/custom/trap.js
+631 silly gunzTarPerm extractEntry lib/custom/zalgo.js
+632 silly gunzTarPerm extractEntry lib/maps/america.js
+633 silly gunzTarPerm extractEntry lib/maps/rainbow.js
+634 silly gunzTarPerm extractEntry lib/maps/random.js
+635 silly gunzTarPerm extractEntry lib/maps/zebra.js
+636 silly gunzTarPerm extractEntry lib/system/supports-colors.js
+637 silly gunzTarPerm extractEntry screenshots/colors.png
+638 silly gunzTarPerm extractEntry tests/basic-test.js
+639 silly gunzTarPerm extractEntry tests/safe-test.js
+640 silly gunzTarPerm extractEntry themes/generic-logging.js
+641 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors/package.json
+642 info preinstall colors@1.0.3
+643 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors/package.json
+644 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors/package.json
+645 silly install resolved []
+646 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+647 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+648 info linkStuff colors@1.0.3
+649 silly linkStuff colors@1.0.3 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules as its parent node_modules
+650 verbose linkBins colors@1.0.3
+651 verbose linkMans colors@1.0.3
+652 verbose rebuildBundles colors@1.0.3
+653 info install colors@1.0.3
+654 info postinstall colors@1.0.3
+655 verbose unlock done using /home/andfaulkner/.npm/_locks/colors-b725bf24ad2789bb.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table/node_modules/colors
+656 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+657 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+658 info linkStuff cli-table@0.3.1
+659 silly linkStuff cli-table@0.3.1 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules as its parent node_modules
+660 verbose linkBins cli-table@0.3.1
+661 verbose linkMans cli-table@0.3.1
+662 verbose rebuildBundles cli-table@0.3.1
+663 verbose rebuildBundles [ 'colors' ]
+664 info install cli-table@0.3.1
+665 info postinstall cli-table@0.3.1
+666 verbose unlock done using /home/andfaulkner/.npm/_locks/cli-table-908474f170541e1c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/cli-table
+667 http 304 https://registry.npmjs.org/v8-flags
+668 silly get cb [ 304,
+668 silly get   { date: 'Thu, 27 Aug 2015 06:36:52 GMT',
+668 silly get     via: '1.1 varnish',
+668 silly get     'cache-control': 'max-age=60',
+668 silly get     etag: '"DPGCKIV0QU9SBJ7BQ36ZAR5XS"',
+668 silly get     age: '41',
+668 silly get     connection: 'keep-alive',
+668 silly get     'x-served-by': 'cache-dfw1820-DFW',
+668 silly get     'x-cache': 'HIT',
+668 silly get     'x-cache-hits': '1',
+668 silly get     'x-timer': 'S1440657412.611532,VS0,VE0',
+668 silly get     vary: 'Accept' } ]
+669 verbose etag https://registry.npmjs.org/v8-flags from cache
+670 verbose get saving v8-flags to /home/andfaulkner/.npm/registry.npmjs.org/v8-flags/.cache.json
+671 silly addNameRange number 2 { name: 'v8-flags', range: '>=0.1.2 <0.2.0', hasData: true }
+672 silly addNameRange versions [ 'v8-flags', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+673 silly addNamed v8-flags@0.1.2
+674 verbose addNamed "0.1.2" is a plain semver version for v8-flags
+675 silly cache afterAdd v8-flags@0.1.2
+676 verbose afterAdd /home/andfaulkner/.npm/v8-flags/0.1.2/package/package.json not in flight; writing
+677 verbose afterAdd /home/andfaulkner/.npm/v8-flags/0.1.2/package/package.json written
+678 silly install resolved [ { name: 'v8-flags',
+678 silly install resolved     version: '0.1.2',
+678 silly install resolved     description: 'Configures v8 flags at runtime.',
+678 silly install resolved     main: 'index.js',
+678 silly install resolved     scripts:
+678 silly install resolved      { preinstall: 'node ./scripts/preinstall',
+678 silly install resolved        install: 'node-gyp rebuild',
+678 silly install resolved        build: 'node-gyp build',
+678 silly install resolved        'gyp-remove': 'node-gyp remove `node -e \'console.log(process.version)\'`',
+678 silly install resolved        'test-main': 'sh test.sh `node --version`',
+678 silly install resolved        'test-0.8': 'sh test.sh 0.8',
+678 silly install resolved        'test-0.10': 'sh test.sh 0.10',
+678 silly install resolved        'test-0.11': 'sh test.sh 0.11',
+678 silly install resolved        'test-all': 'npm run test-main && npm run test-0.8 && npm run test-0.10 && npm run test-0.11',
+678 silly install resolved        test: 'if [ -e $TRAVIS ]; then npm run test-all; else npm run test-main; fi',
+678 silly install resolved        'flag-doc-0.8': 'nave use 0.8 npm install && nave use 0.8 node ./scripts/gen-flag-doc > flags-0.8.md',
+678 silly install resolved        'flag-doc-0.10': 'nave use 0.10 npm install && nave use 0.10 node ./scripts/gen-flag-doc > flags-0.10.md',
+678 silly install resolved        'flag-doc-0.11': 'nave use 0.11 npm install && nave use 0.11 node ./scripts/gen-flag-doc > flags-0.11.md',
+678 silly install resolved        'flag-doc': 'npm run flag-doc-0.8 && npm run flag-doc-0.10 && npm run flag-doc-0.11',
+678 silly install resolved        docme: 'docme README.md -- --configure .jsdocrc' },
+678 silly install resolved     repository: { type: 'git', url: 'git://github.com/thlorenz/v8-flags.git' },
+678 silly install resolved     homepage: 'https://github.com/thlorenz/v8-flags',
+678 silly install resolved     dependencies: { nan: '~1.2.0' },
+678 silly install resolved     devDependencies:
+678 silly install resolved      { doctoc: '~0.7.1',
+678 silly install resolved        nave: '~0.4.3',
+678 silly install resolved        semver: '~2.3.1',
+678 silly install resolved        tap: '~0.4.11' },
+678 silly install resolved     keywords: [ 'v8', 'flags', 'configure', 'tune' ],
+678 silly install resolved     author:
+678 silly install resolved      { name: 'Thorsten Lorenz',
+678 silly install resolved        email: 'thlorenz@gmx.de',
+678 silly install resolved        url: 'http://thlorenz.com' },
+678 silly install resolved     license:
+678 silly install resolved      { type: 'MIT',
+678 silly install resolved        url: 'https://github.com/thlorenz/v8-flags/blob/master/LICENSE' },
+678 silly install resolved     engine: { node: '>=0.8' },
+678 silly install resolved     bugs: { url: 'https://github.com/thlorenz/v8-flags/issues' },
+678 silly install resolved     _id: 'v8-flags@0.1.2',
+678 silly install resolved     _shasum: '5ff7ceecc6e25eb86c3a079ba43c263a360445ac',
+678 silly install resolved     _from: 'v8-flags@>=0.1.2 <0.2.0',
+678 silly install resolved     _npmVersion: '1.4.9',
+678 silly install resolved     _npmUser: { name: 'thlorenz', email: 'thlorenz@gmx.de' },
+678 silly install resolved     maintainers: [ [Object] ],
+678 silly install resolved     dist:
+678 silly install resolved      { shasum: '5ff7ceecc6e25eb86c3a079ba43c263a360445ac',
+678 silly install resolved        tarball: 'http://registry.npmjs.org/v8-flags/-/v8-flags-0.1.2.tgz' },
+678 silly install resolved     directories: {},
+678 silly install resolved     _resolved: 'https://registry.npmjs.org/v8-flags/-/v8-flags-0.1.2.tgz',
+678 silly install resolved     readme: 'ERROR: No README data found!' } ]
+679 info install v8-flags@0.1.2 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+680 info installOne v8-flags@0.1.2
+681 verbose installOne of v8-flags to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy not in flight; installing
+682 verbose lock using /home/andfaulkner/.npm/_locks/v8-flags-7e77d7b77f99360c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+683 silly install write writing v8-flags 0.1.2 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+684 verbose unbuild node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+685 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+686 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+687 verbose tar unpack /home/andfaulkner/.npm/v8-flags/0.1.2/package.tgz
+688 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+689 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags is being purged
+690 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+691 silly gunzTarPerm modes [ '755', '644' ]
+692 silly gunzTarPerm extractEntry package.json
+693 silly gunzTarPerm extractEntry .npmignore
+694 silly gunzTarPerm extractEntry README.md
+695 silly gunzTarPerm extractEntry LICENSE
+696 silly gunzTarPerm extractEntry index.js
+697 silly gunzTarPerm extractEntry binding.gyp
+698 silly gunzTarPerm extractEntry example/list-flags.js
+699 silly gunzTarPerm extractEntry example/meta.js
+700 silly gunzTarPerm extractEntry example/use-strict-violator.js
+701 silly gunzTarPerm extractEntry example/use-strict.js
+702 silly gunzTarPerm extractEntry flags-0.10.md
+703 silly gunzTarPerm extractEntry flags-0.11.md
+704 silly gunzTarPerm extractEntry .jsdocrc
+705 silly gunzTarPerm extractEntry v8/flag-definitions.3.11.10.h
+706 silly gunzTarPerm extractEntry v8/flag-definitions.3.14.5.h
+707 silly gunzTarPerm extractEntry v8/flag-definitions.3.25.30.h
+708 silly gunzTarPerm extractEntry test.sh
+709 silly gunzTarPerm extractEntry .travis.yml
+710 silly gunzTarPerm extractEntry scripts/gen-flag-doc.js
+711 silly gunzTarPerm extractEntry scripts/preinstall.js
+712 silly gunzTarPerm extractEntry scripts/comments/debug_compile_events.md
+713 silly gunzTarPerm extractEntry scripts/comments/always_opt.md
+714 silly gunzTarPerm extractEntry scripts/comments/cache_prototype_transitions.md
+715 silly gunzTarPerm extractEntry scripts/comments/check_elimination.md
+716 silly gunzTarPerm extractEntry scripts/comments/code_comments.md
+717 silly gunzTarPerm extractEntry scripts/comments/code_stats.md
+718 silly gunzTarPerm extractEntry scripts/comments/compilation_cache.md
+719 silly gunzTarPerm extractEntry scripts/comments/concurrent_sweeping.md
+720 silly gunzTarPerm extractEntry scripts/comments/crankshaft.md
+721 silly gunzTarPerm extractEntry scripts/comments/dead_code_elimination.md
+722 silly gunzTarPerm extractEntry scripts/comments/always_osr.md
+723 silly gunzTarPerm extractEntry scripts/comments/debug_sim.md
+724 silly gunzTarPerm extractEntry scripts/comments/debugger.md
+725 silly gunzTarPerm extractEntry scripts/comments/debugger_agent.md
+726 silly gunzTarPerm extractEntry scripts/comments/debugger_port.md
+727 silly gunzTarPerm extractEntry scripts/comments/harmony_collections.md
+728 silly gunzTarPerm extractEntry scripts/comments/harmony_modules.md
+729 silly gunzTarPerm extractEntry scripts/comments/harmony_proxies.md
+730 silly gunzTarPerm extractEntry scripts/comments/harmony_scope.md
+731 silly gunzTarPerm extractEntry scripts/comments/harmony_typeof.md
+732 silly gunzTarPerm extractEntry src/implications.h
+733 silly gunzTarPerm extractEntry src/v8_flag_list.cc
+734 silly gunzTarPerm extractEntry src/v8_flags.cc
+735 silly gunzTarPerm extractEntry src/v8_flags_meta.cc
+736 silly gunzTarPerm extractEntry test/implications.js
+737 silly gunzTarPerm extractEntry test/index.js
+738 silly gunzTarPerm extractEntry test/reset-all-flags.js
+739 silly gunzTarPerm extractEntry test/debug-only/index.js
+740 silly gunzTarPerm extractEntry test/fixtures/allow_natives_syntax.js
+741 silly gunzTarPerm extractEntry test/fixtures/always_opt.js
+742 silly gunzTarPerm extractEntry test/fixtures/code_stats.js
+743 silly gunzTarPerm extractEntry test/fixtures/expose_gc.js
+744 silly gunzTarPerm extractEntry test/fixtures/harmony_collections.js
+745 silly gunzTarPerm extractEntry test/fixtures/harmony_modules-exports.js
+746 silly gunzTarPerm extractEntry test/fixtures/harmony_modules-imports.js
+747 silly gunzTarPerm extractEntry test/fixtures/harmony_proxies.js
+748 silly gunzTarPerm extractEntry test/fixtures/harmony_scoping.js
+749 silly gunzTarPerm extractEntry test/fixtures/harmony_typeof.js
+750 silly gunzTarPerm extractEntry flags-0.8.md
+751 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/package.json
+752 info preinstall v8-flags@0.1.2
+753 verbose unsafe-perm in lifecycle true
+754 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/package.json
+755 silly prepareForInstallMany adding nan@~1.2.0 from v8-flags dependencies
+756 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/package.json
+757 silly cache add args [ 'nan@~1.2.0', null ]
+758 verbose cache add spec nan@~1.2.0
+759 silly cache add parsed spec { raw: 'nan@~1.2.0',
+759 silly cache add   scope: null,
+759 silly cache add   name: 'nan',
+759 silly cache add   rawSpec: '~1.2.0',
+759 silly cache add   spec: '>=1.2.0 <1.3.0',
+759 silly cache add   type: 'range' }
+760 silly addNamed nan@>=1.2.0 <1.3.0
+761 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for nan
+762 silly addNameRange { name: 'nan', range: '>=1.2.0 <1.3.0', hasData: false }
+763 silly mapToRegistry name nan
+764 silly mapToRegistry using default registry
+765 silly mapToRegistry registry https://registry.npmjs.org/
+766 silly mapToRegistry uri https://registry.npmjs.org/nan
+767 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+768 verbose request uri https://registry.npmjs.org/nan
+769 verbose request no auth needed
+770 info attempt registry request try #1 at 2:36:55 AM
+771 verbose etag "1E9ZPWSY0D5J95SNERYY3JUEX"
+772 http request GET https://registry.npmjs.org/nan
+773 http 304 https://registry.npmjs.org/nan
+774 silly get cb [ 304,
+774 silly get   { date: 'Thu, 27 Aug 2015 06:36:53 GMT',
+774 silly get     via: '1.1 varnish',
+774 silly get     'cache-control': 'max-age=60',
+774 silly get     etag: '"1E9ZPWSY0D5J95SNERYY3JUEX"',
+774 silly get     age: '0',
+774 silly get     connection: 'keep-alive',
+774 silly get     'x-served-by': 'cache-dfw1827-DFW',
+774 silly get     'x-cache': 'HIT',
+774 silly get     'x-cache-hits': '1',
+774 silly get     'x-timer': 'S1440657413.127116,VS0,VE188',
+774 silly get     vary: 'Accept' } ]
+775 verbose etag https://registry.npmjs.org/nan from cache
+776 verbose get saving nan to /home/andfaulkner/.npm/registry.npmjs.org/nan/.cache.json
+777 silly addNameRange number 2 { name: 'nan', range: '>=1.2.0 <1.3.0', hasData: true }
+778 silly addNameRange versions [ 'nan',
+778 silly addNameRange   [ '0.3.0-wip',
+778 silly addNameRange     '0.3.0-wip2',
+778 silly addNameRange     '0.3.0',
+778 silly addNameRange     '0.3.1',
+778 silly addNameRange     '0.3.2',
+778 silly addNameRange     '0.4.0',
+778 silly addNameRange     '0.4.1',
+778 silly addNameRange     '0.4.2',
+778 silly addNameRange     '0.4.3',
+778 silly addNameRange     '0.4.4',
+778 silly addNameRange     '0.5.0',
+778 silly addNameRange     '0.5.1',
+778 silly addNameRange     '0.5.2',
+778 silly addNameRange     '0.6.0',
+778 silly addNameRange     '0.7.0',
+778 silly addNameRange     '0.7.1',
+778 silly addNameRange     '0.8.0',
+778 silly addNameRange     '1.0.0',
+778 silly addNameRange     '1.1.0',
+778 silly addNameRange     '1.1.1',
+778 silly addNameRange     '1.1.2',
+778 silly addNameRange     '1.2.0',
+778 silly addNameRange     '1.3.0',
+778 silly addNameRange     '1.4.0',
+778 silly addNameRange     '1.4.1',
+778 silly addNameRange     '1.5.0',
+778 silly addNameRange     '1.4.2',
+778 silly addNameRange     '1.4.3',
+778 silly addNameRange     '1.5.1',
+778 silly addNameRange     '1.5.2',
+778 silly addNameRange     '1.6.0',
+778 silly addNameRange     '1.5.3',
+778 silly addNameRange     '1.6.1',
+778 silly addNameRange     '1.6.2',
+778 silly addNameRange     '1.7.0',
+778 silly addNameRange     '1.8.0',
+778 silly addNameRange     '1.8.1',
+778 silly addNameRange     '1.8.2',
+778 silly addNameRange     '1.8.3',
+778 silly addNameRange     '1.8.4',
+778 silly addNameRange     '1.9.0',
+778 silly addNameRange     '2.0.0',
+778 silly addNameRange     '2.0.1',
+778 silly addNameRange     '2.0.2',
+778 silly addNameRange     '2.0.3',
+778 silly addNameRange     '2.0.4',
+778 silly addNameRange     '2.0.5',
+778 silly addNameRange     '2.0.6',
+778 silly addNameRange     '2.0.7' ] ]
+779 silly addNamed nan@1.2.0
+780 verbose addNamed "1.2.0" is a plain semver version for nan
+781 silly cache afterAdd nan@1.2.0
+782 verbose afterAdd /home/andfaulkner/.npm/nan/1.2.0/package/package.json not in flight; writing
+783 verbose afterAdd /home/andfaulkner/.npm/nan/1.2.0/package/package.json written
+784 silly install resolved [ { name: 'nan',
+784 silly install resolved     version: '1.2.0',
+784 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+784 silly install resolved     main: 'include_dirs.js',
+784 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+784 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+784 silly install resolved     license: 'MIT',
+784 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+784 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+784 silly install resolved     _id: 'nan@1.2.0',
+784 silly install resolved     dist:
+784 silly install resolved      { shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+784 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.2.0.tgz' },
+784 silly install resolved     _from: 'nan@>=1.2.0 <1.3.0',
+784 silly install resolved     _npmVersion: '1.4.3',
+784 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+784 silly install resolved     maintainers: [ [Object] ],
+784 silly install resolved     directories: {},
+784 silly install resolved     _shasum: '9c4d63ce9e4f8e95de2d574e18f7925554a8a8ef',
+784 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.2.0.tgz',
+784 silly install resolved     readme: 'ERROR: No README data found!' } ]
+785 info install nan@1.2.0 into /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+786 info installOne nan@1.2.0
+787 verbose installOne of nan to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags not in flight; installing
+788 verbose lock using /home/andfaulkner/.npm/_locks/nan-1d93cd98b32d5e32.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+789 silly install write writing nan 1.2.0 to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+790 verbose unbuild node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+791 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+792 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+793 verbose tar unpack /home/andfaulkner/.npm/nan/1.2.0/package.tgz
+794 verbose tar unpacking to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+795 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan is being purged
+796 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+797 silly gunzTarPerm modes [ '755', '644' ]
+798 silly gunzTarPerm extractEntry package.json
+799 silly gunzTarPerm extractEntry README.md
+800 silly gunzTarPerm extractEntry LICENSE
+801 silly gunzTarPerm extractEntry include_dirs.js
+802 silly gunzTarPerm extractEntry .dntrc
+803 silly gunzTarPerm extractEntry build/config.gypi
+804 silly gunzTarPerm extractEntry nan.h
+805 verbose write writing to /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan/package.json
+806 info preinstall nan@1.2.0
+807 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan/package.json
+808 verbose readDependencies loading dependencies from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan/package.json
+809 silly install resolved []
+810 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+811 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+812 info linkStuff nan@1.2.0
+813 silly linkStuff nan@1.2.0 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules as its parent node_modules
+814 verbose linkBins nan@1.2.0
+815 verbose linkMans nan@1.2.0
+816 verbose rebuildBundles nan@1.2.0
+817 info install nan@1.2.0
+818 info postinstall nan@1.2.0
+819 verbose unlock done using /home/andfaulkner/.npm/_locks/nan-1d93cd98b32d5e32.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags/node_modules/nan
+820 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+821 info build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+822 info linkStuff v8-flags@0.1.2
+823 silly linkStuff v8-flags@0.1.2 has /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules as its parent node_modules
+824 verbose linkBins v8-flags@0.1.2
+825 verbose linkMans v8-flags@0.1.2
+826 verbose rebuildBundles v8-flags@0.1.2
+827 verbose rebuildBundles [ 'nan' ]
+828 info install v8-flags@0.1.2
+829 verbose unsafe-perm in lifecycle true
+830 info v8-flags@0.1.2 Failed to exec install script
+831 verbose unlock done using /home/andfaulkner/.npm/_locks/v8-flags-7e77d7b77f99360c.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+832 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+833 verbose unlock done using /home/andfaulkner/.npm/_locks/v8-flags-object-proxy-b9875bd675212036.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+834 verbose about to build /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+835 verbose unlock done using /home/andfaulkner/.npm/_locks/cute-stack-0c3f93a2d47dd876.lock for /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+836 verbose stack Error: v8-flags@0.1.2 install: `node-gyp rebuild`
+836 verbose stack Exit status 1
+836 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+836 verbose stack     at EventEmitter.emit (events.js:110:17)
+836 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+836 verbose stack     at ChildProcess.emit (events.js:110:17)
+836 verbose stack     at maybeClose (child_process.js:1015:16)
+836 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+837 verbose pkgid v8-flags@0.1.2
+838 verbose cwd /home/andfaulkner/Projects/testbed/express-testbed-2
+839 error Linux 3.13.0-37-generic
+840 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "cute-stack" "--savenpm" "install" "cute-stack"
+841 error node v0.12.7
+842 error npm  v2.11.3
+843 error code ELIFECYCLE
+844 error v8-flags@0.1.2 install: `node-gyp rebuild`
+844 error Exit status 1
+845 error Failed at the v8-flags@0.1.2 install script 'node-gyp rebuild'.
+845 error This is most likely a problem with the v8-flags package,
+845 error not with npm itself.
+845 error Tell the author that this fails on your system:
+845 error     node-gyp rebuild
+845 error You can get their info via:
+845 error     npm owner ls v8-flags
+845 error There is likely additional logging output above.
+846 verbose exit [ 1, true ]
+847 verbose unbuild node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+848 info preuninstall v8-flags@0.1.2
+849 info uninstall v8-flags@0.1.2
+850 verbose unbuild rmStuff v8-flags@0.1.2 from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules
+851 verbose unbuild rmStuff in /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules
+852 info postuninstall v8-flags@0.1.2
+853 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+854 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+855 silly vacuum-fs purging /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules/v8-flags
+856 silly vacuum-fs removing /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy/node_modules
+857 silly vacuum-fs quitting because other entries in /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+858 verbose unbuild node_modules/cute-stack/node_modules/v8-flags-object-proxy
+859 info preuninstall v8-flags-object-proxy@1.0.0
+860 info uninstall v8-flags-object-proxy@1.0.0
+861 verbose unbuild rmStuff v8-flags-object-proxy@1.0.0 from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules
+862 verbose unbuild rmStuff in /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules
+863 info postuninstall v8-flags-object-proxy@1.0.0
+864 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+865 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+866 silly vacuum-fs purging /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules/v8-flags-object-proxy
+867 silly vacuum-fs quitting because other entries in /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack/node_modules
+868 verbose unbuild node_modules/cute-stack
+869 info preuninstall cute-stack@1.3.1
+870 info uninstall cute-stack@1.3.1
+871 verbose unbuild rmStuff cute-stack@1.3.1 from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules
+872 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/.bin/cute is being gently removed
+873 silly gentlyRm verifying /home/andfaulkner/Projects/testbed/express-testbed-2 is an npm working directory
+874 silly gentlyRm containing path /home/andfaulkner/Projects/testbed/express-testbed-2 is under npm's control, in /home/andfaulkner/Projects/testbed/express-testbed-2
+875 silly gentlyRm deletion target /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/.bin/cute is under /home/andfaulkner/Projects/testbed/express-testbed-2
+876 verbose gentlyRm vacuuming from /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/.bin/cute up to /home/andfaulkner/Projects/testbed/express-testbed-2
+877 info postuninstall cute-stack@1.3.1
+878 silly gentlyRm /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack is being purged from base /home/andfaulkner/Projects/testbed/express-testbed-2
+879 verbose gentlyRm don't care about contents; nuking /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+880 silly vacuum-fs purging /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules/cute-stack
+881 silly vacuum-fs quitting because other entries in /home/andfaulkner/Projects/testbed/express-testbed-2/node_modules
