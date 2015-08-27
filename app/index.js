@@ -1,12 +1,19 @@
 //Instantiate & initialize app from Express class
 var express = require('express');
 var app = express();
+var seneca = require('seneca')();
 
 //Log - including level to set
+var log = require('app/helpers/winston-logger');
 var l = require('app/helpers/basicLog')(3, "index.js");
 
 //node modules
 var path = require('path');
+
+//register math actions
+seneca.client(11111)
+      .act('role:math,cmd:sum,' + 'left:123,right:27', log.info)
+      .act('role:math,cmd:multiply,' + 'left:10,right:5', log.info);
 
 //*************************** PUBLIC ROUTES ***************************//
 //Serve css & js libraries under "public" route

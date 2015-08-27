@@ -6,17 +6,14 @@ module.exports = (function buildSeneca(){
         return console.log(result);
     }
 
-    seneca
-        //register microservices
-        .use('app/microservices/plugins/emitStrings_mserv', { option1: "value1"} )
-        .use('app/microservices/plugins/math_test_1', { option1: "someoptval1"} )
+    //register microservices
+    seneca.use('app/microservices/plugins/emitStrings_mserv', { option1: "value1"} );
 
-        //register math actions
-        .act('role:math,cmd:sum,' + 'left:123,right:27', senlog)
-        .act('role:math,cmd:multiply,' + 'left:10,right:5', senlog)
+    seneca.use('app/microservices/plugins/math_test_1', { option1: "someoptval1"} )
+          .listen(11111);
 
-        //register string actions
-        .act('role:emitstr,cmd:hello', senlog)
+    //register string actions
+    seneca.act('role:emitstr,cmd:hello', senlog)
 
     return seneca;
 

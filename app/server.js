@@ -1,3 +1,6 @@
+//Logging
+var log = require('app/helpers/winston-logger');
+
 //Configuration for the Express app
 var config = require("app/config/default");
 
@@ -10,5 +13,5 @@ var app = require('./index');
 
 var server = app.listen(config.server.port, function(){
     var serveraddress = server.address();
-    console.log("example app listening! Bootup complete!");
+    log.info("example app listening! Bootup complete!");
 });
