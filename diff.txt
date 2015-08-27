@@ -1,0 +1,178 @@
+diff --git a/app/helpers/winston-logger.js b/app/helpers/winston-logger.js
+index d7f4c37..35adc0a 100644
+--- a/app/helpers/winston-logger.js
++++ b/app/helpers/winston-logger.js
+@@ -2,7 +2,6 @@
+ 
+ //node modules
+ var fs = require('fs');
+-var path = require('path');
+ var winston = require('winston');
+ 
+ var config = require('../config/default').winstonLogs;
+@@ -10,11 +9,11 @@ var config = require('../config/default').winstonLogs;
+ //Asynchronously check if a file exists
+ //TODO Make part of a utilities module
+ var fileExists = function fileExists(filePath, callback){
+-    return fs.stat(filePath, (err, stats) => {
++    fs.stat(filePath, (err, stats) => {
+         if (err) return callback(false);
+         return callback(stats.isFile());
+     });
+-};
++}
+ 
+ //Get all log file paths, create each log file that doesn't exist
+ Object.keys(config.transport).forEach(function(key){
+@@ -37,51 +36,11 @@ Object.keys(config.transport).forEach(function(key){
+     }
+ });
+ 
+-// var fileTransportFactory = function(logLvl, logFilePath){
+-//     return new winston.transports.File({
+-//         level:logLvl,
+-//         filename: path.join(__dirname, '../../logs', logFilePath),
+-//         handleExceptions: true,
+-//         json: true,
+-//         maxsize: 5242880, //5MB
+-//         maxFiles: 5,
+-//         colorize: false
+-//     });
+-// }
+-
+ //Creates logging object
+ var logger = new winston.Logger({
+     transports: [   //specify appenders here
+-
+-        // //EXCESSIVE DATA LOG
+-        // fileTransportFactory('silly', 'excessive-data-log.log'),
+-        // fileTransportFactory('info', 'all-logs.log'),
+-
+-
+-        new winston.transports.File({
+-                level: 'silly',
+-                filename: path.join(__dirname, '../../logs/excessive-data-log.log'),
+-                handleExceptions: true,
+-                json: true,
+-                maxsize: 5242880, //5MB
+-                maxFiles: 5,
+-                colorize: false
+-            }),
+-        new winston.transports.File({
+-                level: 'info',
+-                filename: path.join(__dirname, '../../logs/all-logs.log'),
+-                handleExceptions: true,
+-                json: true,
+-                maxsize: 5242880, //5MB
+-                maxFiles: 5,
+-                colorize: false
+-            }),
+-        new winston.transports.Console({
+-                level: 'debug',
+-                handleExceptions: true,
+-                json: false,
+-                colorize: true
+-            })
++        new winston.transports.File(config.transport.file),
++        new winston.transports.Console(config.transport.console)
+     ],
+     exitOnError: config.exitOnError
+ });
+diff --git a/logs/all-logs.log b/logs/all-logs.log
+index e69de29..a84637d 100644
+--- a/logs/all-logs.log
++++ b/logs/all-logs.log
+@@ -0,0 +1,93 @@
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:58:58.108Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:59:19.374Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:59:26.638Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:59:32.668Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:59:46.083Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T03:59:53.034Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T04:00:08.558Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T04:00:11.597Z"}
++{"level":"info","message":"second winston test!","timestamp":"2015-08-27T04:00:39.775Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:00:40.170Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:00:40.177Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:00:49.271Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:00:49.279Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:00:52.448Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:00:52.462Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:04.649Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:04.662Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:01:11.628Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:11.703Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:11.709Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:17.835Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:17.842Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:26.146Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:26.159Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:36.138Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:36.147Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:01:45.312Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:01:45.320Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:02:08.657Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:02:08.665Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:02:12.977Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:02:13.044Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:02:13.051Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:03:42.794Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:03:42.898Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:03:42.908Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:06:24.723Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:06:24.835Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:06:24.844Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:07:06.336Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:07:06.415Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:07:06.423Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:07:22.686Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:07:22.761Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:07:22.767Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:07:37.866Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:07:37.944Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:07:37.951Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:07:50.115Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:07:50.194Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:07:50.203Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:08:26.475Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:08:26.561Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:08:26.571Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:09:07.967Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:09:08.044Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:09:08.050Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:09:52.536Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:09:52.619Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:09:52.625Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:10:07.018Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:10:07.090Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:10:07.096Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:10:08.997Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:10:09.091Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:10:09.099Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:10:21.452Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:10:21.555Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:10:21.565Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:10:33.468Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:10:33.535Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:10:33.541Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:11:20.209Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:11:20.289Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:11:20.295Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:11:30.273Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:11:30.381Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:11:30.390Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:11:34.263Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:11:34.347Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:11:34.355Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:11:40.301Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:11:40.407Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:11:40.416Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:12:10.814Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:12:10.892Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:12:10.899Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:13:42.981Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:13:43.053Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:13:43.059Z"}
++{"level":"info","message":"example app listening! Bootup complete!","timestamp":"2015-08-27T04:14:13.389Z"}
++{"answer":50,"level":"info","message":"null","timestamp":"2015-08-27T04:14:13.457Z"}
++{"answer":150,"info":"123+27","level":"info","message":"null","timestamp":"2015-08-27T04:14:13.463Z"}

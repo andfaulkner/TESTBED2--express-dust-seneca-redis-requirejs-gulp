@@ -5,7 +5,6 @@ var seneca = require('seneca')();
 
 //Log - including level to set
 var log = require('app/helpers/winston-logger');
-var l = require('app/helpers/basicLog')(3, "index.js");
 
 //node modules
 var path = require('path');
