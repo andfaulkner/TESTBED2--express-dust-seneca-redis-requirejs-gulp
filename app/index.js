@@ -18,7 +18,6 @@ seneca.client(11111)
 app.use('/public', express.static(__dirname + '/libs'));
 //*********************************************************************//
 
-
 //*****************************************************************************//
 //------------------------ EXPRESS MIDDLEWARES STACK --------------------------//
 //SESSIONS, COOKIES, DB CONNECTS
@@ -29,18 +28,17 @@ require('app/db/session')(app)
 //****************************** VIEWS *******************************//
     // Use Dustjs as Express view engine, with dustjs-helpers
    .engine('dust', dust.engine({ useHelpers: true }))
-    //dir the app will recursively search for compilable template views
+    //dir app will recursively search for compilable template views
    .set('views', path.join(__dirname, 'components'))
    .set('view engine', 'dust')
 //********************************************************************//
 //************************** AUTHENTICATION **************************//
-   .use(require('app/components/login/router'))
-    //load 'index', 'login', and 'postlogin dashboard' routers into app
+   .use(require('app/components/login/router'))      //login page router
    .use(require('app/components/middlewares/checkSession'))
 //********************************************************************//
 //****************************** ROUTES ******************************//
-   .use(require('app/components/index/router'))
-   .use(require('app/components/dashboard/router'));
+   .use(require('app/components/index/router'))      //index (no path) router
+   .use(require('app/components/dashboard/router')); //dashboard router
 //********************************************************************//
 //-----------------------------------------------------------------------------//
 //*****************************************************************************//
