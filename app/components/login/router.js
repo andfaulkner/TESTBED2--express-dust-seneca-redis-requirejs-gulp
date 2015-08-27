@@ -1,9 +1,4 @@
-var l = require('app/helpers/basicLog')(1, "login router.js:");
-// var showLogs = { lvl: 3 };
-
-// var ce = function ce(str) { if (showLogs.lvl && showLogs.lvl >= 1) console.error("login router.js:::: " + str); };
-// var cl = function cl(str) { if (showLogs.lvl && showLogs.lvl >= 2) console.log("login router.js:::: " + str); };
-// var cdir = function cdir(str) { if (showLogs.lvl && showLogs.lvl >= 3) console.dir("login router.js:::: " + str); };
+var log = require('app/helpers/winston-logger'); //Logging
 
 //Build a new router object
 var loginRouter = require('express').Router();
@@ -83,7 +78,7 @@ var eventActions = (function eventActions(){
                     uuid.v4(null, uuidBuff, 0);
                     uuid.v4(null, uuidBuff, 16);
                     sessionId = uuid.unparse(uuidBuff);
-                    l.log(sessionId);
+                    log.log('verbose', sessionId);
                     //_________________________
 
                     req.session.return_to = '/login';
@@ -91,21 +86,21 @@ var eventActions = (function eventActions(){
                     //Store session in redis
                     req.redisDb.setex('session:username:' + username, 300, username, function(err, res){
                         if (err) return wf_next(err, false);
-                        l.log(res);
+                        log.log('silly', res);
                         req.session.username = username;
                         req.session.isLoggedIn = true;
-                        l.log(req.session);
+                        log.log('silly', req.session);
                         return wf_next(null, true);
                     });
                     // req.redisDb.set('session:' + sessionId, username, function(err, res){
                         // if (err) return wf_next(err, false);
-                        // l.log(res);
+                        // log.info(res);
                         // req.redisDb.expire('session:' + sessionId, 300, function(err, res){
                             // if (err) return wf_next(err, false);
-                            // l.log(res);
+                            // log.info(res);
                             // req.session.id = sessionId;
                             // req.isLoggedIn = true;
-                            // l.log(req.session);
+                            // log.info(req.session);
                             // return wf_next(null, true);
                         // });
                     // });
@@ -114,7 +109,7 @@ var eventActions = (function eventActions(){
 
             ], function wf_final_pickRedirectRoute(err, loginSuccess){
                 if (err) {
-                    l.err(err);
+                    log.error(err);
                     return loginFailRedirect(req, res);
                 }
                 //TODO maybe emit login attempt event? login success or fail event?

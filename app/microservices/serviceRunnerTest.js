@@ -1,16 +1,19 @@
+//Logger
+var log = require('app/helpers/winston-logger');
+
 module.exports = function(seneca){
 
     var superlog = function superlog( err, result ){
-        if (err) return console.error( err );
-        console.log(result);
+        if (err) return log.error( err );
+        log.info(result);
     };
 
     seneca
         .act(
             'role:math,cmd:sum,' + 'left:1, right:2',
             function( err, result ){
-                if (err) return console.error( err );
-                console.log(result);
+                if (err) return log.error( err );
+                log.info(result);
             })
 
         .act(

@@ -1,3 +1,4 @@
+var log = require('app/helpers/winston-logger'); //Logging
 var config = require("app/config/default");
 
 //Instantiate redis client
@@ -7,11 +8,11 @@ var client = redis.createClient(config.redis.port,
 
 //Connect to redis server
 client.on('connect', function handleConnectInit() {
-    console.log('Connected to Redis!');
+    log.info('Connected to Redis!');
     client.set('defaultUser', 'andrew', redis.print);
     client.get('defaultUser', function handleRetDefaultUser(err, reply) {
-        if (err) return console.error(err);
-        return console.log(reply.toString());
+        if (err) return log.error(err);
+        return log.log('verbose', reply.toString());
     });
 });
 

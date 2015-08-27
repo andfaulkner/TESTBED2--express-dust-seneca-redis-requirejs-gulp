@@ -1,5 +1,7 @@
+var log = require('app/helpers/winston-logger'); //Logging
+
 function minimal_plugin(options){
-    console.log(options);
+    log.info(options);
 }
 
 require('seneca')()

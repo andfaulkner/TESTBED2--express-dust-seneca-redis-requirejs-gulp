@@ -3,7 +3,7 @@
 //node modules
 var fs = require('fs');
 var path = require('path');
-var winston = require('winston');
+var winston = require('winston').cli();
 
 var config = require('../config/default').winstonLogs;
 
@@ -20,16 +20,16 @@ var fileExists = function fileExists(filePath, callback){
 };
 
 //Get all log file paths, create each log file that doesn't exist
-logFileNames.forEach(function(logFileName, index){
+logFileNames.forEach(function(logFileName){
     var logFile = path.join(__dirname, '../../logs', logFileName);
 
     //Checks if the log file exists, creates it if not
     return fileExists(logFile, function(isFile) {
-        if (isFile !== false) return console.log(logFile + " exists!");
+        if (isFile !== false) return console.log(logFile + ' exists!');
 
-        fs.writeFile(logFile, "", function(err) {
-            if (err) return console.log("creating " + logFile + "failed");
-            return console.log("creating " + logFile + " succeeded!");
+        fs.writeFile(logFile, '', function(err) {
+            if (err) return console.log('creating ' + logFile + 'failed');
+            return console.log('creating ' + logFile + ' succeeded!');
         });
 
     });
@@ -50,27 +50,36 @@ var fileTransportFactory = function(logLvl, nm, logFilePath){
 };
 
 //Creates logging object
-var logger = new winston.Logger({
+var logger = new (winston.Logger)({
     transports: [   //specify appenders here
+
+        //DATA --> CONSOLE
         new winston.transports.Console({
-            level: 'debug',
+            level: config.consoleLogLevel,
             handleExceptions: true,
             json: false,
             colorize: true
         }),
+
         //COMPLETE (EXCESSIVE) DATA --> FILE LOG
         fileTransportFactory('silly', 'silly-log', 'excessive-data-log.log'),
+
         //INFO --> FILE LOG
         fileTransportFactory('info', 'info-log', 'all-logs.log')
     ],
+
     exitOnError: config.exitOnError
 });
 
+
+//***************************** EXPORTS ******************************//
 module.exports = logger;
+
 module.exports.stream = {
     write: function(message, encoding){
         logger.info(message);
     }
 };
+//********************************************************************//
 
 }());

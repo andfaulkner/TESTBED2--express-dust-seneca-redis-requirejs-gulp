@@ -1,6 +1,8 @@
+var log = require('app/helpers/winston-logger'); //Logging
+
 //******************************* @EXPORT - MODULE *******************************//
 var math = function math(options) {
-    if (options.debug === true) console.log("enters math");
+    if (options.debug === true) log.info("enters math");
 
     this.add('init:math', init); //the special initialization pattern
     this.add('role:math,cmd:sum', sum)
@@ -13,8 +15,8 @@ var math = function math(options) {
      * INITIALIZATION FUNCTION
      */
     function init(msg, respond){
-        if (options.debug === true) console.log("** math_test_1.js HAS DEBUG MODE ON **");
-        console.log("math initializing!");
+        if (options.debug === true) log.info("** math_test_1.js HAS DEBUG MODE ON **");
+        log.info("math initializing!");
         respond();
     }
 
@@ -61,7 +63,7 @@ var math = function math(options) {
      * Multiply 2 numberss in message sent: msg.left & msg.right
      */
     function multiply(msg, respond) {
-        respond(null, { answer: msg.left * msg.right })
+        respond(null, { answer: msg.left * msg.right });
     }
 
 
@@ -69,14 +71,14 @@ var math = function math(options) {
      * Subtract msg.right from msg.left
      */
     function subtract(msg, respond) {
-        respond(null, { answer: msg.left - msg.right })
+        respond(null, { answer: msg.left - msg.right });
     }
 
     /**
      * Initialization fn run before any other role:math action fn
      */
     this.wrap('role:math', function(msg, respond) {
-        if (options.debug === true) console.log('in math_test_1 wrap!');
+        if (options.debug === true) log.info('in math_test_1 wrap!');
         msg.left = Number(msg.left).valueOf();
         msg.right = Number(msg.right).valueOf();
         this.prior(msg, respond);
@@ -93,7 +95,7 @@ var math = function math(options) {
     if (hasLaunch === true) {
         require('seneca')()
             .use(math, { debug: true })
-            .act('role:math,cmd:multiply,left:10,right:22', console.log)
+            .act('role:math,cmd:multiply,left:10,right:22', log.info);
     }
 }(math));
 

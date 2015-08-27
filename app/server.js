@@ -1,5 +1,4 @@
-//Logging
-var log = require('app/helpers/winston-logger');
+var log = require('app/helpers/winston-logger'); //Logging
 
 //Configuration for the Express app
 var config = require("app/config/default");

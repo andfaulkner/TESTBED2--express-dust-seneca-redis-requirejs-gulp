@@ -1,5 +1,5 @@
 //Log - including level to set
-var l = require('app/helpers/basicLog')(2, "session.js");
+var log = require('app/helpers/winston-logger'); //Logging
 
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
@@ -43,8 +43,8 @@ module.exports = function setupSessionHandling(app){
 
     //TEST THAT REQUEST OCCURRED WITH SESSION INFO
     app.use(/^((?!public)[\s\S])*$/, function(req, res, next){ //for all but /public route
-        l.dir(req.session);
-        l.log('request occurred. req.session present? ' + ((req.session) ? true : false));
+        log.log('debug', req.session);
+        log.log('debug', 'request occurred. req.session present? ' + ((req.session) ? true : false));
         next();
     });
 

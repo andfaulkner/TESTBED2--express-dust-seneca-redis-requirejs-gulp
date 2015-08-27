@@ -1,4 +1,4 @@
-var l = require('app/helpers/basicLog')(1, "dashboard router.js:");
+var log = require('app/helpers/winston-logger'); //Logging
 
 //Build a new router object
 var dashboardRouter = require('express').Router();
@@ -6,7 +6,7 @@ var dashboardRouter = require('express').Router();
 /** FIRST POST-LOGIN PAGE */
 dashboardRouter.route('/dashboard')
     .get(function(req, res){
-        l.log(req.session.isLoggedIn);
+        log.log('verbose', req.session.isLoggedIn);
         if (req.session.isLoggedIn === true) {
             res.render('dashboard/index.dust');
         } else {
@@ -16,12 +16,12 @@ dashboardRouter.route('/dashboard')
     })
     .post( function(req, res, next){
             res.send('Hello World! Pingback from a POST at /dashboard!\n');
-            next();
+            return next();
         }, function(req, res, next){
-            console.log('in 2nd route handler!');
-            next();
+            log.log('verbose', 'in 2nd route handler!');
+            return next();
         }, function(req, res){
-            console.log('reaches 3rd route handler?');
+            return log.log('verbose', 'reaches 3rd route handler?');
     });
 
 
