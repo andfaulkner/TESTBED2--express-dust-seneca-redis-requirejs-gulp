@@ -7,7 +7,7 @@ var math = function math(options) {
     this
         /**
          * Checks that numbers to sum are finite, runs & gets sum from parent (actual
-         * summing) service, attaches initial params to sum, displays sum & info
+         * summing) service, attaches initial params to sum, displays sum & info.
          */
         .add('role:math,cmd:sum',
             function(msg, respond) {
