@@ -1,16 +1,30 @@
-var spawn = require('child_process').spawn;
-var path = require('path');
-var fs = require('fs');
-var log = require(path.join(__dirname, '../app/helpers/winston-logger')).seneca;
-var async = require('async');
-var _ = require('lodash');
+var spawn = require('child_process').spawn,
+    path = require('path'),
+    fs = require('fs'),
+    log = require(path.join(__dirname, '../app/helpers/winston-logger')).seneca,
+    async = require('async'),
+    _ = require('lodash');
+
+var countExceptions = 0;
+
+process.addListener('uncaughtException', function (e) {
+  log.error('!!!! UNCAUGHT EXCEPTION !!!! NUMBER: ' + (++countExceptions));
+  log.error('message::: ' + e.message);
+  console.dir(e);
+  log.error('end of uncaught exception number: ' + countExceptions);
+});
 
 
-var conf = {
-    titles: ['math_test_1', 'stringManipulator'],
+/**
+ * Configuration for microservices - including which to launch
+ * @type {Object}
+ */
+const conf = {
+    titles: ['math_test_1.js', 'stringManipulator.js'],
     uServiceBasePath: path.join(__dirname, '../app/microservices/plugins/')
 };
 
+// list containing all registered microservices
 var uServices = {};
 
 var buildCmd = ((title, uServiceBasePath, grepToInclude, grepToExclude) =>
@@ -21,109 +35,169 @@ var buildCmd = ((title, uServiceBasePath, grepToInclude, grepToExclude) =>
          ((grepToExclude) ? ' | grep -V ' + grepToExclude +
                             ' --line-buffered' : '')));
 
-log.info(conf.uServiceBasePath);
-
-log.info(buildCmd(conf.titles[0], conf.uServiceBasePath));
+//log.info(conf.uServiceBasePath);
+//log.info(buildCmd(conf.titles[0], conf.uServiceBasePath));
 
 
 //**************************** SINGLE SPAWN ****************************//
 //register service events
-var uServiceEventSetup = function uServiceEventSetup(uService, cb) {
+var uServiceEventSetup = function uServiceEventSetup(uService, next) {
+    log.debug('in uServiceEventSetup!');
     uService.stdout.on('data', (data) => (log.info('output: ' + data)));
 
     // Send data to the child process via its stdin stream
-    uService.stdin.write("Hello there!");
+    uService.stdin.write('Hello there!');
 
     uService.stdout.on('data', (data) => console.log('stdout: ' + data));
     uService.stderr.on('data', (data) => (console.log('stderr: ' + data)));
 
     uService.on('close', (code) => (console.log('child process exited with code ' + code)));
-    uService = uServices[uService];
+    // uServices[uService] = uService;
 
-    cb(null, uService);
+    log.debug('uServiceEventSetup: before return!');
+    return (next) ? next(null, uService) : uService;
 };
 
 
 /**
- * Launches a single microservice - at location 'uPath'
+ * Launches a single microservice - at location 'uPath' - returns new process
  * @param  {String}   uPath  - path to the uService to launch
- * @param  {Function} cb     - run fn when uService done launch;; cb(err, val)
- * @return {[type]}         [description]
+ * @param  {Function} next   - run fn when uService done launch;; cb(err, spawned process)
+ * @return {Function} next fn given null (no err) and spawned child process
  */
-var spawn_uService = function spawn_uService(uPath, cb){
-    // var cmd = buildCmd(title, conf.uServiceBasePath);
-    var uServ = spawn('gnome-terminal',
-                     [
-                       '--title=SENECA__' + path.basename(uPath, 'js'),
-                       '-x',
-                       'nodemon',
-                       uPath,
-                       'launch',
-                       '--seneca.log.all'
-                     ], {
-                        env: process.env,
-                        cwd: process.cwd()
-                    });
-    // var uServ = spawn('gnome-terminal', [
-    //                   '--title=' + title,
-    //                   '-x',
-    //                   'nodemon',
-    //                   'app/microservices/plugins/' + title + '.js',
-    //                   'launch',
-    //                   '--seneca.log.all'
-    //                ],
-    //               { env: process.env, cwd: process.cwd() });
+var spawn_uService = function spawn_uService(uPath, next) {
 
-    uServiceEventSetup(uServ);
+    return spawn('gnome-terminal', [
+                            '--title=SENECA__' + path.basename(uPath, 'js'),
+                            '-x',
+                            'nodemon',
+                            uPath,
+                            'launch',
+                            '--seneca.log.all'
+                        ], {
+                            env: process.env,
+                            cwd: process.cwd()
+                        });
 
-    // var mathChild = spawn(cmd, { env: process.env, cwd: process.cwd() });
-
-    //___________________________________________________________________________//
-    // Kill the child midway through its sleep. - {{{FOR TESTING}}}
-    setTimeout(() => {
-        uServ.kill();
-    }, 5000);
-    cb(null, 'end of spawn uService section');
-    //___________________________________________________________________________//
+    // // var cmd = buildCmd(title, conf.uServiceBasePath);
+    // return next(null, spawn('gnome-terminal', [
+    //                         '--title=SENECA__' + path.basename(uPath, 'js'),
+    //                         '-x',
+    //                         'nodemon',
+    //                         uPath,
+    //                         'launch',
+    //                         '--seneca.log.all'
+    //                     ], {
+    //                         env: process.env,
+    //                         cwd: process.cwd()
+    //                     }));
 };
 
-//Check for existence of a file
-fileExists(conf.uServiceBasePath, (str) => {
-    var cmd = buildCmd(title, conf.uServiceBasePath);
-    log.info(str);
-});
+    //next should be uServiceEventSetup(uServ)
+    //___________________________________________________________________________//
+    // Kill the child midway through its sleep. - {{{FOR TESTING}}}
+    // setTimeout(() => {
+    //     uServ.kill();
+    // }, 5000);
+    // cb(null, 'end of spawn uService section');
+    //___________________________________________________________________________//
+// };
 
 
+
+log.info('about to enter async.each');
+//___________________________________________________________________________//
+//___________________________________________________________________________//
 //
+// TODO :: INCOMPLETE
 // Launch each uService one after another
 //
-async.each(conf.titles, function(title){
+async.each(conf.titles, function(title, each_next){
+    //TODO create error object for uService === null
+    //TODO come up with other error objects
 
+    log.info('in async.each!');
     log.debug(title);
 
     //___WATERFALL START __//
     async.waterfall([
 
+        //
         //SET OF ACTIONS TO TAKE IN SEQUENCE
-        function wf1(next){
-            return next(null, 'data');
+        //
+
+        //launch a process
+        function wf1_launchSenecaService(next){
+            log.info('in wf1!');
+            var uPath = path.join(conf.uServiceBasePath, title);
+            // var new_uService = spawn_uService(uPath);
+            //     // spawn('gnome-terminal', [
+            //     //             '--title=SENECA__' + path.basename(uPath, 'js'),
+            //     //             '-x', 'nodemon', uPath, 'launch', '--seneca.log.all'
+            //     //         ], {
+            //     //             env: process.env,
+            //     //             cwd: process.cwd()
+            //     //         });
+            // log.log('debug', 'wf1: is uService still an object? ' + typeof new_uService.pid === 'number');
+            // // console.dir(new_uService);
+            // log.info('at wf1 end!');
+            //TODO place error object for uService === null here
+            next(null, spawn_uService(uPath));
         },
-        function wf2(data, next){
-            return next(null, 'data2');
+
+        //attach event listeners to process
+        function wf2_attachEventListeners(uService, next){
+            log.info('in wf2!');
+            // log.log('debug', 'wf2: is uService still an object? ' + typeof uService.pid === 'number');
+            // log.info('wf2: before uService passed to uServiceEventSetup!');
+            // uService = uServiceEventSetup(uService);
+            // log.info('before wf2 return!');
+            // log.debug('wf2: is uService still an object? ' + typeof uService.pid === 'number');
+            //TODO place error object for uService === null here
+            next(null, uServiceEventSetup(uService));
         },
-        function wf3(data, next){
-            return next(null, 'data3');
+
+        //provide API to communicate with process
+        function wf3(uService, next){
+            log.info('in wf3!');
+            log.log('debug', 'wf3: is uService still an object? ' + typeof uService.pid === 'number');
+            log.info(uService.pid);
+            //TODO place error object for uService === null here
+            next(null, uService);
         }
         //_________________________________
 
     //Run when an  individual microservice launches
-    ], function spawn_wfComplete(err, result){
-        if (err) return log.error('spawn_wfComplete ERR: ' + err) ;
-        log.info('spawn_wfComplete SUCCESS: ' + result)
-
+    ], function spawn_wfComplete(err, uService){
+        if (err) {
+            log.error('spawn_wfComplete ERR: ' + err);
+            each_next(err);
+        }
+        log.info('spawn_wfComplete SUCCESS: uService: ' + uService);
+        each_next(null);
     }); //___WATERFALL END __//
 
-}); //___EACH END___//
+//___EACH ITERATOR END___//
+}, function(err){
+    if(err) {
+        log.error('EACH FAILED WITH ERROR: ' + err);
+        return;
+    }
+    log.info('EACH SUCCEEDED! ALL PROCESSES ARE NOW LOADED');
+    return;
+});
+
+log.log('debug', 'reached end of file!');
+
+        // each_next(null, uService);
+
+//___EACH CALLBACK END___//
+//___________________________________________________________________________//
+//___________________________________________________________________________//
+
+
+
+
 
 // //Excutes when ALL microservices have run & been initialized
 // }, function eachCallback(args){

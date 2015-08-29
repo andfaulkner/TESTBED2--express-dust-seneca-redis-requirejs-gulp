@@ -6,8 +6,8 @@ module.exports = ((() =>
     (require('seneca')()
 
         //register microservices
-        .use('app/microservices/plugins/emitHello', { opt1: "val1"})
-        .use('app/microservices/plugins/math_test_1', { opt1: "someoptval1"})
+        .use('app/microservices/plugins/emitHello', { opt1: 'val1'})
+        .use('app/microservices/plugins/math_test_1', { opt1: 'someoptval1'})
         .listen(11111)
 
         //register string actions
