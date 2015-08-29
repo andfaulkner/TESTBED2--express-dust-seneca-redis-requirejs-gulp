@@ -1,0 +1,1 @@
+module.exports = emitStrings = options$7189 => this.add('role:emitstr,cmd:hello', (args$7190, done$7191) => done$7191(null, { say: 'hellooooooooooo!!' }));

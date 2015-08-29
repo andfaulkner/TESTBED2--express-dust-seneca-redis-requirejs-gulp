@@ -1,8 +1,9 @@
 var log = require('app/helpers/winston-logger').seneca; //Logging
 
-function minimal_plugin(options){
-    log.info(options);
-}
+// function minimal_plugin(options){
+//     return log.info(options);
+// }
 
 require('seneca')()
-    .use( minimal_plugin, {foo:'bar'});
+    .use(((options) => (log.info(options))),
+         {foo:'bar'} );

@@ -1,4 +1,18 @@
+require("harmonize")(); // ensure es6 works
+
+console.log(Error.stackTraceLimit);
+//console.dir(process, {showHidden: true, depth: 20, colors: true });
+console.dir(process.execArgv, {showHidden: true, depth: 20, colors: true });
+//console.dir(process.env);
+console.log(process.version);
+
+console.dir(process.config, {showHidden: true, depth: 20, colors: true });
+
+let str = "yay!";
+
 var gulp = require('gulp');
+
+require('colors');
 
 //NODE MODULES & JS LIBRARIES
 var path    = require('path'),
@@ -44,7 +58,9 @@ var p = require('gulp-packages')(gulp, [
     'sass',                     // compile scss and sass --> css
     'shell',                    // run shell commands with gulp
     'size',                     // output file size
+    'sourcemaps',               // link up precompile and postcompile code
     'stats',                    // provides stats on files passed thru stream
+    'sweetjs',                  // expand macros
     'tap',                      // run function mid-stream
     'webpack'                   // compile webpack
 ]);
@@ -141,6 +157,19 @@ var rmDebugCode = lazypipe()
         p.replace.bind(this, /\/\*<\{\{TEST\*\/[\s\S]*?\/\*TEST\}\}\>\*\//gm, ''));
 //#################################################################################
 
+//################################################################################
+//#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LIST ALL GULP TASKS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//################################################################################
+gulp.task('get-tasks', () =>
+    (process.nextTick(() => {
+        console.log('\n_________ALL REGISTERED GULP TASKS_________');
+        Object.keys(gulp.tasks).forEach((t) =>
+            ((t === 'install' || t === 'uninstall') ? null :
+                console.log('-- ' + t.bgBlack.green)))
+        console.log('___________________________________________\n');
+    })));
+//#################################################################################
+
 
 //################################################################################
 //#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LIVERELOAD SERVER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -149,9 +178,9 @@ gulp.task('server', function livereloadServer(){
     livereload.listen();                    // listen for changes
     return consoleTaskReport()
         .pipe(p.nodemon({                       // configure nodemon
-            script: 'build/bin/launcher.js',    // the script to run the app
-            ext: 'js dust json css scss sass html htm png jpg gif hbs ejs rb xml xsl jpeg avi mp3 mp4 mpg py txt env'
-
+            script: 'app/index.js',    // the script to run the app
+            js: 'node --es_staging --harmony --harmony_proxies --stack_trace_limit=1000 --harmony_modules',
+            ext: 'js dust json css scss sass html htm png jpg gif hbs ejs rb xml xsl jpeg avi mp3 mp4 mpg py txt env sh'
         }).on('restart', () => {
            livereload.listen();
            return gulp.src('build/bin/launcher.js')   // when the app restarts, run livereload.
@@ -168,19 +197,26 @@ gulp.task('server', function livereloadServer(){
     });
 //################################################################################
 
+gulp.task('copy-static', function(){
+    return gulp.src(['./app/**/*.*', '!./app/**/*.js'])
+        .pipe(gulp.dest('./src'));
+});
+
+gulp.task('compile-sweet-macros', function compileSweetMacros(){
+    return gulp.src(['./app/**/*.js'])
+        .pipe(consoleTaskReport())
+        .pipe(p.sweetjs({ modules: ['./macros-test'] }))
+        .pipe(gulp.dest('./src'));
+});
 
 //################################################################################
 //#~~~~~~~~~~~~~~~~~ CONVERT COMMONJS LIBS TO AMD FOR REQUIREJS ~~~~~~~~~~~~~~~~~~
 //################################################################################
-gulp.task('requirejs', function(){
-    return gulp.src('./')
-    })
-
 
 //################################################################################
 
 
 gulp.task('watch', function(){
-    gulp.watch([SRC + '**/*.*', path.join(__dirname, 'config/**/*.*')], () =>
-        runSequence('makeRoutes', 'build'));
+    gulp.watch([SRC + '**/*.*', path.join(__dirname, 'config/**/*.*')],
+                () => runSequence('makeRoutes', 'build'));
 });

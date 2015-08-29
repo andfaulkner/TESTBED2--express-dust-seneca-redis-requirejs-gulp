@@ -3,7 +3,9 @@ var _ = require('lodash');
 
 //******************************* @EXPORT - MODULE *******************************//
 var math = function math(options) {
+
     if (options.debug === true) log.info('enters math');
+
 
     //Subtract msg.right from msg.left
     var subtract = ((msg, respond) =>
@@ -27,12 +29,14 @@ var math = function math(options) {
     var sum2 = ((msg, respond) =>
         (!Number.isFinite(msg.left) || !Number.isFinite(msg.right)) ?
             (respond(new Error('Expected left & right to be numbers'))) :
-            (this.prior({
-                role:'math',cmd:'sum',left:msg.left,right:msg.right
-            }, ((err, result) => ((err) ?
-                    respond(err) :
-                    (respond(null, _.merge({ info: msg.left + '+' + msg.right},
-                                           result))))))));
+            (this.prior({ role: 'math',     cmd: 'sum',
+                          left: msg.left,   right: msg.right},
+                        ((err, result) =>
+                          ((err) ? respond(err) :
+                              (respond(null,
+                                       _.merge({ info: msg.left + '+' + msg.right },
+                                               result))))))));
+
 
     this.add('init:math', init); //the special initialization pattern
     this.add('role:math,cmd:sum', sum)
@@ -66,8 +70,11 @@ var math = function math(options) {
 
 // FOR DEBUGGING - ONLY RUN IF PLUGIN FROM CLI & 'launch' PARAM PASSED IN
 (((math) =>
-    (process.argv.some((arg) => (arg === 'launch') ? true : false) === true) ?
-        require('seneca')().use(math, { debug: true })
-            .act('role:math,cmd:multiply,left:10,right:22', log.info) : null)(math));
+    (process.argv.some( (arg) => (arg === 'launch') ) === true) ?
+        require('seneca')()
+            .use(math, { debug: true })
+            .act('role:math,cmd:multiply,left:10,right:22', log.info) :
+        null)
+(math));
 
 module.exports = math;

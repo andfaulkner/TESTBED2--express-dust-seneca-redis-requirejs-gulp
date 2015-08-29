@@ -7,8 +7,7 @@ var config = require("app/config/default");
 var seneca = (require('./microservices/serviceRunnerTest')
                      (require('./microservices/seneca')));
 
-//Build Express app itself (loads & runs a constructor module)
-var app = require('./index');
-
-var server = app.listen(config.server.port, (() =>
-    (log.info("example app listening! Bootup done!"))));
+//Build Express app itself (loads & runs a constructor module), serves over web
+var server = require('./index')                              // "app"
+    .listen(config.server.port, (() =>
+        (log.info("example app listening! Bootup done!")))); // server
