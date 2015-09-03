@@ -16967,3 +16967,13 @@
 {"info":"4+211","answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-08-29T08:25:01.698Z"}
 {"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-08-29T08:25:01.709Z"}
 {"info":"123+27","answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-08-29T08:25:01.716Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-03T05:58:34.858Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-03T05:58:34.864Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.879Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.902Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.917Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.917Z"}
+{"info":"1+2","answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.920Z"}
+{"info":"4+211","answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.920Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.931Z"}
+{"info":"123+27","answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-03T05:58:34.936Z"}
