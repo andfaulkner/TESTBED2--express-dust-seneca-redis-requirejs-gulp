@@ -1,3 +1,7 @@
+//TODO broken as fuck...although it runs, the seneca processes spawned appear to
+// die after running once, and the script exits, severing communication. Also, the
+// script is unable to write to the output processes.
+
 var spawn = require('child_process').spawn,
     path = require('path'),
     fs = require('fs'),
@@ -7,10 +11,36 @@ var spawn = require('child_process').spawn,
 
 var countExceptions = 0;
 
+/////////////////////////////////////////////////
+///// EXAMPLE USE OF NEW PROCESS WITH CAT ///////
+/////////////////////////////////////////////////
+var cat = spawn('cat');
+cat.stdin.write('Foo Bar');
+cat.stdout.on('data', function(d) {
+    log.info('cat.stdout.on - data event');
+    log.info(d);
+});
+
+cat.stdout.on('exit', function(d) {
+    log.info('cat exited!');
+    log.info(d);
+});
+
+cat.on('close', (code) => {
+    log.debug('cat close event ');
+    log.debug('cat child process exited with code ' + code);
+});
+
+cat.stdin.end();
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+
+// HANDLE UNCAUGHT EXCEPTIONS
 process.addListener('uncaughtException', function (e) {
   log.error('!!!! UNCAUGHT EXCEPTION !!!! NUMBER: ' + (++countExceptions));
   log.error('message::: ' + e.message);
   console.dir(e);
+  console.error(e.stack);
   log.error('end of uncaught exception number: ' + countExceptions);
 });
 
@@ -27,14 +57,6 @@ const conf = {
 // list containing all registered microservices
 var uServices = {};
 
-var buildCmd = ((title, uServiceBasePath, grepToInclude, grepToExclude) =>
-    ('gnome-terminal --title=SENECA_' + title.toUpperCase() + ' ' + '-x nodemon ' +
-         conf.uServiceBasePath + title + '.js' + ' launch ' +  '--seneca.log.all ' +
-         ((grepToInclude) ? ' | grep -i ' + grepToInclude +
-                            ' --line-buffered' : '') +
-         ((grepToExclude) ? ' | grep -V ' + grepToExclude +
-                            ' --line-buffered' : '')));
-
 //log.info(conf.uServiceBasePath);
 //log.info(buildCmd(conf.titles[0], conf.uServiceBasePath));
 
@@ -43,15 +65,41 @@ var buildCmd = ((title, uServiceBasePath, grepToInclude, grepToExclude) =>
 //register service events
 var uServiceEventSetup = function uServiceEventSetup(uService, next) {
     log.debug('in uServiceEventSetup!');
-    uService.stdout.on('data', (data) => (log.info('output: ' + data)));
+
+    // uService.stdin.resume();
+
+    uService.on('error', (err) => {
+        log.error('in uService.error("err") ');
+        console.log(err);
+        log.error(err);
+        log.error('ERROR: ' + err);
+    });
+
+    uService.stdout.on('data', (data) => {
+        log.debug('in uService.stdout.on("data") #1 ');
+        log.debug('output: ' + data);
+    });
+
+    console.dir(uService.stdin);
 
     // Send data to the child process via its stdin stream
-    uService.stdin.write('Hello there!');
+    // causes ECONNRESET error
+    uService.stdin.write('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Hello there!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 
-    uService.stdout.on('data', (data) => console.log('stdout: ' + data));
-    uService.stderr.on('data', (data) => (console.log('stderr: ' + data)));
+    uService.stdout.on('data', (data) => {
+        log.debug('in uService.stdout.on("data") #2 ');
+        log.debug('stdout: ' + data);
+    });
 
-    uService.on('close', (code) => (console.log('child process exited with code ' + code)));
+    uService.stderr.on('data', (data) => {
+        log.debug('in uService.stderr.on("data")');
+        log.debug('stderr: ' + data);
+    });
+
+    uService.on('close', (code) => {
+        log.debug('uService.on("close") event ');
+        log.debug('child process exited with code ' + code);
+    });
     // uServices[uService] = uService;
 
     log.debug('uServiceEventSetup: before return!');
@@ -78,31 +126,7 @@ var spawn_uService = function spawn_uService(uPath, next) {
                             env: process.env,
                             cwd: process.cwd()
                         });
-
-    // // var cmd = buildCmd(title, conf.uServiceBasePath);
-    // return next(null, spawn('gnome-terminal', [
-    //                         '--title=SENECA__' + path.basename(uPath, 'js'),
-    //                         '-x',
-    //                         'nodemon',
-    //                         uPath,
-    //                         'launch',
-    //                         '--seneca.log.all'
-    //                     ], {
-    //                         env: process.env,
-    //                         cwd: process.cwd()
-    //                     }));
 };
-
-    //next should be uServiceEventSetup(uServ)
-    //___________________________________________________________________________//
-    // Kill the child midway through its sleep. - {{{FOR TESTING}}}
-    // setTimeout(() => {
-    //     uServ.kill();
-    // }, 5000);
-    // cb(null, 'end of spawn uService section');
-    //___________________________________________________________________________//
-// };
-
 
 
 log.info('about to enter async.each');

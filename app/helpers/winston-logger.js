@@ -15,30 +15,33 @@ var logFileNames = ['excessive-data-log.log', 'all-logs.log', 'console-log-recor
 //***************************** UTILITIES *****************************//
 //Asynchronously check if a file exists
 //TODO Make part of a utilities module
-var fileExists = (filePath, callback) =>
-    fs.stat(filePath, (err, stats) =>
-        ((err) ? callback(false):
-                 callback(stats.isFile())));
+var fileExists = function(filePath, callback) {
+    return fs.stat(filePath, function(err, stats) {
+        return (err) ? callback(false):
+                       callback(stats.isFile());
+    });
+};
 
 //Get all log file paths, create each log file that doesn't exist
-logFileNames.forEach(function(logFileName){
+logFileNames.forEach(function(logFileName) {
     var logFile = path.join(__dirname, '../../logs', logFileName);
 
     //Checks if the log file exists, creates it if not
-    return fileExists(logFile, (isFile) =>
-        ((isFile !== false) ?
-            console.log(logFile + ' exists!') :
-            fs.writeFile(logFile, '', ((err) =>
-                (err) ? console.log('creating ' + logFile + 'failed') :
-                        console.log('creating ' + logFile + ' succeeded!')))));
+    return fileExists(logFile, function(isFile) {
+        if (isFile !== false) return console.log(logFile + ' exists!');
+        return fs.writeFile(logFile, '', function(err) {
+            return (err) ? console.log('creating ' + logFile + 'failed') :
+                           console.log('creating ' + logFile + ' succeeded!');
+        });
+    });
 });
 //*********************************************************************//
 
 
 //*************************** BASIC LOGGERS ***************************//
 //Builds transports into specific files
-var fileTransportFactory = ((logLvl, nm, logFilePath, loggerTypeLabel) =>
-    new (winston.transports.File)({
+var fileTransportFactory = (function(logLvl, nm, logFilePath, loggerTypeLabel) {
+    return new (winston.transports.File)({
         label: loggerTypeLabel,
         name: nm,
         level:logLvl,
@@ -48,7 +51,8 @@ var fileTransportFactory = ((logLvl, nm, logFilePath, loggerTypeLabel) =>
         maxsize: 5242880, //5MB
         maxFiles: 5,
         colorize: false
-}));
+    });
+});
 
 //Creates logging object
 var logger = function(loggerTypeLabel, consoleLvl){
@@ -105,8 +109,9 @@ module.exports = logger('', config.consoleLogLevel);
 module.exports.seneca = logger('seneca'.bgBlack.green.bold, config.senecaLogLevel);
 
 module.exports.stream = {
-    write: (message, encoding) =>
-        (logger().info(message))
+    write: function(message, encoding) {
+        (logger().info(message));
+    }
 };
 //********************************************************************//
 

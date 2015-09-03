@@ -7,22 +7,25 @@ var log = require('app/helpers/winston-logger'), //Logging
     dust = require('express-dustjs'), //compile dust templates
     seneca = require('seneca')(),
     path = require('path');
+var serveStatic = require('serve-static');
 
-//************************* SENECA *************************//
-//register Seneca client - for math actions
-seneca.client(11111)
+//************************* SENECA TESTS *************************//
+//register Seneca client to communicate w microservices, try some actions w it
+seneca.client({ port:11111, host:'localhost', type:'tcp' })
 
       //Perform math actions
       .act( 'role:math,cmd:sum,' + 'left:123,right:27',
             log.seneca.info)
       .act('role:math,cmd:multiply,' + 'left:10,right:5',
            log.seneca.info);
-//**********************************************************//
+//****************************************************************//
 
 //************************* PUBLIC ROUTES *************************//
 //Serve css & js libraries under "public" route
 app.use('/public', express.static(__dirname + '/libs'));
 //*****************************************************************//
+
+
 
 //*****************************************************************************//
 //------------------------ EXPRESS MIDDLEWARES STACK --------------------------//
@@ -31,8 +34,11 @@ module.exports =
   //SESSIONS, COOKIES, DB CONNECTS
   require('app/db/session')(app)
 
+    //Serve compiled assets (e.g. dust templates) within .build folder
+    .use(serveStatic(__dirname + '/../.build'))
+
     //Serve client-side scripts under "scripts" route
-    .use('/scripts', express.static(__dirname + '/components/clientscripts'))
+    .use('/scripts', express.static(__dirname + '/clientscripts'))
 //****************************** VIEWS *******************************//
     // Use Dustjs as Express view engine, with dustjs-helpers
     .engine('dust', dust.engine({ useHelpers: true }))
@@ -42,12 +48,12 @@ module.exports =
     .set('view engine', 'dust')
 //********************************************************************//
 //************************** AUTHENTICATION **************************//
-    .use(require('app/components/login/router'))      //login page router
-    .use(require('app/components/middlewares/checkSession'))
+    .use(require('app/components/login/router-login'))      //login page router
+    .use(require('app/middlewares/checkSession'))
 //********************************************************************//
 //****************************** ROUTES ******************************//
-    .use(require('app/components/index/router'))      //index (no path) router
-    .use(require('app/components/dashboard/router')); //dashboard router
+    .use(require('app/components/index/router-index'))      //index (no path) router
+    .use(require('app/components/dashboard/router-dashboard')); //dashboard router
 //********************************************************************//
 //-----------------------------------------------------------------------------//
 //*****************************************************************************//

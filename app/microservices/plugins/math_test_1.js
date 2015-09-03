@@ -1,3 +1,5 @@
+process.stdin.resume();
+
 var log = require('app/helpers/winston-logger').seneca; //Logging
 var _ = require('lodash');
 
@@ -40,10 +42,10 @@ var math = function math(options) {
 
     this.add('init:math', init); //the special initialization pattern
     this.add('role:math,cmd:sum', sum)
-        .add('role:math,cmd:sum', sum2)
+        .add('role:math,cmd:sum2', sum2)
         .add('role:math,cmd:multiply', multiply)
-        .add('role:math,cmd:subtract', subtract);
-
+        .add('role:math,cmd:subtract', subtract)
+        // .listen({ port:12345, host:'localhost' });
 
     /**
      * INITIALIZATION FUNCTION
@@ -67,13 +69,12 @@ var math = function math(options) {
 };
 //********************************************************************************//
 
-
-// FOR DEBUGGING - ONLY RUN IF PLUGIN FROM CLI & 'launch' PARAM PASSED IN
+// // FOR DEBUGGING - ONLY RUN IF PLUGIN FROM CLI & 'launch' PARAM PASSED IN
 (((math) =>
     (process.argv.some( (arg) => (arg === 'launch') ) === true) ?
         require('seneca')()
             .use(math, { debug: true })
-            .act('role:math,cmd:multiply,left:10,right:22', log.info) :
+            .act('role:math,cmd:multiply,left:10,right:22', log.info) :     //test action
         null)
 (math));
 

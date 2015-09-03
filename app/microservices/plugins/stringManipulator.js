@@ -1,3 +1,5 @@
+process.stdin.resume();
+
 (function(){
 
 var log     = require('app/helpers/winston-logger').seneca, //Logging
@@ -39,7 +41,7 @@ var stringManipulator = function stringManipulator(opt) {
     this.add('init:stringManipulator', init) //special initialization pattern {{{ OPTIONAL }}}
         .add('role:stringManipulator,cmd:fn1', fn1)
         .add('role:stringManipulator,cmd:fn1', fn2)
-        .client();  // {{{ OPTIONAL }}}
+        // .listen({ port:12346, host:'localhost' });
 
     //RUNS PRIOR TO EACH ACTION FN CALL  {{{ OPTIONAL }}}
     this.wrap('role:stringManipulator', function(msg, respond) {
@@ -58,7 +60,7 @@ var stringManipulator = function stringManipulator(opt) {
     return ((process.argv.some( (arg) => (arg === 'launch') ) === true) ?
         require('seneca')()
             .use(stringManipulator, { debug: true })
-            .act('role:stringManipulator,cmd:fn1', log.info) :
+            .act('role:stringManipulator,cmd:fn1', log.info) :  //test action
         null)
 })(stringManipulator));
 

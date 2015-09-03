@@ -5,49 +5,22 @@ var log     = require('app/helpers/winston-logger').seneca, //Logging
     colors  = require('colors');
 
 
-log.info('****** enters stringManipulator.js ******'.bgYellow.black);
-
-var fOrig = function fOrig(){
-    log.info('in fOrig!'.bgBlue.black);
-};
-
-fOrig();
-
-console.dir(fOrig.prototype);
-console.log(this.fOrig);
-
-log.info(fOrig.name);
-
-
-
-var top = { };
-
-Object.defineProperty(top, 'fn', {
-     writable: true,
-     enumerable: true,
-     configurable: true,
-     name: 'fn',
-     value: function(){ log.info('in new function!'.bgBlue.black); }
-});
-
-console.log(top.fn);
-console.dir(top);
-console.log(top.fn.name);
+log.info('****** enters newService.js ******'.bgYellow.black);
 
 
 //--------------------------------------------------------------------------------//
 //******************************* @EXPORT - MODULE *******************************//
-var stringManipulator = function stringManipulator(opt) {
+var newService = function newService(opt) {
 
-    if (opt.debug === true) log.info('in stringManipulator fn'.bgYellow.black);
+    if (opt.debug === true) log.info('in newService fn'.bgYellow.black);
 
 
     /**
      * INITIALIZATION FUNCTION // {{{ OPTIONAL }}}
      */
     var init = function init(msg, respond){
-        if (opt.debug === true) log.info('stringManipulator.js DEBUG MODE ON');
-        log.info('stringManipulator initialized!'.bgYellow.black);
+        if (opt.debug === true) log.info('newService.js DEBUG MODE ON');
+        log.info('newService initialized!'.bgYellow.black);
         return respond();
     };
 
@@ -57,22 +30,24 @@ var stringManipulator = function stringManipulator(opt) {
         (respond(null, { answer: msg })));
 
     var fn2 = function fn2(msg, respond){
+        log.info('in fn2!');
         return respond(null, { answer: msg });
     };
     //**********************************************************//
 
 
     //ADD ACTION FUNCTIONS TO SENECA
-    this.add('init:stringManipulator', init) //special initialization pattern {{{ OPTIONAL }}}
-        .add('role:stringManipulator,cmd:fn1', fn1)
-        .add('role:stringManipulator,cmd:fn1', fn2)
-        .client();  // {{{ OPTIONAL }}}
+    this.add('init:newService', init) //special initialization pattern {{{ OPTIONAL }}}
+        .add('role:newService,cmd:fn1', fn1)
+        .add('role:newService,cmd:fn1', fn2)
+        // .listen();  // {{{ OPTIONAL }}}
+        ;
 
     //RUNS PRIOR TO EACH ACTION FN CALL  {{{ OPTIONAL }}}
-    this.wrap('role:stringManipulator', function(msg, respond) {
-        if (opt.debug === true) log.info('in stringManipulator wrap!');
+    this.wrap('role:newService', function(msg, respond) {
+        if (opt.debug === true) log.info('in newService wrap!');
         return (this.prior(_.merge(msg,
-                                   { serviceName: "stringManipulator" }),
+                                   { serviceName: 'newService' }),
                            respond));
     });
 };
@@ -81,16 +56,16 @@ var stringManipulator = function stringManipulator(opt) {
 
 
 // FOR DEBUGGING - ONLY RUN IF PLUGIN FROM CLI & 'launch' PARAM PASSED IN
-(((stringManipulator) => {
+(((newService) => {
     return ((process.argv.some( (arg) => (arg === 'launch') ) === true) ?
         require('seneca')()
-            .use(stringManipulator, { debug: true })
-            .act('role:stringManipulator,cmd:fn1', log.info) :
-        null)
-})(stringManipulator));
+            .use(newService, { debug: true })
+            .act('role:newService,cmd:fn1', log.info) :
+        null);
+})(newService));
 
 
 //Export occurs here
-module.exports = stringManipulator;
+module.exports = newService;
 
 }());

@@ -6,17 +6,17 @@ var path = require('path');
 
 module.exports = {
 
-    "server": {
+    'server': {
         port: 3001
     },
 
-    "winstonLogs": {
+    'winstonLogs': {
         exitOnError: false,
         consoleLogLevel: 'warn',
         senecaLogLevel: 'debug',
     },
 
-    "redis": {
+    'redis': {
         port: 9999,
         host: '127.0.0.1',
         pwd: '123698774',

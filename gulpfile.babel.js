@@ -1,14 +1,10 @@
-require("harmonize")(); // ensure es6 works
-
-console.log(Error.stackTraceLimit);
+require('harmonize')(); // ensure es6 works
+//console.log(Error.stackTraceLimit);
 //console.dir(process, {showHidden: true, depth: 20, colors: true });
-console.dir(process.execArgv, {showHidden: true, depth: 20, colors: true });
+//console.dir(process.execArgv, {showHidden: true, depth: 20, colors: true });
 //console.dir(process.env);
-console.log(process.version);
-
-console.dir(process.config, {showHidden: true, depth: 20, colors: true });
-
-let str = "yay!";
+//console.log(process.version);
+//console.dir(process.config, {showHidden: true, depth: 20, colors: true });
 
 var gulp = require('gulp');
 
@@ -76,10 +72,14 @@ var wait = require('gulp-wait');
 
 //------------------------------ CONSTANTS -------------------------------//
 var SRC = {
+    'root': ['./app/**/*.*'],
+    'static': ['./app/**/*.*', '!./app/**/*.js', '!./app/**/*.dust'],
+    'tpl': './app/**/*.dust',
+    'scripts': './app/components/components'
 };
 
 var DEST = {
-
+    'root': './.build'
 };
 //------------------------------------------------------------------------//
 
@@ -144,7 +144,7 @@ var newerThanRootIfNotProduction = lazypipe()
 // Lightweight templates for removing debug code when production flag set
 //
 // Removes single-line sections of javascript bookended by: /*<%*/  and  /*%>*/
-// E.g.  /*<%*/ console.log("this line of JS gets removed"); /*%>*/
+// E.g.  /*<%*/ console.log('this line of JS gets removed'); /*%>*/
 // Removes multiline js blocks bookended by: /*<{{DEBUG*/  and  /*DEBUG}}>*/
 //                                    ...OR: /*<{{TEST*/   and   /*TEST}}>*/
 //
@@ -164,8 +164,9 @@ gulp.task('get-tasks', () =>
     (process.nextTick(() => {
         console.log('\n_________ALL REGISTERED GULP TASKS_________');
         Object.keys(gulp.tasks).forEach((t) =>
-            ((t === 'install' || t === 'uninstall') ? null :
-                console.log('-- ' + t.bgBlack.green)))
+            ((t === 'install' || t === 'uninstall') ?
+                null :
+                console.log('-- ' + t.bgBlack.green)));
         console.log('___________________________________________\n');
     })));
 //#################################################################################
@@ -197,17 +198,41 @@ gulp.task('server', function livereloadServer(){
     });
 //################################################################################
 
+gulp.task('webpack', function(){
+    return gulp.src(SRC.root)
+        .pipe(p.webpack(require('./webpack.config.js')))
+        .pipe(gulp.dest(DEST.root))
+        .pipe(notify({
+            onLast: true,
+            message: 'WEBPACKING COMPLETED'
+        }));
+    });
+
+gulp.task('dust', function(){
+    return gulp.src(SRC.tpl)
+        .pipe(p.dust({
+            name: function (file) {
+                var basename = path.basename(file.relative);
+                return basename.substring(0, basename.lastIndexOf('.'));
+            }
+        }))
+        .pipe(gulp.dest(DEST.root))
+        .pipe(notify({
+            onLast: true,
+            message: 'DUST Compiled'
+        }));
+    });
+
+
 gulp.task('copy-static', function(){
-    return gulp.src(['./app/**/*.*', '!./app/**/*.js'])
-        .pipe(gulp.dest('./src'));
+    return gulp.src(SRC.static)
+        .pipe(gulp.dest(DEST.root))
+        .pipe(notify({
+            onLast: true,
+            message: 'STATIC ASSETS COPIED'
+        }));
 });
 
-gulp.task('compile-sweet-macros', function compileSweetMacros(){
-    return gulp.src(['./app/**/*.js'])
-        .pipe(consoleTaskReport())
-        .pipe(p.sweetjs({ modules: ['./macros-test'] }))
-        .pipe(gulp.dest('./src'));
-});
 
 //################################################################################
 //#~~~~~~~~~~~~~~~~~ CONVERT COMMONJS LIBS TO AMD FOR REQUIREJS ~~~~~~~~~~~~~~~~~~
@@ -215,8 +240,8 @@ gulp.task('compile-sweet-macros', function compileSweetMacros(){
 
 //################################################################################
 
+gulp.task('build', ['copy-static', 'dust', 'webpack']);
 
-gulp.task('watch', function(){
-    gulp.watch([SRC + '**/*.*', path.join(__dirname, 'config/**/*.*')],
-                () => runSequence('makeRoutes', 'build'));
-});
+gulp.task('watch', () => { gulp.watch(SRC.root, ['build']); });
+
+gulp.task('default', () => runSequence('build', 'watch') );
