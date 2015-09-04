@@ -34,6 +34,7 @@
   "author": "Andrew Faulkner <andfaulkner@gmail.com> (https://github.com/andfaulkner)",
   "license": "Apache-2.0",
   "dependencies": {
+    "adaro": "^1.0.0",
     "async": "^1.4.2",
     "babel": "^5.8.21",
     "babel-core": "^5.8.22",
@@ -74,6 +75,8 @@
     "seneca": "^0.6.4",
     "seneca-web": "^0.4.3",
     "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.0",
+    "string": "^3.3.1",
     "through2": "^2.0.0",
     "v8-profiler": "^5.2.11",
     "winston": "^1.0.1"

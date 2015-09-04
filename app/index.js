@@ -6,6 +6,7 @@ var app = express();
 var log = require('app/helpers/winston-logger'), //Logging
     dust = require('express-dustjs'), //compile dust templates
     seneca = require('seneca')(),
+    adaro = require('adaro'),
     path = require('path');
 var serveStatic = require('serve-static');
 
@@ -40,12 +41,20 @@ module.exports =
     //Serve client-side scripts under "scripts" route
     .use('/scripts', express.static(__dirname + '/clientscripts'))
 //****************************** VIEWS *******************************//
-    // Use Dustjs as Express view engine, with dustjs-helpers
-    .engine('dust', dust.engine({ useHelpers: true }))
+    // Use Dust as Express view engine, w adaro for prerendered; dustjs-helpers for postrendered
+    .engine('js', adaro.js({
+        'stream': false
+    }))
+    .engine('dust', adaro.dust({
+        'stream': false
+    }))
+    // dust.engine({ useHelpers: true }))
 
     //dir app will recursively search for compilable template views
     .set('views', path.join(__dirname, 'components'))
+    .set('view engine', 'js')
     .set('view engine', 'dust')
+
 //********************************************************************//
 //************************** AUTHENTICATION **************************//
     .use(require('app/components/login/router-login'))      //login page router

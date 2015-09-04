@@ -1,3 +1,9 @@
+var http = require('http');
+http.globalAgent.maxSockets = Infinity;
+Error.stackTraceLimit = Infinity;
+
+require('app/helpers/uncaught-error-handler');
+
 var log = require('app/helpers/winston-logger'); //Logging
 
 //Configuration for the Express app

@@ -1,6 +1,9 @@
 (function clientDashboard2(){
 
-    alert('in cdb2.js!');
+    if (typeof window !== 'undefined') {
+      console.log('hello');
+      console.log('in cdb2.js!');
+    }
 
     return({ });
 

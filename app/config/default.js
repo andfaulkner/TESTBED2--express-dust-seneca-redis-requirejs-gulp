@@ -6,6 +6,8 @@ var path = require('path');
 
 module.exports = {
 
+    'appName': 'express-testbed-2',
+
     'server': {
         port: 3001
     },
@@ -13,7 +15,7 @@ module.exports = {
     'winstonLogs': {
         exitOnError: false,
         consoleLogLevel: 'warn',
-        senecaLogLevel: 'debug',
+        senecaLogLevel: 'warn',
     },
 
     'redis': {

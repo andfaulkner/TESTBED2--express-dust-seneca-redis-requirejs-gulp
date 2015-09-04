@@ -23,9 +23,7 @@ require('shelljs/global');
 
 //ECMA 6 POLYFILL
 require('babel/register');
-Object.getPrototypeOf.toString = function() {
-    return Object.toString();
-};
+Object.getPrototypeOf.toString = (() => (Object.toString()));
 
 //------------------------------- PLUGINS --------------------------------//
 //PACKAGED GULP PLUGINS --- AVAILABLE VIA 'p.nameOfPackage'
@@ -73,7 +71,12 @@ var wait = require('gulp-wait');
 //------------------------------ CONSTANTS -------------------------------//
 var SRC = {
     'root': ['./app/**/*.*'],
-    'static': ['./app/**/*.*', '!./app/**/*.js', '!./app/**/*.dust'],
+    'static': [
+        './app/**/*.*',
+        '!./app/**/*.js',
+        '!./app/**/*.json',
+        '!./app/**/*.dust'
+    ],
     'tpl': './app/**/*.dust',
     'scripts': './app/components/components'
 };
@@ -211,7 +214,7 @@ gulp.task('webpack', function(){
 gulp.task('dust', function(){
     return gulp.src(SRC.tpl)
         .pipe(p.dust({
-            name: function (file) {
+            name: (file) => {
                 var basename = path.basename(file.relative);
                 return basename.substring(0, basename.lastIndexOf('.'));
             }
@@ -235,12 +238,13 @@ gulp.task('copy-static', function(){
 
 
 //################################################################################
-//#~~~~~~~~~~~~~~~~~ CONVERT COMMONJS LIBS TO AMD FOR REQUIREJS ~~~~~~~~~~~~~~~~~~
+//#~~~~~~~~~~~~~~~~~ CONVERT COMMONJS LIBS TO AND FROM REQUIREJS ~~~~~~~~~~~~~~~~~~
 //################################################################################
 
 //################################################################################
 
-gulp.task('build', ['copy-static', 'dust', 'webpack']);
+//gulp.task('build', ['copy-static', 'dust', 'webpack']);
+gulp.task('build', ['copy-static', 'webpack']);
 
 gulp.task('watch', () => { gulp.watch(SRC.root, ['build']); });
 

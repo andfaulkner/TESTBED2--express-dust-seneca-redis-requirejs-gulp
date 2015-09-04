@@ -5,9 +5,10 @@ var fs = require('fs');
 var path = require('path');
 var winston = require('winston');
 var lodash = require('lodash');
-var colors = require('colors');
+require('colors');
+var string = require('string');
 
-var config = require('../config/default').winstonLogs;
+var config = require('app/config/default').winstonLogs;
 
 //TODO this is not DRY - the filenames are declared twice
 var logFileNames = ['excessive-data-log.log', 'all-logs.log', 'console-log-record.log'];
@@ -55,7 +56,7 @@ var fileTransportFactory = (function(logLvl, nm, logFilePath, loggerTypeLabel) {
 });
 
 //Creates logging object
-var logger = function(loggerTypeLabel, consoleLvl){
+var logger = function(loggerTypeLabel, consoleLogLevel){
     loggerTypeLabel = loggerTypeLabel || '';
 
     var timeStamp = function timeStamp() {
@@ -76,7 +77,7 @@ var logger = function(loggerTypeLabel, consoleLvl){
             //DATA --> CONSOLE
             new winston.transports.Console({
                 label: loggerTypeLabel,
-                level: consoleLvl,
+                level: consoleLogLevel ,
                 timestamp: timeStamp,
                 handleExceptions: true,
                 json: false,
@@ -92,7 +93,7 @@ var logger = function(loggerTypeLabel, consoleLvl){
                 'all-logs.log', loggerTypeLabel),
 
             //CONSOLE --> FILE LOG
-            fileTransportFactory(consoleLvl, 'console-log',
+            fileTransportFactory(consoleLogLevel, 'console-log',
                 'console-log-record.log', loggerTypeLabel)
 
         ],
@@ -113,6 +114,22 @@ module.exports.stream = {
         (logger().info(message));
     }
 };
+
+module.exports.cli = {
+    dir: (obj, depth) =>
+            (console.dir(obj, { depth: (depth || 5), colors: true })),
+    title: (str, lpadStr) =>
+            (console.log('\n' + ((lpadStr) ? lpadStr : '') +
+                         str.capitalize().underline.bgYellow.black +
+                         '\n'))
+};
+
+//module.exports.dir = ;
+
+// module.exports.cli.
+// title =
+
+
 //********************************************************************//
 
 }());

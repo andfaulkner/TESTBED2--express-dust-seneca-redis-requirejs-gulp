@@ -55,7 +55,7 @@ module.exports = {
     bail: false,
 
     //Rebuild when any file pointed to changes
-    watch: true,
+    watch: false,
 
     //Find libraries in the following locations
     resolve: {

@@ -47,13 +47,13 @@
 	// define(['dashboard-client'], function(log){
 	//     log.setLevel(levelOfLog);
 	//     log.info('in dashboard-client.js!');
-
+	//
 	//     return {
 	//         helloMainJS: function helloMainJS(){
 	//             alert("Hello main.js!");
 	//         }
 	//     };
-
+	////
 	// });
 
 	__webpack_require__(1);
@@ -66,7 +66,10 @@
 
 	(function clientDashboard2(){
 
-	    alert('in cdb2.js!');
+	    if (typeof window !== 'undefined') {
+	      console.log('hello');
+	      console.log('in cdb2.js!');
+	    }
 
 	    return({ });
 

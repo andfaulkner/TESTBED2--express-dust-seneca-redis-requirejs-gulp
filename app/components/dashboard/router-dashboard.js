@@ -8,6 +8,8 @@ dashboardRouter.route('/dashboard')
     .get(function(req, res){
         log.log('verbose', req.session.isLoggedIn);
         if (req.session.isLoggedIn === true) {
+            // res.render('dashboard/client-dashboard.bundle.js');
+            // res.render(require('build/components/dashboard/client-dashboard.bundle.js');
             res.render('dashboard/tpl-dashboard.dust');
         } else {
             res.writeHead(302, { 'Location': '/login' }); //redirect
@@ -20,7 +22,8 @@ dashboardRouter.route('/dashboard')
         }, function(req, res, next){
             log.log('verbose', 'in 2nd route handler!');
             return next();
-        }, ((req, res) => (log.log('verbose', 'reaches 3rd route handler?'))));
+        }, ((req, res) =>
+                (log.log('verbose', 'reaches 3rd route handler?'))));
 
 
 module.exports = dashboardRouter;
