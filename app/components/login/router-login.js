@@ -72,6 +72,7 @@ var eventActions = (function eventActions(){
                  * Set session to expire in a certain amount of time (300s for example)
                  */
                 function wf3_createSession(username, password, wf_next){
+                    var sessionId, uuidBuff;
 
                     //Generate UUID for session
                     uuidBuff = new Buffer(32);

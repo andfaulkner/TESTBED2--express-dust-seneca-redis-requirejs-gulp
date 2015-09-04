@@ -1,13 +1,19 @@
 var log = require('app/helpers/winston-logger'); //Logging
+var dust = require('dustjs-linkedin');
 
 //Build a new router object
 var dashboardRouter = require('express').Router();
+
+var dashTplName = 'app\/components\/dashboard\/tpl-dashboard';
 
 /** FIRST POST-LOGIN PAGE */
 dashboardRouter.route('/dashboard')
     .get(function(req, res){
         log.log('verbose', req.session.isLoggedIn);
         if (req.session.isLoggedIn === true) {
+            dust.render(dashTplName, { title: 'Dashboard'}, function(err, renderedTpl) {
+
+            })
             // res.render('dashboard/client-dashboard.bundle.js');
             // res.render(require('build/components/dashboard/client-dashboard.bundle.js');
             res.render('dashboard/tpl-dashboard.dust');
