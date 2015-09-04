@@ -1,5 +1,5 @@
 var log = require('app/helpers/winston-logger'); //Logging
-var config = require('app/config/default');
+var config = require('configs/default');
 
 //Instantiate redis client
 var redis = require('redis');

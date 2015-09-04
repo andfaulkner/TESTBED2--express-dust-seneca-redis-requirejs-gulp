@@ -2,7 +2,7 @@ var log = require('./winston-logger');
 var _ = require('lodash');
 require('colors');
 require('string').extendPrototype();
-var config = require('app/config/default');
+var config = require('configs/default');
 
 module.exports = (function uncaughtErrorHandler(){
 
@@ -13,8 +13,9 @@ module.exports = (function uncaughtErrorHandler(){
         log.cli.dir(err);
 
         var splitStack = (err.stack).split('\n    ');
+        var mainArg = _.filter(splitStack, (str) =>
+            (str.contains(config.appName) && !str.contains('node_modules'))).join('\n');
 
-        var mainArg = _.filter(splitStack, (str) => str.contains(config.appName)).join('\n');
         if (mainArg.length > 0) {
             log.cli.title(mainArg, '   ');
         }

@@ -42,9 +42,9 @@ module.exports =
     .use('/scripts', express.static(__dirname + '/clientscripts'))
 //****************************** VIEWS *******************************//
     // Use Dust as Express view engine, w adaro for prerendered; dustjs-helpers for postrendered
-    .engine('js', adaro.js({
-        'stream': false
-    }))
+    // .engine('js', adaro.js({
+    //     'stream': false
+    // }))
     .engine('dust', adaro.dust({
         'stream': false
     }))

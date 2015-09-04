@@ -8,7 +8,7 @@ var lodash = require('lodash');
 require('colors');
 var string = require('string');
 
-var config = require('app/config/default').winstonLogs;
+var config = require('configs/default').winstonLogs;
 
 //TODO this is not DRY - the filenames are declared twice
 var logFileNames = ['excessive-data-log.log', 'all-logs.log', 'console-log-record.log'];

@@ -25,6 +25,8 @@ require('shelljs/global');
 require('babel/register');
 Object.getPrototypeOf.toString = (() => (Object.toString()));
 
+var nodemonConfig = require('configs/nodemon.json');
+
 //------------------------------- PLUGINS --------------------------------//
 //PACKAGED GULP PLUGINS --- AVAILABLE VIA 'p.nameOfPackage'
 var p = require('gulp-packages')(gulp, [
@@ -181,21 +183,18 @@ gulp.task('get-tasks', () =>
 gulp.task('server', function livereloadServer(){
     livereload.listen();                    // listen for changes
     return consoleTaskReport()
-        .pipe(p.nodemon({                       // configure nodemon
-            script: 'app/index.js',    // the script to run the app
-            js: 'node --es_staging --harmony --harmony_proxies --stack_trace_limit=1000 --harmony_modules',
-            ext: 'js dust json css scss sass html htm png jpg gif hbs ejs rb xml xsl jpeg avi mp3 mp4 mpg py txt env sh'
-        }).on('restart', () => {
-           livereload.listen();
-           return gulp.src('build/bin/launcher.js')   // when the app restarts, run livereload.
-                .pipe(consoleTaskReport())
-                .pipe(p.tap(() => {
-                    console.log('\n' + gutil.colors.white.bold.bgGreen('\n' +
-                    '     .......... RELOADING PAGE, PLEASE WAIT ..........\n'));
-                }))
-                .pipe(notify({message: 'RELOADING PAGE, PLEASE WAIT', onLast: true}))
-                .pipe(wait(1500))
-                .pipe(livereload());
+        .pipe(p.nodemon(nodemonConfig)
+            .on('restart', () => {
+               livereload.listen();
+               return gulp.src('app/server.js')   // when the app restarts, run livereload.
+                    .pipe(consoleTaskReport())
+                    .pipe(p.tap(() => {
+                        console.log('\n' + gutil.colors.white.bold.bgGreen('\n' +
+                        '     .......... RELOADING PAGE, PLEASE WAIT ..........\n'));
+                    }))
+                    .pipe(notify({message: 'RELOADING PAGE, PLEASE WAIT', onLast: true}))
+                    .pipe(wait(1500))
+                    .pipe(livereload());
         }));
 
     });

@@ -12,8 +12,9 @@ dashboardRouter.route('/dashboard')
         log.log('verbose', req.session.isLoggedIn);
         if (req.session.isLoggedIn === true) {
             dust.render(dashTplName, { title: 'Dashboard'}, function(err, renderedTpl) {
-
-            })
+                res.send(200, renderedTpl);
+                res.end();
+            });
             // res.render('dashboard/client-dashboard.bundle.js');
             // res.render(require('build/components/dashboard/client-dashboard.bundle.js');
             res.render('dashboard/tpl-dashboard.dust');

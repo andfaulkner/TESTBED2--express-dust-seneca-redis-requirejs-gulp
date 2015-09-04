@@ -12,7 +12,7 @@ require('app/helpers/uncaught-error-handler');
 var log = require('app/helpers/winston-logger'); //Logging
 
 //Configuration for the Express app
-var config = require('app/config/default');
+var config = require('configs/default');
 
 //Launch Seneca microservices
 var seneca = (require('./microservices/serviceRunnerTest')
