@@ -282,3 +282,82 @@
 {"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T07:31:54.390Z"}
 {"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"return_to":"/login","username":"andrew","isLoggedIn":true,"level":"debug","message":"","timestamp":"2015-09-04T07:31:54.392Z"}
 {"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T07:31:54.392Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:54.092Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-04T08:06:55.098Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-04T08:06:55.107Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.133Z"}
+{"level":"verbose","message":"andrew","timestamp":"2015-09-04T08:06:55.127Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.154Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.160Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.161Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.163Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.164Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.279Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:06:55.283Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:06:58.757Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:06:58.758Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:06:58.776Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:06:58.777Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.203Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.204Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.262Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.263Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.276Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.276Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.427Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.427Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.430Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.431Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.437Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.437Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:00.439Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:00.439Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:02.349Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-04T08:07:03.373Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-04T08:07:03.382Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.403Z"}
+{"level":"verbose","message":"andrew","timestamp":"2015-09-04T08:07:03.398Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.423Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.427Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.428Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.429Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.429Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.559Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:03.566Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:07.898Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:07.901Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.040Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.041Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.088Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.089Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.106Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.107Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.242Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.242Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.245Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.245Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.248Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.249Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:08.251Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:08.252Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"level":"debug","message":"","timestamp":"2015-09-04T08:07:11.517Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:11.518Z"}
+{"level":"verbose","message":"4e261862-9416-48f6-9098-318b8c856499","timestamp":"2015-09-04T08:07:11.523Z"}
+{"level":"silly","message":"OK","timestamp":"2015-09-04T08:07:11.524Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"return_to":"/login","username":"andrew","isLoggedIn":true,"level":"silly","message":"","timestamp":"2015-09-04T08:07:11.525Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"return_to":"/login","username":"andrew","isLoggedIn":true,"level":"debug","message":"","timestamp":"2015-09-04T08:07:11.536Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:11.536Z"}
+{"cookie":{"path":"/","_expires":null,"originalMaxAge":null,"httpOnly":true},"return_to":"/login","username":"andrew","isLoggedIn":true,"level":"debug","message":"","timestamp":"2015-09-04T08:07:11.731Z"}
+{"level":"debug","message":"request occurred. req.session present? true","timestamp":"2015-09-04T08:07:11.732Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:28.078Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-04T08:07:29.178Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-04T08:07:29.199Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.237Z"}
+{"level":"verbose","message":"andrew","timestamp":"2015-09-04T08:07:29.230Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.271Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.280Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.282Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.283Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.285Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.405Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-04T08:07:29.410Z"}

@@ -1,7 +1,8 @@
 var http = require('http');
 http.globalAgent.maxSockets = Infinity;
-Error.stackTraceLimit = Infinity;
 
+Error.stackTraceLimit = Infinity;
+require('longjohn');
 require('app/helpers/uncaught-error-handler');
 
 var log = require('app/helpers/winston-logger'); //Logging
