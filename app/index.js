@@ -52,6 +52,7 @@ module.exports =
 
     //dir app will recursively search for compilable template views
     .set('views', path.join(__dirname, 'components'))
+    // .set('views', path.join(__dirname, '..', '.build', 'components'))
     .set('view engine', 'js')
     .set('view engine', 'dust')
 

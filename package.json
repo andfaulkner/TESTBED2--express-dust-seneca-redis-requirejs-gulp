@@ -42,6 +42,7 @@
     "bluebird": "^2.9.34",
     "body-parser": "^1.13.3",
     "bootstrap": "^3.3.5",
+    "clarify": "^1.0.5",
     "colors": "^1.1.2",
     "config": "^1.15.0",
     "connect-livereload": "^0.5.3",
@@ -79,6 +80,7 @@
     "serve-static": "^1.10.0",
     "string": "^3.3.1",
     "through2": "^2.0.0",
+    "trace": "^1.2.0",
     "v8-profiler": "^5.2.11",
     "winston": "^1.0.1"
   },

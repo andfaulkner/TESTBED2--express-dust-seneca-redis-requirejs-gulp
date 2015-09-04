@@ -1,10 +1,14 @@
 var http = require('http');
 http.globalAgent.maxSockets = Infinity;
 
-Error.stackTraceLimit = Infinity;
-require('longjohn');
-require('app/helpers/uncaught-error-handler');
+if (process.env.NODE_ENV !== 'production'){
+    Error.stackTraceLimit = Infinity;
+    require('trace'); // active long stack trace
+    require('clarify'); // Exclude node internal calls from the stack
+    // require('longjohn');
+}
 
+require('app/helpers/uncaught-error-handler');
 var log = require('app/helpers/winston-logger'); //Logging
 
 //Configuration for the Express app
