@@ -1,3 +1,5 @@
+require('./cdb2');
+
 module.exports = function(){ };
 
 (function clientDashboard(){

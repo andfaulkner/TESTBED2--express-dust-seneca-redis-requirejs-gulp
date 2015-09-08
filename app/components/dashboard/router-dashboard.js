@@ -5,10 +5,10 @@ var dust = require('dustjs-helpers');
 //Build a new router object
 var dashboardRouter = require('express').Router();
 
-// var dashTplName = 'app\/components\/dashboard\/tpl-dashboard';
 
 /** FIRST POST-LOGIN PAGE */
 dashboardRouter.route('/dashboard')
+
     .get(function(req, res){
         log.log('verbose', req.session.isLoggedIn);
         if (req.session.isLoggedIn === true) {
@@ -20,12 +20,13 @@ dashboardRouter.route('/dashboard')
             // });
             // res.render('dashboard/client-dashboard.bundle.js');
             // res.render(require('build/components/dashboard/client-dashboard.bundle.js');
-            res.render('dashboard/tpl-dashboard.dust');
+            res.render('dashboard/tpl-dashboard.dust', {componentName: 'dashboard'});
         } else {
             res.writeHead(302, { 'Location': '/login' }); //redirect
             res.end();
         }
     })
+
     .post( function(req, res, next){
             res.send('Hello World! Pingback from a POST at /dashboard!\n');
             return next();

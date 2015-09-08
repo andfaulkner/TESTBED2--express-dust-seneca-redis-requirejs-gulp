@@ -79,12 +79,17 @@ var SRC = {
         '!./app/**/*.json',
         '!./app/**/*.dust'
     ],
+    'publicStatic': [
+        './app/libs/**/*.*',
+        '!./app/libs/**/*.js'
+    ],
     'tpl': './app/**/*.dust',
     'scripts': './app/components/components'
 };
 
 var DEST = {
-    'root': './.build'
+    'root': './.build',
+    'publicStatic': './.build/public'
 };
 //------------------------------------------------------------------------//
 
@@ -227,8 +232,8 @@ gulp.task('dust', function(){
 
 
 gulp.task('copy-static', function(){
-    return gulp.src(SRC.static)
-        .pipe(gulp.dest(DEST.root))
+    return gulp.src(SRC.publicStatic)
+        .pipe(gulp.dest(DEST.publicStatic))
         .pipe(notify({
             onLast: true,
             message: 'STATIC ASSETS COPIED'

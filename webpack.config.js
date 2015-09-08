@@ -7,8 +7,9 @@ var _      = require('lodash');
 var webpack = require('webpack');
 var log = require('app/helpers/winston-logger');
 var fs = require('fs');
-require('dustjs-linkedin/dist/dust-core');
 
+// require('dustjs-linkedin/dist/dust-core');
+// var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
 
@@ -29,7 +30,7 @@ module.exports = {
 
     //left side is output file; right side is input file (left used for [name] in output)
      entry: {
-        'libs': 'app/libs',
+        'public/public-libs': 'app/libs/public-libs',
         'components/dashboard/client-dashboard': 'app/components/dashboard/client-dashboard',
         'components/index/client-index': 'app/components/index/client-index',
         'components/login/client-login': 'app/components/login/client-login'
@@ -43,8 +44,30 @@ module.exports = {
     //Handle SCSS files - convert to CSS    //TODO make this work with '.less' files
     module: {
         loaders: [
-            { test: /\.scss$/, loader: 'style!css!sass?indentedSyntax=sass' }
-            // { test: /\.dust$/, loader: 'dust-loader' }
+            // { test: /\.scss$/, loader: 'style!css!sass?indentedSyntax=sass' },
+            // { test: /\.css$/, loader: "style!css" },
+            // {
+            //     test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            //     loader: 'url-loader?limit=10000&minetype=application/font-woff'
+            // },
+            // {
+            //     test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            //     loader: 'file-loader'
+            // }
+
+            // { test: /\.css$/, loader: 'style-loader!css-loader' }
+            // {
+            //     test: /\.scss$/,
+            //     loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
+            // },
+            // {
+            //     test: /\.css$/,
+            //     loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+            // },
+            // {
+            //     test: /\.css$/,
+            //     loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+            // },
         ]
     },
 
@@ -76,13 +99,14 @@ module.exports = {
 
         //make the following globally available
         new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery',
+            // $: 'jquery',
+            // jQuery: 'jquery',
+            // 'window.jQuery': 'jquery',
             _: 'lodash',
             async: 'async'
         })
-
+    // Use the plugin to specify the resulting filename (and add needed behavior to the compiler)
+        // new ExtractTextPlugin('[name].css')
 //        new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('package.json', ['main']),
         //          new BowerWebpackPlugin({
         //              excludes: /.*\.less/,

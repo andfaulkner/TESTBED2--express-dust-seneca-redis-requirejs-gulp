@@ -1218,3 +1218,760 @@
 {"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:51:19.858Z"}
 {"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:51:19.962Z"}
 {"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:51:19.966Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:00.622Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:02.037Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:02.042Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.078Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.099Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.107Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.109Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.110Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.111Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.221Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:02.228Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:11.074Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:12.744Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:12.752Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.784Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.809Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.815Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.817Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.818Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.819Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.922Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:12.926Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:14.471Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:16.133Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:16.141Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.181Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.208Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.219Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.221Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.222Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.224Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.320Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:16.326Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:21.835Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:23.314Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:23.322Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.359Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.384Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.391Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.392Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.393Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.394Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.503Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:23.509Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:30.364Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:31.960Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:31.967Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.006Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.038Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.043Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.044Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.045Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.045Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.152Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:32.157Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:49.035Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:50.578Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:50.586Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.623Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.655Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.661Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.664Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.665Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.666Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.795Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:50.818Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:51.304Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:55:52.824Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.861Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:55:52.832Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.887Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.894Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.896Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.896Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:52.897Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:53.002Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:55:53.010Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:58:58.876Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:00.594Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:00.602Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.636Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.665Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.673Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.674Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.676Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.677Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.780Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:00.787Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:07.402Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:08.997Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:09.006Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.042Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.068Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.075Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.076Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.077Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.090Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.185Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:09.191Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:21.122Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:22.678Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:22.687Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.722Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.743Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.751Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.753Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.754Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.755Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.855Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:22.860Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:43.914Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:45.620Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:45.628Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.666Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.692Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.699Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.703Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.705Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.706Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.832Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:45.842Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:46.257Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:47.909Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:47.917Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:47.957Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.004Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.023Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.024Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.025Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.026Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.124Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:48.131Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:56.878Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T04:59:58.409Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T04:59:58.417Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.453Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.476Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.484Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.486Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.487Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.489Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.589Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T04:59:58.593Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:55.727Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:00:57.452Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:00:57.461Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.497Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.523Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.528Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.529Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.530Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.531Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.642Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:00:57.648Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:00.190Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:01:01.788Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:01:01.794Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.829Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.853Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.859Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.860Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.861Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.862Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.968Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:01.975Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:05.560Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:01:07.264Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:01:07.272Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.322Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.349Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.357Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.359Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.360Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.361Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.467Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:07.474Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:32.596Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:01:34.289Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.338Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:01:34.297Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.363Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.371Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.372Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.373Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.374Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.490Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:34.496Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:01:59.677Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:02:01.235Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:02:01.241Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.283Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.316Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.323Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.324Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.325Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.326Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.431Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:01.437Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:03.124Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:02:04.797Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:04.840Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:02:04.804Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.640Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.661Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.662Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.663Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.664Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.783Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:02:05.790Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:20.786Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:03:22.353Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:03:22.362Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.403Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.427Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.435Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.437Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.438Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.439Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.544Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:22.550Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:54.895Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:03:56.462Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:03:56.470Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.507Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.533Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.540Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.541Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.543Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.544Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.665Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:03:56.691Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:16.697Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:05:18.449Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:05:18.458Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.497Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.524Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.532Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.534Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.535Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.536Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.643Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:05:18.649Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:15.804Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:06:17.415Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:06:17.423Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.467Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.495Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.502Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.504Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.505Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.506Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.618Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:17.625Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:48.536Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:06:50.006Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:06:50.015Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.051Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.077Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.085Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.087Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.088Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.089Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.199Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:06:50.209Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:15.576Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:07:16.975Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:07:16.984Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.019Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.043Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.050Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.052Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.054Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.055Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.156Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:07:17.162Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:36.516Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T05:08:38.257Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T05:08:38.265Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.302Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.327Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.334Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.335Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.336Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.337Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.444Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T05:08:38.450Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:22.193Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:04:23.859Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:04:23.868Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.905Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.931Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.939Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.941Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.941Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:23.943Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:24.065Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:04:24.076Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:00.741Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:05:02.428Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:05:02.437Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.474Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.500Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.508Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.510Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.511Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.512Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.625Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:02.631Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:08.069Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:05:09.760Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:05:09.768Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.805Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.845Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.853Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.854Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.855Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.856Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.970Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:09.977Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:23.499Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:05:25.496Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:05:25.504Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.547Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.574Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.582Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.583Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.585Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.586Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.692Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:05:25.697Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:02.471Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:06:04.594Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:06:04.603Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.664Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.693Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.702Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.703Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.704Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.705Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.818Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:04.825Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:07.043Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:06:08.659Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.706Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:06:08.667Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.736Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.746Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.748Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.749Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.751Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.853Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:06:08.858Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:13.173Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:07:14.778Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:07:14.786Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.826Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.865Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.872Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.873Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.874Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.875Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.983Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:14.987Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:19.438Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:07:20.940Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:07:20.947Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:20.977Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:20.995Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.001Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.003Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.004Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.005Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.110Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:07:21.116Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:02.187Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:08:04.013Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:08:04.034Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.109Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.149Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.156Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.158Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.159Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.160Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.262Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:04.269Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:06.112Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:08:07.844Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:07.889Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:08:07.852Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.461Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.477Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.479Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.480Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.481Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.611Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:08:08.617Z"}
+{"date":"Tue Sep 08 2015 02:09:19 GMT-0400 (EDT)","process":{"pid":22574,"uid":1000,"gid":1000,"cwd":"/home/andfaulkner/Projects/testbed/express-testbed-2","execPath":"/usr/local/bin/node","version":"v0.12.7","argv":["node","/usr/local/bin/gulp"],"memoryUsage":{"rss":170086400,"heapTotal":155975424,"heapUsed":123292712}},"os":{"loadavg":[2.59814453125,3.26513671875,2.9619140625],"uptime":936532},"trace":[{"column":null,"file":null,"function":"Error","line":null,"method":null,"native":true}],"stack":["Error: EEXIST, mkdir '/home/andfaulkner/Projects/testbed/express-testbed-2/.build/libs/bootstrap/css'","    at Error (native)"],"level":"error","message":"uncaughtException: EEXIST, mkdir '/home/andfaulkner/Projects/testbed/express-testbed-2/.build/libs/bootstrap/css'","timestamp":"2015-09-08T06:09:19.196Z"}
+{"date":"Tue Sep 08 2015 02:09:19 GMT-0400 (EDT)","process":{"pid":22574,"uid":1000,"gid":1000,"cwd":"/home/andfaulkner/Projects/testbed/express-testbed-2","execPath":"/usr/local/bin/node","version":"v0.12.7","argv":["node","/usr/local/bin/gulp"],"memoryUsage":{"rss":170205184,"heapTotal":156995328,"heapUsed":123926256}},"os":{"loadavg":[2.59814453125,3.26513671875,2.9619140625],"uptime":936532},"trace":[{"column":null,"file":null,"function":"Error","line":null,"method":null,"native":true}],"stack":["Error: EEXIST, mkdir '/home/andfaulkner/Projects/testbed/express-testbed-2/.build/libs/bootstrap/css'","    at Error (native)"],"level":"error","message":"uncaughtException: EEXIST, mkdir '/home/andfaulkner/Projects/testbed/express-testbed-2/.build/libs/bootstrap/css'","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:19.201Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:21.314Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:09:23.170Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:09:23.178Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.210Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.237Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.249Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.251Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.252Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.253Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.365Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:23.371Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:32.814Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:09:34.508Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:09:34.518Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.580Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.619Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.630Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.631Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.632Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.640Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.736Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:34.743Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:45.886Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:09:47.354Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:09:47.362Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.395Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.415Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.422Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.423Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.424Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.426Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.537Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:09:47.546Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:03.614Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:13:05.195Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:13:05.201Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.237Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.265Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.274Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.276Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.277Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.279Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.381Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:05.388Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:16.775Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:13:18.919Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:13:18.930Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:18.980Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.512Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.529Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.530Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.531Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.534Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.648Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:19.656Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:21.389Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:13:23.007Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:13:23.013Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.053Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.080Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.087Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.088Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.089Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.090Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.196Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:13:23.202Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:32.392Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:17:34.846Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:34.943Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:17:34.897Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:34.980Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:35.004Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:35.009Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:35.011Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:35.012Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:35.855Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:17:37.602Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:17:37.610Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:37.648Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:37.995Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.002Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.003Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.004Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.006Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.115Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:17:38.121Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:46.215Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:25:48.951Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:25:48.961Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.001Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.033Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.050Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.051Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.052Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.053Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.164Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:25:49.169Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:51.060Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:26:54.876Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:54.920Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:26:54.888Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.030Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.039Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.040Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.041Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.041Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.057Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:26:55.062Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:03.959Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:27:10.359Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:27:10.369Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.412Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.443Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.452Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.454Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.455Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.456Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.571Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:27:10.579Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:14.970Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:31:20.568Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.610Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:31:20.576Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.699Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.707Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.708Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.709Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.709Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.723Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:31:20.727Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:10.687Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:32:11.960Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:32:11.965Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:11.986Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.002Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.006Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.007Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.008Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.008Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:12.284Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:32:13.305Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:32:13.313Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.347Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.371Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.377Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.379Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.380Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.380Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.485Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:13.490Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:49.172Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:32:50.328Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:32:50.335Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.365Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.387Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.394Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.395Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.396Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.397Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.496Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:32:50.500Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:02.508Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:33:03.541Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:33:03.546Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.571Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.588Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.593Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.594Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.594Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.595Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.699Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:03.702Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:06.647Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:33:07.738Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:33:07.744Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.768Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.791Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.798Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.799Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.800Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.800Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.913Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:33:07.917Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:36:59.235Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:37:00.332Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:37:00.337Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.362Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.382Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.389Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.391Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.392Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.392Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.499Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:00.503Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:02.422Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:37:03.501Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:37:03.505Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.527Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.543Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.547Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.548Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.549Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.549Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.658Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:37:03.663Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:24.609Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:38:25.693Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:38:25.701Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.734Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.757Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.765Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.767Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.768Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.769Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.873Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:25.879Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:45.190Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:38:46.221Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:38:46.226Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.248Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.269Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.276Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.277Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.278Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.279Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.378Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:46.381Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:50.433Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:38:51.443Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:38:51.448Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.473Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.489Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.493Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.494Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.495Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.495Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.608Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:51.612Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:57.583Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:38:58.689Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:38:58.694Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.723Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.746Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.753Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.754Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.755Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.756Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.866Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:38:58.870Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:54.132Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:39:55.107Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:39:55.112Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.135Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.153Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.158Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.159Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.160Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.160Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.269Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:39:55.273Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:20.847Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:40:21.922Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:40:21.928Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.956Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.973Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.978Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.979Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.979Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:21.980Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:22.086Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:40:22.091Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:07.973Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:41:09.101Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:41:09.109Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.140Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.156Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.161Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.162Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.163Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.163Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.266Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:09.270Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:44.957Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:41:46.073Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:41:46.078Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.099Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.116Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.120Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.121Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.121Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.122Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.235Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:41:46.239Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:36.384Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:42:37.354Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:42:37.361Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.387Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.411Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.417Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.419Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.420Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.421Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.520Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:42:37.524Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:15.410Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:43:16.802Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:43:16.808Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.839Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.861Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.867Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.868Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.869Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.869Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.977Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:16.981Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:40.046Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:43:41.061Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:43:41.068Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.102Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.124Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.131Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.132Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.133Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.133Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.246Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:41.262Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:56.540Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:43:57.721Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.753Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:43:57.727Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.771Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.777Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.778Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.778Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.779Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.892Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:43:57.898Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:32.857Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:44:33.916Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:44:33.921Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.944Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.962Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.968Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.969Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.969Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:33.970Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:34.074Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:34.080Z"}
+{"level":"info","message":"entered serviceRunnerTest.js","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:43.247Z"}
+{"level":"info","message":"example app listening! Bootup done!","timestamp":"2015-09-08T06:44:44.546Z"}
+{"level":"info","message":"Connected to Redis!","timestamp":"2015-09-08T06:44:44.553Z"}
+{"level":"info","message":"math initializing!","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.588Z"}
+{"say":"hellooooooooooo!!","level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.609Z"}
+{"answer":3,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.614Z"}
+{"answer":20,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.615Z"}
+{"answer":15,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.616Z"}
+{"answer":215,"level":"info","message":"","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.616Z"}
+{"answer":150,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.722Z"}
+{"answer":50,"level":"info","message":"null","label":"\u001b[1m\u001b[32m\u001b[40mseneca\u001b[49m\u001b[39m\u001b[22m","timestamp":"2015-09-08T06:44:44.727Z"}

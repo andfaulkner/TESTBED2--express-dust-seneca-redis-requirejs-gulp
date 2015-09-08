@@ -23,7 +23,10 @@ seneca.client({ port:11111, host:'localhost', type:'tcp' })
 
 //************************* PUBLIC ROUTES *************************//
 //Serve css & js libraries under "public" route
-app.use('/public', express.static(__dirname + '/libs'));
+app.use('/public', express.static(path.join(__dirname, '..', '.build', 'public')));
+    //Serve global client-side scripts
+    // .use(serveStatic(__dirname + '/../.build/public'));
+
 //*****************************************************************//
 
 
@@ -35,30 +38,22 @@ module.exports =
   //SESSIONS, COOKIES, DB CONNECTS
   require('app/db/session')(app)
 
-    //Serve compiled assets (e.g. dust templates) within .build folder
-    .use(serveStatic(__dirname + '/../.build'))
-
-    //Serve client-side scripts under "scripts" route
-    .use('/scripts', express.static(__dirname + '/clientscripts'))
-    .use(serveStatic(path.join('__dirname', '..', '.build')))
 //****************************** VIEWS *******************************//
+
     // Use Dust as Express view engine, w adaro for prerendered; dustjs-helpers for postrendered
-    // .engine('js', adaro.js({ 'stream': false }))
-    // dust.engine({ useHelpers: true }))
     .engine('dust', adaro.dust({ 'stream': false }))
-
-    //dir app will recursively search for compilable template views
-    .set('views', path.join(__dirname, 'components'))
-
-    // .set('views', path.join(__dirname, '..', '.build', 'components'))
-    .set('view engine', 'js')
     .set('view engine', 'dust')
+
+    //recursively search for compilable template views, serve them
+    .set('views', path.join(__dirname, 'components'))
 
 //********************************************************************//
 //************************** AUTHENTICATION **************************//
     .use(require('app/components/login/router-login'))      //login page router
     .use(require('app/middlewares/checkSession'))
 //********************************************************************//
+    .use('/components', express.static(path.join(__dirname, '..', '.build', 'components')))
+
 //****************************** ROUTES ******************************//
     .use(require('app/components/index/router-index'))      //index (no path) router
     .use(require('app/components/dashboard/router-dashboard')); //dashboard router

@@ -24,10 +24,15 @@
         <!-- Bootstrap core JavaScript - and essential libs
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="public/public-libs.js"></script>
+        <script src="{^componentName}""
+                     {:else}components/{componentName}/client-{componentName}.js
+                     {/componentName}">
+        </script>
+        {!
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min"></script>
         <script src="public/bootstrap/js/bootstrap.min.js"></script>
         <script src="public/client-libs.js"></script>
-        {!
         <script src="components/client-libs.js"></script>
         <script data-main="scripts/require-app" src="public/requirejs/require.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
