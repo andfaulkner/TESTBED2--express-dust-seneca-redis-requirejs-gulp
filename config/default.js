@@ -12,6 +12,10 @@ module.exports = {
         port: 3001
     },
 
+    'client': {
+        levelOfLog: 'debug'
+    },
+
     'winstonLogs': {
         exitOnError: false,
         consoleLogLevel: 'warn',

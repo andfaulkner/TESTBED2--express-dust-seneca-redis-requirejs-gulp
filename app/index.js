@@ -40,18 +40,16 @@ module.exports =
 
     //Serve client-side scripts under "scripts" route
     .use('/scripts', express.static(__dirname + '/clientscripts'))
+    .use(serveStatic(path.join('__dirname', '..', '.build')))
 //****************************** VIEWS *******************************//
     // Use Dust as Express view engine, w adaro for prerendered; dustjs-helpers for postrendered
-    // .engine('js', adaro.js({
-    //     'stream': false
-    // }))
-    .engine('dust', adaro.dust({
-        'stream': false
-    }))
+    // .engine('js', adaro.js({ 'stream': false }))
     // dust.engine({ useHelpers: true }))
+    .engine('dust', adaro.dust({ 'stream': false }))
 
     //dir app will recursively search for compilable template views
     .set('views', path.join(__dirname, 'components'))
+
     // .set('views', path.join(__dirname, '..', '.build', 'components'))
     .set('view engine', 'js')
     .set('view engine', 'dust')

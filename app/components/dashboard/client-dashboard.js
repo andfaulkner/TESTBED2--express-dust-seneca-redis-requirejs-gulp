@@ -1,15 +1,11 @@
-// define(['dashboard-client'], function(log){
-//     log.setLevel(levelOfLog);
-//     log.info('in dashboard-client.js!');
-//
-//     return {
-//         helloMainJS: function helloMainJS(){
-//             alert("Hello main.js!");
-//         }
-//     };
-////
-// });
+module.exports = function(){ };
 
-require('./cdb2');
+(function clientDashboard(){
+    log.info('in dashboard-client.js!');
 
-require('./tpl-dashboard.dust');
+    return {
+        helloMainJS: function helloMainJS(){
+            alert('Hello main.js!');
+        }
+    };
+}());

@@ -27,7 +27,9 @@ module.exports = {
     //     filename: 'app.js'
     // },
 
+    //left side is output file; right side is input file (left used for [name] in output)
      entry: {
+        'libs': 'app/libs',
         'components/dashboard/client-dashboard': 'app/components/dashboard/client-dashboard',
         'components/index/client-index': 'app/components/index/client-index',
         'components/login/client-login': 'app/components/login/client-login'
@@ -35,16 +37,14 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, '.build'),
-        // Make sure to use [name] or [id] in output.filename
-        //  when using multiple entry points
-        filename: '[name].bundle.js'
+        filename: '[name].js' //B sure 2 use [name] or [id] in filename if using multiple entry pts
     },
 
-    //Handle SCSS files - convert to CSS //TODO make this work with '.less' files
+    //Handle SCSS files - convert to CSS    //TODO make this work with '.less' files
     module: {
         loaders: [
-            { test: /\.scss$/, loader: 'style!css!sass?indentedSyntax=sass' },
-            { test: /\.dust$/, loader: 'dust-loader' }
+            { test: /\.scss$/, loader: 'style!css!sass?indentedSyntax=sass' }
+            // { test: /\.dust$/, loader: 'dust-loader' }
         ]
     },
 

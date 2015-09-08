@@ -5,7 +5,8 @@
         "js": "node --harmony --harmony_scoping --harmony_modules --stack-trace-limit=1000"
     },
     "watch": [
-        "./build",
+        "./app",
+        "./.build",
         "./config",
         "./data"
     ],
